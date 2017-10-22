@@ -26,6 +26,10 @@ class Queue
   def tail
     @list.last
   end
+
+  def empty?
+    list.empty?
+  end
 end
 
 

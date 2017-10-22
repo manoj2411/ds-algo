@@ -34,9 +34,9 @@ graph.add(4, [0, 1,3])
 
 # graph.vertices_connected(0, 2)
 # graph.vertices_connected(0, 4)
-debugger
+# debugger
 
-true
+# true
 
 
 
