@@ -18,7 +18,7 @@ class Stack
   def pop
     element = @storage.pop
     self.length -= 1
-    puts "Poped: #{element}"
+    # puts "Poped: #{element}"
     element
   end
 
