@@ -22,6 +22,10 @@ class MinPQueue
     list.length - 1
   end
 
+  def empty?
+    length == 0
+  end
+
   def add_item(item)
     list.push item
     heapify(length)
@@ -123,17 +127,19 @@ class ShortestPathCalculator
   # 1. Take starting node Push it to priority queue
   # 2. loop until visited.length < graph.vertices.length
   # 3. pop item from priority queue,
-  #   - If its not in visited then check if
+  #    iterate untill all edges are processed and priority queue is empty
   #     if distance[v] + weight < distance[u] then adjust distance[u],
   #       push u to visited and update its parent.
   def dijkstras
     starting_node = Node.new @start, @start, 0
     pqueue.add_item starting_node
-
-    while visited.length < parent.length
+    counter = 0
+    while !pqueue.empty?
+      counter += 1
       item = pqueue.dequeue
+      puts "counter: #{counter}: #{item}"
 
-      if !visited.include?(item.val)
+      # if !visited.include?(item.val)
         if distance[item.parent] + item.weight <= distance[item.val]
           self.visited.push(item.val)
           distance[item.val] = distance[item.parent] + item.weight
@@ -143,10 +149,12 @@ class ShortestPathCalculator
             parent = item.val
             weight = edge.weight
             # setting these variables for clarity purpose.
-            pqueue.add_item Node.new(val, parent, weight) unless visited.include?(val)
+            if !visited.include?(val) || (parent[val] != parent)
+              pqueue.add_item Node.new(val, parent, weight)
+            end
           end
         end
-      end
+      # end
     end
     debugger
     true
@@ -156,18 +164,56 @@ class ShortestPathCalculator
     attr_accessor :edges, :pqueue
 end
 
-vertices = [0,1,2,3,4]
-edges = [Edge.new(0,1,1),
-Edge.new(0,2,7),
-Edge.new(1,2,2),
-Edge.new(3,2,6),
-Edge.new(3,4,4),
-Edge.new(2,4,3),
-Edge.new(1,3,2)]
+
+# vertices = (0..5).to_a
+# edges = [
+#   Edge.new(0,1,5),
+#   Edge.new(0,4,2),
+#   Edge.new(1,2,2),
+#   Edge.new(0,3,9),
+#   Edge.new(4,5,3),
+#   Edge.new(2,3,3),
+#   Edge.new(3,5,2)]
+# graph = Graph.new(vertices, edges)
+# start_node = 0
+# path_cal = ShortestPathCalculator.new(graph, start_node)
+# path_cal.dijkstras
+
+
+
+vertices = (0..8).to_a
+edges = [
+  Edge.new(0,1,4),
+  Edge.new(0,7,8),
+  Edge.new(1,7,11),
+  Edge.new(1,2,8),
+  Edge.new(7,8,7),
+  Edge.new(7,6,1),
+  Edge.new(2,8,2),
+  Edge.new(8,6,6),
+  Edge.new(6,5,2),
+  Edge.new(2,5,4),
+  Edge.new(2,3,7),
+  Edge.new(3,4,9),
+  Edge.new(5,4,10),
+  Edge.new(3,5,14)]
 graph = Graph.new(vertices, edges)
 start_node = 0
 path_cal = ShortestPathCalculator.new(graph, start_node)
 path_cal.dijkstras
+
+# vertices = [0,1,2,3,4]
+# edges = [Edge.new(0,1,1),
+# Edge.new(0,2,7),
+# Edge.new(1,2,2),
+# Edge.new(3,2,6),
+# Edge.new(3,4,4),
+# Edge.new(2,4,3),
+# Edge.new(1,3,2)]
+# graph = Graph.new(vertices, edges)
+# start_node = 0
+# path_cal = ShortestPathCalculator.new(graph, start_node)
+# path_cal.dijkstras
 # debugger
 # true
 
