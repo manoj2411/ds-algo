@@ -19,12 +19,12 @@ module MergeSort
   # extend self
   module_function
 
-  def sort_arr(arr, left, right)
+  def sort(arr, left, right)
     if right > left
       mid = (left + right) / 2
 
-      sort_arr(arr, left, mid)
-      sort_arr(arr, mid + 1, right)
+      sort(arr, left, mid)
+      sort(arr, mid + 1, right)
       merge(arr, left, mid, right)
     end
   end
@@ -65,5 +65,5 @@ end
 
 arr = [12, 11, 13, 5, 6, 7]
 puts "Old list: #{arr}"
-MergeSort.sort_arr(arr, 0, arr.length - 1)
+MergeSort.sort(arr, 0, arr.length - 1)
 puts "New list: #{arr}"
