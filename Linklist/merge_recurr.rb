@@ -2,19 +2,23 @@ require "byebug"
 Node = Struct.new(:item, :next)
 
 def merge(a, b)
-  result = nil
+  # result = nil
 
   return b if a.nil?
   return a if b.nil?
 
   if a.item <= b.item
-    result = a
-    result.next = merge(a.next, b)
+    # result = a
+    # result.next = merge(a.next, b)
+    a.next = merge(a.next, b)
+    return a
   else
-    result = b
-    result.next = merge(a, b.next)
+    # result = b
+    # result.next = merge(a, b.next)
+    b.next = merge(a, b.next)
+    return b
   end
-  return result
+  # return result
 end
 
 l1 = Node.new(10, nil)
