@@ -26,7 +26,7 @@ module QuickSort
 
   def sort(arr, low, high)
     if low < high
-      pivot_indx = set_pivot(arr, low, high)
+      pivot_indx = partition(arr, low, high)
 
       sort(arr, low, pivot_indx - 1)
       sort(arr, pivot_indx + 1, high)
@@ -36,7 +36,7 @@ module QuickSort
 end
 
 
-def set_pivot(arr, low, high)
+def partition(arr, low, high)
   left_indx = low
   i = low
   pivot = arr[high]
