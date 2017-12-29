@@ -4,17 +4,17 @@
 
 Node = Struct.new(:key, :left, :right)
 
-def has_path_sum?(node, sum, curr_sum = 0)
+def has_path_sum?(node, sum)
   if node == nil
     return false
   end
 
   if node.left == nil and node.right == nil
-    return curr_sum + node.key == sum
+    return sum - node.key == 0
   end
 
-  return (has_path_sum?(node.left, sum, curr_sum + node.key) ||
-          has_path_sum?(node.right, sum, curr_sum + node.key))
+  return (has_path_sum?(node.left, sum - node.key) ||
+          has_path_sum?(node.right, sum - node.key))
 end
 
 root = Node.new(5)
@@ -28,4 +28,4 @@ root.right.right = Node.new(4)
 root.right.right.right = Node.new(1)
 
 
-puts " Has sum? : #{has_path_sum?(root, 18)}"
+puts " Has sum? : #{has_path_sum?(root, 22)}"
