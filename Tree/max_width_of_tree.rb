@@ -68,3 +68,23 @@ arr.each_with_index do |ele, indx|
   puts "Level: #{indx} Width: #{ele}"
 end
 
+
+# # # # # # # # New refactored implementation
+
+def find_max_width(head)
+  que = Queue.new
+  que.enq head
+  level = 0
+
+  while !que.empty?
+    length = que.length
+    level += 1
+    puts "Level: #{level} width: #{length}"
+    length.times do
+      node = que.deq
+      que.enq(node.left) if node.left
+      que.enq(node.right) if node.right
+    end
+  end
+
+end
