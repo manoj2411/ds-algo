@@ -26,23 +26,23 @@ def flatten(head)
   return dummy
 end
 
-head = Head.new(5)
-head.next = Head.new(10)
-head.next.next = Head.new(19)
-head.next.next.next = Head.new(28)
 
+head = Head.new(5)
 head.down = Node.new(7)
 head.down.down = Node.new(8)
 head.down.down.down = Node.new(30)
 
+head.next = Head.new(10)
 head.next.down = Node.new(20)
 
+head.next.next = Head.new(19)
 head.next.next.down = Node.new(22)
 head.next.next.down.down = Node.new(50)
 
+head.next.next.next = Head.new(28)
 head.next.next.next.down = Node.new(35)
-head.next.next.down.down.down = Node.new(40)
-head.next.next.down.down.down.down = Node.new(45)
+head.next.next.next.down.down = Node.new(40)
+head.next.next.next.down.down.down = Node.new(45)
 
 # puts head
 sorted = flatten(head)
