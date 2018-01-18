@@ -3,30 +3,22 @@ require 'pry'
 Node = Struct.new(:key, :next, :child)
 
 def flatten(head)
-  que = []
-  dummy = Node.new('dummy')
-  curr = dummy
-  que.push(head)
-  while !que.empty?
-    length = que.length
-    length.times do
-      node = que.delete_at(0)
-      while node != nil
-        if node.child != nil
-          que.push(node.child)
-        end
-        curr.next = node
-        curr = curr.next
-        node = node.next
-      end
-    end
+  curr = head
+  tail = curr
+
+  while tail.next != nil
+    tail = tail.next
   end
-  curr = dummy
+
   while curr != nil
-    print "#{curr.key} "
+    tail.next = curr.child
+    while tail.next != nil
+      tail = tail.next
+    end
     curr = curr.next
   end
-  dummy
+
+  return head
 end
 
 
@@ -51,5 +43,14 @@ seven.child.child.next = Node.new(8)
 seven.child.child.child = Node.new(19)
 seven.child.child.child.next = Node.new(15)
 
-flatten(head)
+h1 = flatten(head)
 
+def _print(head)
+  curr = head
+  while curr != nil
+    print "#{curr.key} "
+    curr = curr.next
+  end
+end
+
+_print(h1)
