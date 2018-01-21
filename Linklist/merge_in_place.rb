@@ -33,6 +33,16 @@ def reverse_merge_new(a,b)
   return list
 end
 
+def print_list(node)
+  curr = node
+  while !curr.nil?
+    print "#{curr.item} -> "
+    curr = curr.next
+  end
+  puts
+end
+
+
 l1 = Node.new(10, nil)
 l2 = Node.new(20, nil)
 l3 = Node.new(30, nil)
@@ -54,11 +64,56 @@ m1.next = m2
 m2.next = m3
 m3.next = m4
 
-result = reverse_merge_new(l1, m1)
+puts "List1"
+print_list(l1)
+
+puts "List2"
+print_list(m1)
+
+# result = reverse_merge_new(l1, m1)
+
+# puts "Printing Result"
+# print_list(result)
+
+#  ======================
+#  = Alternate approach =
+#  ======================
+
+def merge_util(l1, l2)
+  curr = l1
+  c2 = l2
+  while curr.next != nil && c2 != nil
+    if curr.next.item > c2.item
+      nxt = curr.next
+      curr.next = c2
+      c2 = c2.next
+      curr.next.next = nxt
+    end
+    curr = curr.next
+  end
+  if curr.next == nil
+    curr.next = c2
+  end
+  return l1
+end
+
+def merge(h1, h2)
+  if h1 == nil and h2 == nil
+    return nil
+  elsif h1 == nil
+    return h2
+  elsif h2 == nil
+    return h1
+  end
+
+  if h1.item < h2.item
+    merge_util(h1, h2)
+  else
+    merge_util(h2, h1)
+  end
+end
+
+result = merge(l1, m1)
 
 puts "Printing Result"
-curr = result
-while !curr.nil?
-  print "#{curr.item} -> "
-  curr = curr.next
-end
+print_list(result)
