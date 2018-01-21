@@ -1,7 +1,7 @@
 Node = Struct.new(:item, :next)
 
 # Without using dummy node/extra space
-def reverse_merge_new(a,b)
+def merge_inplace(a,b)
   if a.item <= b.item
     list = a
     extra = b
@@ -70,7 +70,7 @@ print_list(l1)
 puts "List2"
 print_list(m1)
 
-# result = reverse_merge_new(l1, m1)
+# result = merge_inplace(l1, m1)
 
 # puts "Printing Result"
 # print_list(result)
