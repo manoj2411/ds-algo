@@ -47,6 +47,11 @@ end
 root = Node.new(1)
 root.left = Node.new(2)
 root.right = Node.new(3)
+root.left.left = Node.new(4)
+root.left.right = Node.new(5)
+root.right.left = Node.new(6)
+root.right.left.right = Node.new(8)
+root.right.right = Node.new(7)
 btree = BinaryTree.new
 btree.root = root
-btree.find_least_common_ancestor(3,1)
+btree.find_least_common_ancestor(8,5)
