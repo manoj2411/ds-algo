@@ -1,21 +1,18 @@
-require "pry"
-
 def permute_util(chars, count, result, level)
-  # binding.pry
   if level == result.length
     puts result.join
     return
   end
   chars.each do |chr|
     next if count[chr] == 0
-    # change
+    # choose
     count[chr] -= 1
     result[level] = chr
 
-    # process
+    # explore
     permute_util(chars, count, result, level + 1)
 
-    # un-change
+    # un-choose
     count[chr] += 1
   end
 end
