@@ -27,8 +27,32 @@ def find_median(arr)
   return (finding_max == false and max < arr.length - 1) ? arr[max] : -1
 end
 
+# Refactored and Optimised
 
-puts find_median([1,2,3,4,3,2,1])
+def get_mid(arr)
+  max = 0
+  point = -1
+  (1...arr.length).each do |indx|
+    if arr[indx] > arr[max]
+      point = indx if point == -1
+      max = indx
+    elsif (point >= 0 && arr[indx] > arr[point])
+      next
+    else
+      point = -1
+    end
+  end
+
+  return (point == (arr.length - 1) || point == -1) ? -1 : arr[point]
+end
+
+[[5, 1, 4, 4],[5, 1, 4, 3, 6, 8, 10, 7, 9], [4,2,5,7], [11,9,12], [4,3,5,2,7,9,8]].each do |arr|
+  puts "Arr: #{arr}"
+  puts "Point: #{get_mid(arr)}"
+end
+
+
+# puts find_median([1,2,3,4,3,2,1])
 # puts find_median([4,2,5,7])
 # puts find_median([11,9,12])
 # puts find_median([4,3,2,7,9,8])
