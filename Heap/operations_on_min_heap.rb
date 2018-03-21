@@ -6,9 +6,9 @@ class MinHeap
   end
 
   # insert an item in the min heap with value x
-  def insert_key(item)
+  def insert(item)
     arr << item
-    indx = arr.length - 1
+    indx = right
     while indx != 0
       parent = (indx - 1) / 2
       if arr[parent] < arr[indx]
@@ -21,11 +21,33 @@ class MinHeap
   end
 
   # remove an element at position x from the min heap
-  def delete_key(position)
+  def delete(position)
+    if position > right
+      puts "NA"
+      return
+    end
+
+    arr[position], arr[right] = arr[right], arr[position]
+    item = arr.pop
+    heapify(position)
+    return item
+  end
+
+  def right
+    arr.length - 1
   end
 
   # removes the min element from the min heap and prints it
   def extract_min
+    if right >= 0
+      arr[0], arr[right] = arr[right], arr[0]
+      item = arr.pop
+      heapify(0)
+      # puts item
+      return item
+    else
+      return -1
+    end
   end
 
   private
@@ -51,10 +73,23 @@ class MinHeap
 end
 
 heap = MinHeap.new
-heap.insert_key 4
-heap.insert_key 2
-heap.extract_min # => 2
-heap.insert_key 6
-heap.delete_key 0 # (4) deleted
-heap.extract_min #=> 6
-heap.extract_min #=> -1
+heap.insert 4
+heap.insert 2
+puts heap.extract_min # => 2
+heap.insert 6
+heap.delete 0 # (4) deleted
+puts heap.extract_min #=> 6
+puts heap.extract_min #=> -1
+
+
+heap.insert 4
+heap.insert 2
+heap.insert 6
+heap.insert 3
+heap.insert 1
+heap.insert 8
+heap.insert 5
+puts heap.arr.join(', ')
+heap.delete 1
+puts heap.arr.join(', ')
+
