@@ -1,19 +1,27 @@
 Node = Struct.new(:key, :left, :right, :next)
+def connect_next_pointers(root)
+  return if root.nil? || (root.left.nil? && root.right.nil?)
 
-def set_next_links(root)
-  que = [root]
-  while !que.empty?
-    count = que.length
-    prev = nil
-    count.times do
-      node = que.delete_at(0)
-      if prev
-        prev.next = node
-      end
-      prev = node
-      que << node.left if node.left
-      que << node.right if node.right
+  if root.left
+    root.left.next = root.right
+  end
+
+  child = root.right || root.left
+
+  if child
+    next_non_leaf = find_next_non_leaf(root.next)
+    if next_non_leaf
+      child.next = next_non_leaf.left || next_non_leaf.right
     end
+  end
+  connect_next_pointers(root.next)
+  connect_next_pointers(root.left)
+end
+
+def find_next_non_leaf(node)
+  while node != nil
+    return node if node.left || node.right
+    node = node.next
   end
 end
 
@@ -41,5 +49,5 @@ root.right.right = Node.new(90)
 # root.left.right = Node.new(60)
 # root.right = Node.new(30)
 
-set_next_links(root)
+connect_next_pointers(root)
 print_levels(root)
