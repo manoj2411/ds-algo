@@ -4,10 +4,10 @@ def pairwise_swap(node)
   return node if node == nil || node.next == nil
 
   nxt = node.next
-  tmp = nxt.next
+  node.next = pairwise_swap(nxt.next)
   nxt.next = node
-  node.next = pairwise_swap(tmp)
   return nxt
+
 end
 
 head = Node.new(1)

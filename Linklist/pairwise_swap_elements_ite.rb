@@ -3,25 +3,23 @@ Node = Struct.new(:key, :next)
 def pairwise_swap(head)
   return if head == nil || head.next == nil
 
+  prev = nil
   curr = head
-  tmp = curr.next.next
 
-  head = curr.next
-  head.next = curr
-  curr.next = tmp
-  prev = curr
-  curr = curr.next
+  while curr != nil && curr.next != nil
+    if prev
+      prev.next = curr.next
+    else
+      head = curr.next
+    end
 
-  while curr != nil and curr.next != nil
-    nxt = curr.next
-    prev.next = nxt
-    tmp = nxt.next
-    nxt.next = curr
-    curr.next = tmp
     prev = curr
-    curr = curr.next
+    curr = curr.next.next
+    prev.next.next = prev
   end
+  prev.next = curr
   return head
+
 end
 
 head = Node.new(1)
