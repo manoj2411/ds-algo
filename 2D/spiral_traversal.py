@@ -1,31 +1,33 @@
-# Assuming matrix is a valid NxN matrix of integers
 def traverse_spirally(matrix):
-    low = 0
-    high = len(matrix) - 1
-    while low < high :
-        # move towards right
-        for i in range(low, high) :
-            print(matrix[low][i], end = ' ')
+    rowl = coll = 0
+    rowh = len(matrix) - 1
+    colh = len(matrix[0]) - 1
 
-        # move towards down
-        for i in range(low, high) :
-            print(matrix[i][high], end = ' ')
+    while rowl <= rowh and coll <= colh:
+        # 1 - left to right
+        if rowl <= rowh:
+            for i in range(coll, colh + 1) :
+                print(matrix[rowl][i], end = ' ')
+            rowl += 1
+        # 2 - top to down
+        if coll <= colh :
+            for i in range(rowl, rowh + 1):
+                print(matrix[i][colh], end = ' ')
+            colh -= 1
+        # 3 - right to left
+        if rowl <= rowh :
+            for i in range(colh, coll - 1, -1):
+                print(matrix[rowh][i], end = ' ')
+            rowh -= 1
+        # 4 - bottom to top
+        if coll <= colh :
+            for i in range(rowh, rowl - 1, -1) :
+                print(matrix[i][coll], end = ' ')
+            coll += 1
+    print('')
 
-        # move towards left
-        for i in range(high, low, -1):
-            print(matrix[high][i], end = ' ')
 
-        # move towards up
-        for i in range(high, low, -1):
-            print(matrix[i][low], end = ' ')
 
-        # reset low and high
-        low += 1
-        high -= 1
-
-    if low == high :
-        print(matrix[high][high])
-    print()
 
 matrix = [
     [1,2,3,4],
@@ -34,19 +36,13 @@ matrix = [
     [13,14,15,16]
 ]
 
-matrix = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
+print("Matrix 1")
+traverse_spirally(matrix)
 
 matrix = [
-    [1,2,3,4,5],
-    [6,7,8,9,10],
-    [11,12,13,14,15],
-    [16,17,18,19,20],
-    [21,22,23,24,25]
-
+    [1,2,3,4,5,6],
+    [7,8,9,10,11,12],
+    [13,14,15,16,17,18]
 ]
-
+print("\nMatrix 2")
 traverse_spirally(matrix)
