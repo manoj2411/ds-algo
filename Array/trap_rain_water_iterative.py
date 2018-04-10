@@ -21,6 +21,35 @@ def trap_rain_water(arr):
             right -= 1
     return sum
 
+    # Alternavite implementation!
+    #
+    # i = 1
+    # diff = 1
+    # if arr[left] > arr[right]:
+    #     i = right - 1
+    #     diff = -1
+
+    # while i > left and i < right:
+    #     # print("S: i {}({}) left {}({}) right {}({})".format(i, arr[i], left, arr[left], right, arr[right]))
+    #     if min(arr[left], arr[right]) < arr[i]:
+    #         if arr[left] < arr[i]:
+    #             left = i
+    #         else :
+    #             right = i
+
+    #         if arr[left] > arr[right] :
+    #             i = right - 1
+    #             diff = -1
+    #         else:
+    #             i = left + 1
+    #             diff = 1
+    #     else :
+    #         result += min(arr[left], arr[right]) - arr[i]
+    #         i += diff
+    #     # print("E: i {}({}) left {}({}) right {}({})".format(i, arr[i], left, arr[left], right, arr[right]))
+    # return result
+
+
 
 
 lst = [[6,3,7,4,2,5,6],[3,0,0,2,0,4], [6,5,7,4,0,9], [6,9,9], [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]]
