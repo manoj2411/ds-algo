@@ -7,14 +7,11 @@ def create_binary_tree(inorder, postorder)
 end
 
 def create_helper(inorder, postorder, l, h, refs)
-    if l > h && l < 0
+    if l > h
         return
     end
     inorder_indx = inorder.index(postorder[refs.i])
 
-    if not (l..h).cover?(inorder_indx)
-        return
-    end
     node = Node.new(postorder[refs.i])
     refs.i -= 1
     node.right = create_helper(inorder, postorder, inorder_indx + 1, h, refs)
