@@ -51,6 +51,8 @@ def _print(head)
     print "#{curr.key} "
     curr = curr.next
   end
+  puts
 end
 
 _print(h1)
+
