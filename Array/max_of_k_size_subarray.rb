@@ -88,3 +88,31 @@ end
   puts 'Output: '
   sliding_window_max(arr, k)
 end
+
+
+# alternate implementation
+
+def sliding_window_max2(arr, k, n)
+  return if k > n || k <= 0
+  deque = []
+
+  for i in 0...k
+    while !deque.empty? && deque.last[:val] < arr[i]
+      deque.pop
+    end
+    deque << {val: arr[i], i: i}
+  end
+
+  print "#{deque.first[:val]} "
+
+  for i in k...n
+    deque.pop if deque.first[:i] <= i - k
+    while !deque.empty? && deque.last[:val] < arr[i]
+      deque.pop
+    end
+    deque << {val: arr[i], i: i}
+    print "#{deque.first[:val]} "
+  end
+
+  puts
+end
