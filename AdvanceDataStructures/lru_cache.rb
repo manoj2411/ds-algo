@@ -64,8 +64,6 @@ class Dll
   end
 end
 
-require 'pry'
-
 class LruCache
   attr_reader :dll, :hsh, :limit
 
@@ -86,7 +84,6 @@ class LruCache
     else
       if size == limit
         remove_key = dll.remove_node_from_rear
-        # binding.pry
         hsh.delete(remove_key)
       end
       hsh[key] = {value: value}
