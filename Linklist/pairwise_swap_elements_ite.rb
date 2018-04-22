@@ -1,16 +1,15 @@
 Node = Struct.new(:key, :next)
 
 def pairwise_swap(head)
-  return if head == nil || head.next == nil
+  return head if head == nil || head.next == nil
 
   prev = nil
   curr = head
+  head = head.next
 
   while curr != nil && curr.next != nil
     if prev
       prev.next = curr.next
-    else
-      head = curr.next
     end
 
     prev = curr
