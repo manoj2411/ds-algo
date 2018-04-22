@@ -20,3 +20,31 @@ end
 [3, 10, 2, 1, 20],[3, 2], [50, 3, 10, 7, 40, 80]].each do |arr|
   puts "Arr: #{arr} - lis: #{lis(arr)}"
 end
+
+
+# Alternate implementation
+def lenght_of_lis(arr)
+  lis = Array.new arr.length
+  lis[0] = 1
+  for i in 1...arr.length
+    max_i = find_max_i(arr, lis, arr[i],  i - 1)
+    if max_i >= 0
+      lis[i] = lis[max_i] + 1
+    else
+      lis[i] = 1
+    end
+  end
+  return lis.max
+end
+
+def find_max_i(arr, lis, key, r)
+  max_i = -1
+  for i in 0..r
+    if arr[i] < key
+      if max_i == -1 || lis[max_i] < lis[i]
+        max_i = i
+      end
+    end
+  end
+  return max_i
+end
