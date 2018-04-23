@@ -6,21 +6,36 @@ def flatten(head)
 end
 
 def flatten_util(node, last)
-    if node == nil
-        return
+
+    if node.next.nil? and node.child.nil?
+        last[0] = node
+        return node
     end
 
-    last[0] = node
-    nxt = node.next
-
-    if node.child
+    if node.child.nil?
+        node.next = flatten_util(node.next, last)
+    else
+        nxt = node.next
         node.next = flatten_util(node.child, last)
-    end
-
-    if nxt
-        last[0].next = flatten_util(nxt, last)
+        last[0].next = flatten_util(nxt, last) if nxt
     end
     return node
+
+    # if node == nil
+    #     return
+    # end
+
+    # last[0] = node
+    # nxt = node.next
+
+    # if node.child
+    #     node.next = flatten_util(node.child, last)
+    # end
+
+    # if nxt
+    #     last[0].next = flatten_util(nxt, last)
+    # end
+    # return node
 end
 
 def _p(head)
@@ -56,6 +71,6 @@ head.next.child.next.next = Node.new(12)
 head.next.next = Node.new(3)
 head.next.next.next = Node.new(4)
 
-_p(head)
+# _p(head)
 head = flatten(head)
 _p(head)

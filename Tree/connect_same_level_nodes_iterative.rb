@@ -1,39 +1,41 @@
 Node = Struct.new(:key, :left, :right, :next)
 
+
+def get_next_non_leaf(node)
+  while node != nil
+    if node.left || node.right
+      return node
+    end
+    node = node.next
+  end
+  return nil
+end
+
 def connect_next_pointers(node)
   next_level = nil
   curr = node
 
   while curr != nil
-    if curr.left.nil? && curr.right.nil?
-      curr = curr.next
-      if curr == nil
-        curr = next_level
-        next_level = nil
-      end
-      next
-    end
-
+    # traverse & process level nodes
     if curr.left
       curr.left.next = curr.right
     end
 
+    # sets next level if not set
     next_level ||= curr.left || curr.right
+
+    # child whose next is not set. If curr has no right means child will be curr.left
+    # bcz its next is still nil in this case
     child = curr.right || curr.left
-
-    next_non_leaf = curr.next
-    while next_non_leaf != nil
-      if next_non_leaf.left || next_non_leaf.right
-        break
+    if child
+      next_non_leaf = get_next_non_leaf(curr.next)
+      if next_non_leaf
+        child.next = next_non_leaf.left || next_non_leaf.right
       end
-      next_non_leaf = next_non_leaf.next
-    end
-
-    if next_non_leaf
-      child.next = next_non_leaf.left || next_non_leaf.right
     end
 
     curr = curr.next
+    # check if we reached to end of level
     if curr == nil
       curr = next_level
       next_level = nil
@@ -55,17 +57,26 @@ def print_levels(root)
   puts
 end
 
-root = Node.new(10)
-root.left = Node.new(8)
-root.left.left = Node.new(3)
-root.right = Node.new(2)
-root.right.right = Node.new(90)
+# root = Node.new(10)
+# root.left = Node.new(8)
+# root.left.left = Node.new(3)
+# root.right = Node.new(2)
+# root.right.right = Node.new(90)
 # root.left = Node.new(20)
 # root.left.left = Node.new(40)
 # root.left.right = Node.new(60)
 # root.right = Node.new(30)
+head = Node.new(10)
+head.left = Node.new(3)
+head.left.left = Node.new(4)
+head.left.left.left = Node.new(6)
+head.left.right = Node.new(1)
+head.left.right.right = Node.new(10)
+head.right = Node.new(5)
+head.right.left = Node.new(7)
+head.right.right = Node.new(11)
+head.right.right.right = Node.new(12)
 
-connect_next_pointers(root)
-print_levels(root)
+connect_next_pointers(head)
+print_levels(head)
 
-# puts root
