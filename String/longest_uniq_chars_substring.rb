@@ -20,5 +20,5 @@ end
 
 
 ['abababcdefababcdab', 'geeksforgeeks', 'BBBB', 'ABDEFGABEF'].each do |str|
-  puts "Str:#{str}\nLDCS: #{longest_distinct_chars(str)}\n\n"
+  puts "Str:#{str}\nLDCS: #{longest_distinct_chars(str)}\n"
 end
