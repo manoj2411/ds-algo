@@ -19,6 +19,34 @@ def factorial(num)
   result.reverse
 end
 
+# better performing!
+def fact(n)
+  if n == 0 || n == 1
+    return 1
+  end
+
+  arr = [1]
+
+  for i in 2..n
+    carry = 0
+
+    for j in 0...arr.length
+      num = (arr[j] * i) + carry
+      arr[j] = num % 10
+      carry = num / 10
+    end
+
+    if carry > 0
+      arr[arr.length] = carry
+    end
+  end
+
+  return arr.reverse.join
+end
+
 (1..15).each do |e|
-  puts "Fact of #{e}: #{factorial(e)} "
+  # factorial(e)
+  # fact(e)
+  # puts "Fact of #{e}: #{factorial(e)} "
+  puts "Fact of #{e}: #{fact(e)} "
 end
