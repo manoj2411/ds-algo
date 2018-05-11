@@ -19,7 +19,7 @@ def print_max_a(n)
   while i > 1
     # if n is 7, i will be 4 * (it should be 2 bcz 1 for f(1) & 1 for paste)
     # =>  f(4) * (7 - 4 - 1)
-    res = print_max_a(i) * (n - i - 1)
+    res = print_max_a(i) * (n - i - 1) # res = fn(i) * (n - (i - 1) - 2)
     max = res if max < res
     i -= 1
   end
