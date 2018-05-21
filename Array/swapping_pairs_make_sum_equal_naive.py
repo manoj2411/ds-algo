@@ -5,15 +5,10 @@ def swapping_pair_exists(arr1, arr2):
     sum1 = get_sum(arr1)
     sum2 = get_sum(arr2)
 
-    hsh = {}
-    for i in range(len(arr2)):
-        if not arr2[i] in hsh :
-            hsh[arr2[i]] = i
-    diff = (sum1 - sum2) / 2
-
     for i in range(len(arr1)):
-        if arr1[i] - diff in hsh:
-            return arr1[i], arr1[i] - diff
+        for j in range(len(arr2)):
+            if sum1 - arr1[i] + arr2[j] == sum2 - arr2[j] + arr1[i]:
+                return arr1[i], arr2[j]
 
     return 0
 
