@@ -7,8 +7,9 @@ def knapsack(weight, arr_w, arr_v, n):
         return max(knapsack(weight - arr_w[n], arr_w, arr_v, n - 1) + arr_v[n],
                     knapsack(weight, arr_w, arr_v, n - 1))
 
-arr1 = [60, 100, 120]
-arr2 = [10, 20, 30]
+val = [60, 100, 120]
+wt = [10, 20, 30]
 weight = 50
 
-print(knapsack(weight, arr2, arr1, len(arr1) - 1))
+
+print(knapsack(weight, wt, val, len(val) - 1))
