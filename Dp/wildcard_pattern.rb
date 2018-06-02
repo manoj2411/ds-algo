@@ -37,9 +37,11 @@ def pattern_matched?(str, pattern)
       elsif pattern[j - 1] == '*'
         # 2 cases now:
         #   1. ignore char before '*' and assume its 0 occurance
-        #   2. if str[i] == pattern[j - 1] then assume str[i] part of pattern
-        #     and check result ignoring str[i]
-        if matrix[i][j - 2] || (str[i] == pattern[j - 1] && matrix[i - 1][j])
+        #   2. if str[i - 1] == pattern[j - 2] (or pattern[j - 2] is '?', any character)
+        #       then assume str[i - 1] part of pattern and check result
+        #       ignoring str[i - 1]
+        if matrix[i][j - 2] ||
+          ((str[i - 1] == pattern[j - 2] || pattern[j - 2] == '?' ) && matrix[i - 1][j])
           matrix[i][j] = true
         else
           matrix[i][j] = false
@@ -50,8 +52,8 @@ def pattern_matched?(str, pattern)
     end
   end
 
-  puts "Matrix:"
-  matrix.each {|row| puts row.join("\t")}
+  # puts "Matrix:"
+  # matrix.each {|row| puts row.join("\t")}
 
   for i in 0..len_s
     if matrix[i][len_p]
@@ -72,10 +74,10 @@ str = 'baaabab'
 # pattern = 'baaabab' #yes
 # pattern = 'a*a' # no
 # pattern = 'b*b' # yes
-# pattern = 'aa?ab' # no
+pattern = 'aa?ab' # no
 # pattern = '****'
 # pattern = 'ba*ab****'
-pattern = '*a*****ab'
+# pattern = '*a*****ab'
 puts "Str: #{str} \nPattern: #{pattern}"
 puts pattern_matched?(str, pattern)
 
