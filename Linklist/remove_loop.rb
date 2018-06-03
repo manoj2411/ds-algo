@@ -12,24 +12,45 @@ def find_cycel_len(node)
 end
 
 def remove_cycle(head)
-  slow = fast = head
-
-  while fast != nil
-    fast = fast.next
-    if fast != nil && fast != slow
-      fast = fast.next
-      slow = slow.next
-    end
-    if fast == slow
-      break
-    end
-  end
-
-  if fast == nil
+  if head == nil
+    return
+  elsif head.next == head
+    head.next = nil
     return
   end
 
+  slow = head
+  fast = head.next
+
+  while fast != nil && fast != slow
+    fast = fast.next
+    if fast != nil
+      fast = fast.next
+      slow = slow.next
+    end
+  end
+
+  return if fast == nil
+
   len = find_cycel_len(fast)
+
+  # Alternate implementation
+  # n = find_cycel_len(fast)
+  # n = find_loop_length(fast)
+  # slow = head
+  # fast = head
+  # (n - 1).times { fast = fast.next }
+
+  # while true
+  #   if fast.next == slow
+  #     puts "Cycle: #{fast.key} -> #{slow.key}"
+  #     fast.next = nil
+  #     return
+  #   end
+  #   slow = slow.next
+  #   fast = fast.next
+  # end
+
   fast = head
   prev = nil
   len.times do
@@ -65,7 +86,7 @@ head.next.next.next.next = Node.new 5
 head.next.next.next.next.next = Node.new 6
 head.next.next.next.next.next.next = Node.new 7
 head.next.next.next.next.next.next.next = Node.new 8
-head.next.next.next.next.next.next.next.next = head.next.next
+head.next.next.next.next.next.next.next.next = head.next.next#.next.next.next.next.next
 
 remove_cycle head
 
