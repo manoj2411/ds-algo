@@ -66,7 +66,7 @@ def sliding_window_max(arr, k)
     j += 1
   end
 
-  i = 0
+  # i = 0
 
   print "#{arr[dque.first]} "
   while j < arr.length
@@ -75,7 +75,7 @@ def sliding_window_max(arr, k)
     end
     dque.insert_e(j)
     j += 1
-    i += 1
+    # i += 1
     # dque.print_s
     print "#{arr[dque.first]} "
   end
