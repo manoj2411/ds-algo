@@ -1,9 +1,9 @@
 def longest_distinct_chars(string)
-  curr_len = max_len = 1
-  hs = {string[0] => 0}
+  curr_len = max_len = 0
+  hs = {}
   left = 0
 
-  for r in 1...string.length
+  for r in 0...string.length
     char = string[r]
 
     if hs.key?(char) && r - hs[char] <= curr_len
