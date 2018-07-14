@@ -32,7 +32,7 @@ def flatten_util(node, last)
     #     node.next = flatten_util(node.child, last)
     # end
 
-    # if nxt
+    # if nxt # not required
     #     last[0].next = flatten_util(nxt, last)
     # end
     # return node
