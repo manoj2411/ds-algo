@@ -22,3 +22,4 @@ for arr in [[100, 80,60,70,60,75,85]]
   puts "Arr: #{arr}"
   puts "Span: #{find_stock_span arr}"
 end
+
