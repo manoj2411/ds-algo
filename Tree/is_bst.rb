@@ -21,19 +21,14 @@ def isBSTUtil?(node, min, max)
   return true if node == nil
   return false if node.key < min || node.key > max
 
-  if node.key < min || node.key > max
-    return false
-  end
-
   return isBSTUtil?(node.left, min, node.key) &&
          isBSTUtil?(node.right, node.key - 1, max)
 
 end
 
-  MIN = -99999
-  MAX = 99999
+MIN = -99999
+MAX = 99999
 def isBst?(node)
-
   return isBSTUtil?(node, MIN, MAX)
 end
 

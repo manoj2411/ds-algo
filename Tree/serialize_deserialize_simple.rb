@@ -18,24 +18,19 @@ def shelper(root, arr)
 end
 
 def deserialize(arr)
-  if arr == nil || arr.empty?
-    return
-  end
+  return if arr == nil || arr.empty?
   hs = { i: 0}
-  r = arr.length
-  dhelper(arr, hs, r)
+  dhelper(arr, hs)
 end
 
-def dhelper(arr, hs, r)
-  i = hs[:i]
-  hs[:i] += 1
-  if i >= r || arr[i] == -1
-    return nil
-  end
+def dhelper(arr, info)
+  i = info[:i]
+  info[:i] += 1
+  return nil if arr[i] == -1
 
   node = Node.new arr[i]
-  node.left = dhelper(arr, hs, r)
-  node.right = dhelper(arr, hs, r)
+  node.left = dhelper(arr, info)
+  node.right = dhelper(arr, info)
   return node
 end
 
@@ -47,6 +42,8 @@ def pp(node)
   pp node.left
   pp node.right
 end
+
+
 
 root = Node.new 20
 root.left = Node.new 8
@@ -64,7 +61,6 @@ puts "Deserialize..."
 root = deserialize(serialized)
 pp root
 puts
-
 
 
 
