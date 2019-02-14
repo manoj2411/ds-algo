@@ -1,7 +1,7 @@
 def combinational_sum(arr, sum)
   result = []
   helper(arr.sort, [], result, sum, 0)
-  return result.uniq
+  return result
 end
 
 def helper(arr, curr, result, sum, i)
