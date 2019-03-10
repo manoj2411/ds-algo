@@ -1,0 +1,98 @@
+Design Parking lot
+-------------------
+
+1. Handling ambiguity (its very broad)
+ - What kind of probelm area he wants to get into
+ - you system design or class hierarchy or certain secific question then write some methods
+2. Systematic approach (how you approach to the problem)
+ - show clear and systematically approach how you solve this problem
+ - take step back, dont rush into solution immediately, ask questions and clarify assumptions
+ - Clarify
+
+3. Without thinking about system design, just thought about what does a parking lot look like
+- How this parking lot is designed?
+  - is it a building
+  - is it an open space
+- How many spots we are talking about
+ - are we handling 50 spots or 1000 plus spots in multiple buildings
+- Does this parking lot has multiple levels
+ - problem can be how to take a vehicale from 1 level to another one
+- Are there multiple enterences? its concurrency.
+- Are there dependecies between levels
+- Should we fill up upper level first then go down? or
+- should we optimise to fill certain areas first
+- Then we can go to the topic of price
+- Multile sizes of slots, if we have 2/3 sizes of slots so they have different prices, what is the pricing stratergy
+ - should we charge by size or optimise pricing by the vehicle size to handle out of ratio traffic size that we were expecting or parking lot has
+- If go to business side of things - my be there are premium type of slots, or easily accessible
+
+Now assume that he want to you to design it for 4 different sizes (s, m, l, xl)
+- which car to put in what kind of spot
+ - m is allowed in xl or l spot
+ - l is not allowed to s spots
+
+
+-------------
+
+Class hierarchy
+ - Vehicle (Abstract class)
+ - Colors Enums
+classes from vehicle
+ - Bike(s)
+ - car(m)
+ - truck(l)
+ - bus(xl)
+
+class ParkingLot
+ - in case we have multiple lots then we can give them zipcodes
+ - Methods
+  - def place_vehicle(vehicle)
+      return spot
+
+class Spot
+  id
+  label
+  level
+  lat
+  lng
+  size (enum)
+
+Example - Write code for place vehicle in spot and then retive the vehicle, now its algo and coding question
+
+- what kind of goal do we have with this? ex
+ - make palcing and retriving of car is as efficient as possible
+ - how we store the info, think of DB.
+ - Now assume that everything is in memory, what could be our data structure to store the info
+ - we need to thing about how to retrive the first available/suitable spot of the vehicle we have
+ - it make sense to first check the spots where this exact type of vehicles fit.
+ - Now how are we storing the spots, if its a array or list then we have to iterate and get the first available spot for vehicle. Linear searching is not the best soln
+ - Stack can be 1 option, all open spaces
+ - May be we are not concerned about space, we are concerned about time, bcz we have to make it as efficient as possible
+ - In this case we just need the check the stacks for correct type(size) in constant space
+ - While adding and removing the vehicle we need to find the right data struture for efficeintly doing these operations
+ - def remove_vehicle()
+    return spot
+  - we have to put the spot back, which can be any on the available lists. It can be expensive process, kind of linear processing time, we can do it better
+ - we can use hashmap here
+ - lets reiterate again the place the vehicle and remove the vehicle
+
+###Place Vehicle
+ - With stack we can place vehicle in constant space, in worst case we'll have to do 4 lookups for single free spot.
+ - Put in hashmap with key as vehicle
+
+###Remove Vehicle
+- we'll return the spot where vehicle is placed
+- If we place the vehicle and use something like stack or link list to store the info then when removing it we dont where the vehicle is, it can be in S list or M list or we choose create a giant list then we have to iterate it. Not a good choice.
+- We want to use some other data strucutre for fst lookup. We can use tree, heap or what. We can use hash/dict here. Key can be vehile number and value can be spot.
+
+No just look up the hash map and return place.
+
+
+Some open question
+- Concurrency: if we have multiple gates then may be we want to access the same spot for different cars
+- Collision: How to optimise entries and exits when we have single gate for both entry and exit
+ - There can be deadlock if vehicles stuck in some sort of dependency. ex.
+Pricing: user get same price for each spot or custom price for diff sizes.
+
+-----
+
