@@ -6,15 +6,15 @@ def flatten(head)
   curr = head
   tail = curr
 
-  while tail.next != nil
-    tail = tail.next
-  end
-
   while curr != nil
-    tail.next = curr.child
-    while tail.next != nil
-      tail = tail.next
+
+    if curr.child
+      while tail.next != nil
+        tail = tail.next
+      end
+      tail.next = curr.child
     end
+
     curr = curr.next
   end
 
