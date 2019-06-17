@@ -20,42 +20,45 @@
 # In linked list to access i’th index, we have to travel each and every node from
 # the head to i’th node as we don’t have continuous block of memory
 
-
 module QuickSort
   extend self
 
-  def sort(arr, low, high)
-    if low < high
-      pivot_indx = partition(arr, low, high)
+  def sort(arr)
+    helper(arr, 0, arr.length - 1)
+  end
 
-      sort(arr, low, pivot_indx - 1)
-      sort(arr, pivot_indx + 1, high)
-      return arr
+  def helper(arr, left, right)
+    if left < right
+      pivot_indx = partition(arr, left, right)
+
+      helper(arr, left, pivot_indx - 1)
+      helper(arr, pivot_indx + 1, right)
     end
   end
 end
 
 
-def partition(arr, low, high)
-  left_indx = low
-  i = low
-  pivot = arr[high]
-  while i <= (high - 1)
+def partition(arr, left, right)
+  i = low = left
+  pivot = arr[right]
+
+  while i < right
     if arr[i] < pivot
-      arr[left_indx], arr[i] = arr[i], arr[left_indx]
-      left_indx += 1
+      arr[low], arr[i] = arr[i], arr[low]
+      low += 1
     end
     i += 1
   end
-  arr[left_indx], arr[high] = pivot, arr[left_indx]
-  return left_indx
+  
+  arr[low], arr[right] = pivot, arr[low]
+  return low
 end
 
 
-# arr = [10, 80, 30, 90, 50, 40, 70]
-arr = [10, 7, 8, 9, 1, 5]
-puts "Original List: #{arr}\n"
+for arr in [[10, 7, 8, 9, 1, 5], [10, 80, 30, 90, 50, 40, 70]]
+  puts "Original List: #{arr}"
+  QuickSort.sort(arr)
+  puts "Sorted List: #{arr}"
+  puts 
+end
 
-QuickSort.sort(arr, 0, arr.length - 1)
-
-puts puts "Sorted List: #{arr}"
