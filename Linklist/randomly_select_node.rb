@@ -1,19 +1,16 @@
 Node = Struct.new(:item, :next)
 
-def randomly_select_node(start)
-  curr = start
-  selected = nil
-  length = 0
+def randomly_select_node(head)
+  selected = curr = head
+  i = 1
 
   while(curr != nil)
-    length += 1
-    # using 0 becase rand(1) will return first integer which is 0
-    if rand(length) == 0
-      selected = curr
-    end
+    selected = curr if rand(0..i) == i
     curr = curr.next
+    i += 1
   end
-  return selected
+
+  selected # returning result
 end
 
 head = Node.new(10)
@@ -22,5 +19,7 @@ head.next.next = Node.new(30)
 head.next.next.next = Node.new(40)
 head.next.next.next.next = Node.new(50)
 
-node = randomly_select_node(head)
-puts "Selected node: #{node.item}"
+# run algo 5 times
+for i in 1..5
+  puts "Selected node: #{randomly_select_node(head).item}"
+end
