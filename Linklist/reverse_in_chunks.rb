@@ -1,3 +1,5 @@
+# NOTE: this is different solution where we only sort the group of nodes iif the group
+#       has k elements.
 require "pry"
 
 Node = Struct.new(:key, :next)
@@ -11,6 +13,7 @@ def reverse_in_chunks(start, k)
   while curr != nil
     s_chunk = curr
 
+    # This loop is to check for a sepicif usecase i.e. reverse iif list has more than k nodes
     while chunk_count < k && curr != nil
       chunk_count += 1
       curr = curr.next
@@ -22,12 +25,7 @@ def reverse_in_chunks(start, k)
 
 
     chunk_count = 1 # resets chunk_count
-    # begin
-      s = curr.next
-    # rescue
-    #   binding.pry
-    #   true
-    # end
+    s = curr.next
     ss = s_chunk
 
     while s_chunk != curr
@@ -49,6 +47,7 @@ def reverse_in_chunks(start, k)
 
   return new_start || start
 end
+
 
 head = Node.new(1)
 head.next = Node.new(3)
