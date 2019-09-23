@@ -18,9 +18,8 @@ def permute_util(chars, count, result, level)
 end
 
 def permute(str)
-  count = {}
+  count = Hash.new(0)
   str.each_char do |chr|
-    count[chr] ||= 0
     count[chr] += 1
   end
 
