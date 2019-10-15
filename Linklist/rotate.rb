@@ -1,37 +1,63 @@
-require "byebug"
 Node = Struct.new(:item, :next)
 
-def rotate(start, input)
-  curr = start
-  k = 1
+def rotate_by_k(head, k)
+  curr = head
+  i = 1
   tmp = nil
   while curr.next != nil
-    if k == input
-      tmp = curr
-    end
-    k += 1
+    tmp = curr if i == k
+    i += 1
     curr = curr.next
   end
-  curr.next = start
-  start = tmp.next
-  tmp.next = nil
-  return start
+
+  if tmp
+    curr.next = head
+    head = tmp.next
+    tmp.next = nil
+  end
+
+  head
 end
 
-n1 = Node.new(10, nil)
-n2 = Node.new(20, nil)
-n3 = Node.new(30, nil)
-n4 = Node.new(40, nil)
-n5 = Node.new(50, nil)
-n6 = Node.new(60, nil)
+def pp(head)
+  while head
+    print "#{head.item} "
+    head = head.next
+  end
+  puts
+end
 
-n1.next = n2
-n2.next = n3
-n3.next = n4
-n4.next = n5
-n5.next = n6
+head = Node.new(2)
+head.next = Node.new(4)
+head.next.next = Node.new(7)
+head.next.next.next = Node.new(8)
+head.next.next.next.next = Node.new(9)
 
-start = rotate(n1, 4)
+head2 = Node.new(1)
+head2.next = Node.new(2)
+head2.next.next = Node.new(3)
+head2.next.next.next = Node.new(4)
+head2.next.next.next.next = Node.new(5)
+head2.next.next.next.next.next = Node.new(6)
+head2.next.next.next.next.next.next = Node.new(7)
+head2.next.next.next.next.next.next.next = Node.new(8)
 
-debugger
-true
+
+puts "Original list"
+pp head
+head = rotate_by_k(head, 3)
+puts "Rotated list"
+pp head
+
+puts "Original list"
+pp head2
+head2 = rotate_by_k(head2, 4)
+puts "Rotated list"
+pp head2
+
+head2.next.next = nil
+puts "Original list"
+pp head2
+head2 = rotate_by_k(head2, 4)
+puts "Rotated list"
+pp head2
