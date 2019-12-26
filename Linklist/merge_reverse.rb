@@ -1,71 +1,60 @@
-require "byebug"
 Node = Struct.new(:item, :next)
 
-def reverse_merge(a, b)
-  acurr = a
-  bcurr = b
+def reverse_merge(lista, listb)
+  a_curr = lista
+  b_curr = listb
   result = nil
-  while true
-    if acurr.nil?
-      while bcurr != nil
-        tmp = bcurr
-        bcurr = bcurr.next
-        tmp.next = result
-        result = tmp
-      end
-      break
-    elsif bcurr.nil?
-      while acurr != nil
-        tmp = acurr
-        acurr = acurr.next
-        tmp.next = result
-        result = tmp
-      end
-      break
-    end
 
-    if acurr.item <= bcurr.item
-      tmp = acurr
-      acurr = acurr.next
+  while a_curr && b_curr
+    if a_curr.item <= b_curr.item
+      tmp = a_curr
+      a_curr = a_curr.next
     else
-      tmp = bcurr
-      bcurr = bcurr.next
+      tmp = b_curr
+      b_curr = b_curr.next
     end
     tmp.next = result
     result = tmp
   end
+
+  while b_curr != nil
+    tmp = b_curr
+    b_curr = b_curr.next
+    tmp.next = result
+    result = tmp
+  end
+
+  while a_curr != nil
+    tmp = a_curr
+    a_curr = a_curr.next
+    tmp.next = result
+    result = tmp
+  end
+
   result
 end
 
-l1 = Node.new(10, nil)
-l2 = Node.new(20, nil)
-l3 = Node.new(30, nil)
-l4 = Node.new(40, nil)
-l5 = Node.new(50, nil)
-l6 = Node.new(60, nil)
-
-l1.next = l2
-l2.next = l3
-l3.next = l4
-l4.next = l5
-l5.next = l6
-
-m1 = Node.new(5, nil)
-m2 = Node.new(22, nil)
-m3 = Node.new(25, nil)
-m4 = Node.new(32, nil)
-m1.next = m2
-m2.next = m3
-m3.next = m4
-
-result = reverse_merge(l1, m1)
-
-puts "Printing Result"
-curr = result
-while !curr.nil?
-  print "#{curr.item} -> "
-  curr = curr.next
+def pp(node)
+  while !node.nil?
+    print "#{node.item} -> "
+    node = node.next
+  end
 end
 
-# debugger
-# true
+head1 = Node.new(10)
+head1.next = Node.new(20,)
+head1.next.next = Node.new(30)
+head1.next.next.next = Node.new(40)
+head1.next.next.next.next = Node.new(50)
+head1.next.next.next.next.next = Node.new(60)
+
+
+head2 = Node.new(5)
+head2.next = Node.new(22)
+head2.next.next = Node.new(25)
+head2.next.next.next = Node.new(32)
+
+result = reverse_merge(head1, head2)
+
+puts 'Printing Result'
+pp(result)
