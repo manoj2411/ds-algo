@@ -1,38 +1,35 @@
 Node = Struct.new(:key, :left, :right)
 
 def print_max_width(node)
-  queue = []
-  queue.push node
+  return 0 if node.nil?
+
+  queue = Queue.new
+  queue.enq(node)
   max_width = 1
   max_level = 0
   level = 0
 
   while !queue.empty?
     # new_count = 0
-    q_len = queue.length
-    puts "Level #{level}, count: #{q_len}"
-    q_len.times do |i|
-      node = queue.delete_at(0)
-      if node.left
-        queue.push(node.left)
-        # new_count += 1
-      end
-      if node.right
-        queue.push(node.right)
-        # new_count += 1
-      end
+    que_len = queue.length
+    # puts "Level #{level}, count: #{que_len}"
+    que_len.times do |_|
+      node = queue.deq
+      queue.enq(node.left) if node.left
+      queue.enq(node.right) if node.right
     end
+
     level += 1
     if max_width < queue.length
       max_width = queue.length
       max_level = level
     end
   end # END of while
-  puts "Max Level #{max_level}, max_count: #{max_width}"
 
+  puts "Max Level #{max_level}, max_count: #{max_width}"
 end
 
-def max_width_preorder(node, arr, level)
+def max_width_preorder(node, arr, leveql)
   return if node == nil
 
   arr[level] ||= 0
@@ -60,13 +57,13 @@ root.right.left.left = Node.new(6)
 root.right.left.right = Node.new(7)
 
 
-# print_max_width(root)
-arr = []
-max_width_preorder(root, arr, 0)
+print_max_width(root)
+# arr = []
+# max_width_preorder(root, arr, 0)
 
-arr.each_with_index do |ele, indx|
-  puts "Level: #{indx} Width: #{ele}"
-end
+# arr.each_with_index do |ele, indx|
+#   puts "Level: #{indx} Width: #{ele}"
+# end
 
 
 # # # # # # # # New refactored implementation
@@ -76,7 +73,7 @@ def find_max_width(head)
   que.enq head
   level = 0
 
-  while !que.empty?
+  while not que.empty?
     length = que.length
     level += 1
     puts "Level: #{level} width: #{length}"
