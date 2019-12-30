@@ -18,3 +18,5 @@ Playground for popular algorithms and data-structures problems.
 #### Tree
 
 * Maximum width of a binary tree. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_width_of_tree.rb))
+* A program to check if a binary tree is BST or not. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_bst.rb))
+
