@@ -7,32 +7,24 @@ class Bst
 
   def insert(key)
     node = Node.new(key)
-    if root == nil
-      self.root = node
-      return
-    end
-    add_to_subtree(root, node)
+    self.root = insert_util(root, node)
   end
 
   private
-    def add_to_subtree(node, new_node)
+    def insert_util(node, new_node)
+      return new_node if node.nil?
+
       if node.key > new_node.key
         # add to left
-        if node.left == nil
-          node.left = new_node
-          return
-        end
-        add_to_subtree(node.left, new_node)
+        node.left = insert_util(node.left, new_node)
       elsif node.key < new_node.key
         # add to right
-        if node.right == nil
-          node.right = new_node
-          return
-        end
-        add_to_subtree(node.right, new_node)
+        node.right = insert_util(node.right, new_node)
       else
         raise 'Duplicate keys are not allowed!'
       end
+
+      node # returns current node
     end
 end
 
