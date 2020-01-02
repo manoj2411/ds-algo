@@ -2,7 +2,6 @@
 Node = Struct.new(:key, :left, :right)
 
 class Bst
-
   attr_accessor :root
 
   def insert(key)
@@ -28,11 +27,21 @@ class Bst
     end
 end
 
+def print_inorder(node)
+  return unless node
+  print_inorder(node.left)
+  print "#{node.key} "
+  print_inorder(node.right)
+end
+
 bst = Bst.new
 bst.insert(2)
 bst.insert(10)
 bst.insert(1)
 bst.insert(5)
 
-# debugger
-# true
+
+puts "Printing bst Inorder: "
+print_inorder(bst.root)
+puts
+
