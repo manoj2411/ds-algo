@@ -9,6 +9,10 @@ class Bst
     self.root = insert_util(root, node)
   end
 
+  def search(key)
+    search_util(root, key) ? true : false
+  end
+
   private
     def insert_util(node, new_node)
       return new_node if node.nil?
@@ -24,6 +28,12 @@ class Bst
       end
 
       node # returns current node
+    end
+
+    def search_util(node, key)
+      return node if node.nil? || node.key == key
+
+      node.key > key ? search_util(node.left, key) : search_util(node.right, key)
     end
 end
 
@@ -45,3 +55,6 @@ puts "Printing bst Inorder: "
 print_inorder(bst.root)
 puts
 
+for k in [1,2,3,4,5]
+  puts "Searching #{k}, found : #{bst.search(k)}"
+end
