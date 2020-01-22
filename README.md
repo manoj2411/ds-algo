@@ -18,7 +18,16 @@ Playground for popular algorithms and data-structures problems.
 #### Tree
 
 * Maximum width of a binary tree. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_width_of_tree.rb))
+
 * A program to check if a binary tree is BST or not. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_bst.rb))
+
 * Height of Binary Tree. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/height_recursive.rb))
+
 * Binary Search Tree - Search and Insertion ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/bst_insert_and_search.rb))
 
+
+#### Sortings
+
+* 3-Way QuickSort (Dutch National Flag)
+  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Sortings/3_way_quick_sort.rb)
+  * [Solution in python](https://github.com/manoj2411/ds-algo/blob/master/Sortings/3_way_quick_sort.py)
