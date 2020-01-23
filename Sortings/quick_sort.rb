@@ -27,38 +27,36 @@ module QuickSort
     helper(arr, 0, arr.length - 1)
   end
 
-  def helper(arr, left, right)
-    if left < right
-      pivot_indx = partition(arr, left, right)
+  private
+    def helper(arr, left, right)
+      if left < right
+        pivot_indx = partition(arr, left, right)
 
-      helper(arr, left, pivot_indx - 1)
-      helper(arr, pivot_indx + 1, right)
+        helper(arr, left, pivot_indx - 1)
+        helper(arr, pivot_indx + 1, right)
+      end
     end
-  end
+
+    def partition(arr, left, right)
+      pivot = arr[right]
+      pivot_index = left - 1
+
+      for i in left..right
+        if arr[i] <= pivot
+          pivot_index += 1
+          arr[pivot_index], arr[i] = arr[i], arr[pivot_index]
+        end
+      end
+      pivot_index
+    end
 end
 
-
-def partition(arr, left, right)
-  i = low = left
-  pivot = arr[right]
-
-  while i < right
-    if arr[i] < pivot
-      arr[low], arr[i] = arr[i], arr[low]
-      low += 1
-    end
-    i += 1
-  end
-  
-  arr[low], arr[right] = pivot, arr[low]
-  return low
-end
 
 
 for arr in [[10, 7, 8, 9, 1, 5], [10, 80, 30, 90, 50, 40, 70]]
   puts "Original List: #{arr}"
   QuickSort.sort(arr)
   puts "Sorted List: #{arr}"
-  puts 
+  puts
 end
 
