@@ -28,6 +28,8 @@ Playground for popular algorithms and data-structures problems.
 
 #### Sortings
 
+* QuickSort for array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Sortings/quick_sort.rb))
+
 * 3-Way QuickSort (Dutch National Flag)
   * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Sortings/3_way_quick_sort.rb)
   * [Solution in python](https://github.com/manoj2411/ds-algo/blob/master/Sortings/3_way_quick_sort.py)
