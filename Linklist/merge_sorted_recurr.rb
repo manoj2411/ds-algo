@@ -1,24 +1,17 @@
-require "byebug"
 Node = Struct.new(:item, :next)
 
-def merge(a, b)
-  # result = nil
-
-  return b if a.nil?
-  return a if b.nil?
-
-  if a.item <= b.item
-    # result = a
-    # result.next = merge(a.next, b)
-    a.next = merge(a.next, b)
-    return a
+def merge(list_a, list_b)
+  if list_a.nil?
+    list_b
+  elsif list_b.nil?
+    list_a
+  elsif list_a.item <= list_b.item
+    list_a.next = merge(list_a.next, list_b)
+    list_a
   else
-    # result = b
-    # result.next = merge(a, b.next)
-    b.next = merge(a, b.next)
-    return b
+    list_b.next = merge(list_a, list_b.next)
+    list_b
   end
-  # return result
 end
 
 l1 = Node.new(10, nil)
@@ -51,5 +44,3 @@ while !curr.nil?
   curr = curr.next
 end
 
-# debugger
-# true
