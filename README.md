@@ -14,6 +14,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Merge two sorted lists (in-place). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_in_place_iterative.rb))
 
+* Merge two sorted linked lists. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_recurr.rb))
+
 
 #### Tree
 
