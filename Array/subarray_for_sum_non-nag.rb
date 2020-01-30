@@ -1,4 +1,44 @@
+=begin
+  So there are some very tricky cases to miss, those are:
+    1 when the give sum is 0
+    2 when given sum equal to last element or last few elements
+    3 when give sum is always less than the elements given
+    4 when given sum greater than sum of all numbers
+
+  So the biggest learning is: before checking given_sum and current_sum always make
+    sure that current_sum has at least 1 item included otherwise it'll break the case 1.
+    Where are we checking equal condition is also very important, think about it carefully
+    and do a manual process on paper then simuate the flow on code and think about the
+    places where we want to check/compare, also when to include/exclude elements in current_sum
+=end
 def subarray_with_sum(arr, given_sum)
+  start = i = curr_sum = 0
+
+  while i < arr.length
+
+    if start == i # curr_sum doesn't have any item, so just add the current item
+      curr_sum += arr[i]
+      i += 1
+    end
+
+    while curr_sum < given_sum && i < arr.length
+      curr_sum += arr[i]
+      i += 1
+    end
+
+    while curr_sum > given_sum
+      curr_sum -= arr[start]
+      start += 1
+    end
+
+    next if start == i # it means we haven't selected any item in curr_sum, it'll break when given sum is 0
+
+    return start, i - 1 if curr_sum == given_sum
+  end
+  -1
+end
+
+def subarray_with_sum_old(arr, given_sum)
   start = 0
   i = 1
   sum = arr[start]
@@ -14,8 +54,8 @@ def subarray_with_sum(arr, given_sum)
     end
 
     if given_sum == sum
-      puts "The lies between #{start} and #{i - 1 }"
-      return true
+      # puts "The lies between #{start} and #{i - 1 }"
+      return start, i - 1
     end
 
     if i < arr.length
@@ -24,7 +64,8 @@ def subarray_with_sum(arr, given_sum)
     i += 1
   end
   # puts "start: #{start} i: #{i}"
-  puts "No subarray found! "
+  # puts "No subarray found! "
+  -1
 end
 
 
@@ -42,7 +83,7 @@ for arr, sum in [
 
 ]
   puts "Arr: #{arr}, sum: #{sum}"
-  subarray_with_sum(arr, sum)
+  puts subarray_with_sum(arr, sum).to_s
   puts
 end
 
