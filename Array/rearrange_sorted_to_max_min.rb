@@ -1,7 +1,8 @@
 def rearrange(arr)
-  max = arr[arr.length - 1] + 1
+  max = arr.last + 1
   head = 0
   tail = arr.length - 1
+
   0.upto(arr.length - 1) do |i|
     if i.even?
       arr[i] += ((arr[tail] % max) * max) #+ (arr[i] % max)
@@ -12,15 +13,15 @@ def rearrange(arr)
     end
   end
 
-  print "New: "
-  arr.each do |ele|
-    print "#{ele / max} "
+  for i in 0...(arr.length)
+    arr[i] = arr[i] / max
   end
 end
 
 
 arr = (1..9).to_a
 
-puts "Original: #{arr}"
+puts "Input: #{arr}"
 rearrange(arr)
-puts "Original: #{arr}"
+puts "Result: #{arr}"
+
