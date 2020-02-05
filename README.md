@@ -17,6 +17,7 @@ Playground for popular algorithms and data-structures problems.
 
 * **Maximum Subarray**: given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/maximum_subarray.rb))
 
+* Move all zeroes to end of array with minimum operations and in-place ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/move_zeros_to_end.rb))
 
 #### Linked List
 
