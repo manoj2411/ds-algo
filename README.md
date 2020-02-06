@@ -21,6 +21,10 @@ Playground for popular algorithms and data-structures problems.
 
 #### Linked List
 
+* Reverse a linked list
+  * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/reverse_recur.rb)
+  * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/reverse_ite.rb)
+
 * Merge two sorted linked lists such that merged list is in reverse order. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_reverse.rb))
 
 * Merge two sorted lists (in-place).
