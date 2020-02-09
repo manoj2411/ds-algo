@@ -24,6 +24,17 @@ def move_zeros_to_end(nums)
   end
 end
 
+def elegant_move_zeros_to_end(nums)
+  non_zero_index = 0
+
+  for i in 0...(nums.length)
+    if nums[i] != 0
+      nums[non_zero_index], nums[i] = nums[i], nums[non_zero_index] if i != non_zero_index
+      non_zero_index += 1
+    end
+  end
+
+end
 
 for input in [
   [0,1,0,3,12],
@@ -31,6 +42,6 @@ for input in [
 ]
 
   puts "Input: #{input}"
-  move_zeros_to_end(input)
+  elegant_move_zeros_to_end(input)
   puts "Result: #{input}"
 end
