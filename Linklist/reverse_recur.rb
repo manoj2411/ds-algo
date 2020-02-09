@@ -1,5 +1,3 @@
-require "byebug"
-
 Node = Struct.new(:item, :next)
 # def reverse(node, start)
 #   unless node.next
@@ -25,15 +23,12 @@ end
 
 def reverse(node)
 
-  if node.next == nil || node == nil
-    return node # returning head
-  end
+  return node if node.next == nil || node == nil
 
   head = reverse(node.next)
-
   node.next.next = node
   node.next = nil
-  return head
+  head
 
 end
 
@@ -56,6 +51,3 @@ print_list n1
 head = reverse(n1)
 puts "New list: "
 print_list head
-# _end, start = reverse(n1, n1)
-# debugger
-# true
