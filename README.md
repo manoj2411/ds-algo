@@ -19,6 +19,9 @@ Playground for popular algorithms and data-structures problems.
 
 * Move all zeroes to end of array with minimum operations and in-place ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/move_zeros_to_end.rb))
 
+* Sort an array of 0s, 1s and 2s ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/sort_012.rb))
+
+
 #### Linked List
 
 * Reverse a linked list
