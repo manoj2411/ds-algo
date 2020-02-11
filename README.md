@@ -34,6 +34,8 @@ Playground for popular algorithms and data-structures problems.
   * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_in_place_iterative.rb)
   * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_recurr.rb)
 
+* Sort a linked list of 0s, 1s and 2s by changing links ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/sort_012.rb))
+
 
 #### Tree
 
