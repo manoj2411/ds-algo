@@ -21,6 +21,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Sort an array of 0s, 1s and 2s ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/sort_012.rb))
 
+* Equilibrium point/index of an array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/equilibrium.rb))
+
 
 #### Linked List
 
