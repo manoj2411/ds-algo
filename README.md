@@ -49,6 +49,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Binary Search Tree - Search and Insertion ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/bst_insert_and_search.rb))
 
+* Print left view of Binary tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/print_left_view.rb))
+
 
 #### Sortings
 
