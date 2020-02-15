@@ -7,8 +7,8 @@ def print_left_view(node, arr, level)
     print " #{node.key} "
     arr[level] = true
   end
-  print_left_view(node.left, arr, level + 1) if node.left
-  print_left_view(node.right, arr, level + 1) if node.right
+  print_left_view(node.left, arr, level + 1)
+  print_left_view(node.right, arr, level + 1)
 end
 
 @max_level = -1
@@ -19,8 +19,8 @@ def print_left_view_new(node, level)
     print " #{node.key} "
     @max_level = level
   end
-  print_left_view_new(node.left, level + 1) if node.left
-  print_left_view_new(node.right, level + 1) if node.right
+  print_left_view_new(node.left, level + 1)
+  print_left_view_new(node.right, level + 1)
 end
 
 
