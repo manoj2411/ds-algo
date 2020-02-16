@@ -23,6 +23,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Equilibrium point/index of an array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/equilibrium.rb))
 
+* Counting Elements - Given an integer array, count element `x` such that `x + 1` is also in array. If there're duplicates in array, count them seperately. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/count_elements.rb))
+
 
 #### Linked List
 
