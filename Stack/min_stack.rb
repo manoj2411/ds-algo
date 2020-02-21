@@ -5,23 +5,25 @@ class MinStack
 
     def initialize()
         @stack = []
+        @min_stack = []
     end
 
     def push(x)
-        curr_min = @stack.empty? || @stack.last.last > x ? x : @stack.last.last
-        @stack.push([x, curr_min])
+        @min_stack << x if @stack.empty? || x <= @min_stack.last
+        @stack << x
     end
 
     def pop()
-        @stack.pop
+        x = @stack.pop
+        @min_stack.pop if x == @min_stack.last
     end
 
     def top()
-        @stack.last.first
+        @stack.last
     end
 
     def get_min()
-        @stack.last.last
+        @min_stack.last
     end
 end
 
@@ -48,6 +50,10 @@ puts min_stack.top
 puts min_stack.get_min
 min_stack.pop
 
+# Output: -10, -10, -20, -20, -20, -20, -10, -7, -10
+
+# ----------
+
 puts "-"  * 10
 
 min_stack = MinStack.new();
@@ -58,3 +64,5 @@ puts min_stack.get_min(); #  --> Returns -3.
 min_stack.pop();
 puts min_stack.top();    #  --> Returns 0.
 puts min_stack.get_min(); #  --> Returns -2.
+
+# Output: -3, 0, -2
