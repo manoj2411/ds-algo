@@ -1,25 +1,22 @@
 Node = Struct.new(:key, :left, :right)
 module BinaryTree
   module_function
-  Store = Struct.new(:height)
 
   def max_height(node, store)
-    if node.nil?
-      return 0
-    end
+    return 0 if node.nil?
 
     left_height = max_height(node.left, store)
     right_height = max_height(node.right, store)
 
-    store.height = [left_height + right_height + 1, store.height].max
+    store[0] = [left_height + right_height + 1, store[0]].max
 
-    return [left_height, right_height].max + 1
+    [left_height, right_height].max + 1
   end
 
   def calculate_diameter(root)
-    store = Store.new 0
+    store = [0]
     max_height(root, store)
-    return store.height
+    store[0]
   end
 end
 
