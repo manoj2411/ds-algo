@@ -23,8 +23,9 @@ Playground for popular algorithms and data-structures problems.
 
 * Equilibrium point/index of an array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/equilibrium.rb))
 
-* Counting Elements - Given an integer array, count element `x` such that `x + 1` is also in array. If there're duplicates in array, count them seperately. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/count_elements.rb))
+* **Counting Elements** - Given an integer array, count element `x` such that `x + 1` is also in array. If there're duplicates in array, count them seperately. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/count_elements.rb))
 
+* **Last Stone Weight** - Given an integer array as collection of stones, Each turn, we choose the two heaviest stones and smash them together. The result of this smash is: If `x == y`, both stones are totally destroyed otherwise weight of `x` is destroyed, and the stone of weight `y` has new weight y-x ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/count_elements.rb))
 
 #### Linked List
 
