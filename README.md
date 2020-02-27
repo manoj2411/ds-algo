@@ -27,6 +27,9 @@ Playground for popular algorithms and data-structures problems.
 
 * **Last Stone Weight** - Given an integer array as collection of stones, Each turn, we choose the two heaviest stones and smash them together. The result of this smash is: If `x == y`, both stones are totally destroyed otherwise weight of `x` is destroyed, and the stone of weight `y` has new weight y-x ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/last_stone_weight.rb))
 
+* **Contiguous Array** Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/contiguous_array.rb))
+
+
 #### Linked List
 
 * Reverse a linked list
