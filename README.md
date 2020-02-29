@@ -62,8 +62,9 @@ Playground for popular algorithms and data-structures problems.
 
 #### String
 
-* Backspace String Compare - Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
+* **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
 
+* **Perform String shifts**: given list of pairs `[direction, amount]` to perform shift on a given string. `direction` 0 means left shift and `1` means right shift. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/string_shift.rb))
 
 #### Sortings
 
