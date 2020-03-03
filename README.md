@@ -66,6 +66,9 @@ Playground for popular algorithms and data-structures problems.
 
 * **Perform String shifts**: given list of pairs `[direction, amount]` to perform shift on a given string. `direction` 0 means left shift and `1` means right shift. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/string_shift.rb))
 
+* **Group Anagrams**: given an array of strings, group anagrams together. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/group_anagrams.rb))
+
+
 #### Sortings
 
 * QuickSort for array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Sortings/quick_sort.rb))
