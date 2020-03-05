@@ -57,6 +57,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Print left view of Binary tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/print_left_view.rb))
 
+* Construct bst from preorder traversal ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/bst_from_preorder.rb))
+
 * **Diameter of Binary Tree** : Diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/diameter-binary-tree.rb))
 
 
