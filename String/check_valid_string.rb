@@ -1,6 +1,6 @@
 # Valid Parenthesis String
 # string has 3 types of characters: `(`, `)` and `*`. `*` can be treated as `(` or `)` or empty string
-
+#
 def check_valid_string(s)
     open_parentheses = []
     asterisks = []
