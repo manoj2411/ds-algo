@@ -1,17 +1,14 @@
 Node = Struct.new(:key, :next)
 
 def add(node1, node2)
-  if node1 == nil
-    return node2
-  elsif node2 == nil
-    return node1
-  end
+  return node2 if node1 == nil
+  return node1 if node2 == nil
 
   result = Node.new('dummy')
   curr = result
   carry = 0
 
-  while node1 != nil && node2 != nil
+  while node1 && node2
     sum = node1.key + node2.key + carry
     curr.next = Node.new sum % 10
     carry = sum / 10
@@ -20,7 +17,7 @@ def add(node1, node2)
     node2 = node2.next
   end
 
-  while node1 != nil
+  while node1
     sum = node1.key + carry
     curr.next = Node.new(sum % 10)
     carry = sum / 10
@@ -28,7 +25,7 @@ def add(node1, node2)
     node1 = node1.next
   end
 
-  while node2 != nil
+  while node2
     sum = node2.key + carry
     curr.next = Node.new( sum % 10)
     carry = sum / 10
@@ -38,7 +35,7 @@ def add(node1, node2)
 
   curr.next = Node.new carry if carry > 0
 
-  return result.next
+  result.next
 end
 
 def _p(node)
