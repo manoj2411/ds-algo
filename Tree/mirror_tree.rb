@@ -5,15 +5,14 @@ def mirror(node)
 
   left = node.left
   right = node.right
-  node.left = right
-  node.right = left
-  mirror(left)
-  mirror(right)
+  node.left = mirror(right)
+  node.right = mirror(left)
+  node
 end
 
 def print_preorder(node)
   return if node == nil
-  print " #{node.key} "
+  print "#{node.key} "
   print_preorder(node.left)
   print_preorder(node.right)
 end
@@ -25,11 +24,11 @@ root.left.right = Node.new(3)
 root.right = Node.new(5)
 
 
-puts "Before - Preorder traversal:"
-print_preorder(root)
+puts "Preorder:"
+puts print_preorder(root)  # 4  2  1  3  5
 
 mirror(root)
 
-puts
-puts "After - Preorder traversal:"
-print_preorder(root)
+
+puts "Preorder(mirrored):"
+puts print_preorder(root) # 4  5  2  3  1
