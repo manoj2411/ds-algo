@@ -51,6 +51,8 @@ Playground for popular algorithms and data-structures problems.
 
 * **Rotate a Linked List** counter-clockwise by k nodes, where `0 < k <= len(list)` ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/rotate.rb))
 
+* Remove loop in Linked List ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/remove_loop.rb))
+
 #### Tree
 
 * Maximum width of a binary tree. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_width_of_tree.rb))

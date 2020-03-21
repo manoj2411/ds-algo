@@ -1,22 +1,10 @@
 Node = Struct.new(:key, :next)
 
-def find_cycel_len(node)
-  return 0 if node == nil
-  curr = node.next
-  count = 1
-  while curr != node
-    count += 1
-    curr = curr.next
-  end
-  return count
-end
-
 def remove_cycle(head)
-  if head == nil
-    return
-  elsif head.next == head
+  return head if head == nil
+  if head.next == head
     head.next = nil
-    return
+    return head
   end
 
   slow = head
@@ -59,7 +47,6 @@ def remove_cycle(head)
   end
 
   slow = head
-
   while slow != fast
     prev = fast
     fast = fast.next
@@ -67,6 +54,17 @@ def remove_cycle(head)
   end
   puts "Cycle: #{prev.key} -> #{prev.next.key}"
   prev.next = nil
+end
+
+def find_cycel_len(node)
+  return 0 if node == nil
+  curr = node.next
+  length = 1
+  while curr != node
+    length += 1
+    curr = curr.next
+  end
+  length
 end
 
 def pp node
