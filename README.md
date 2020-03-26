@@ -71,6 +71,9 @@ Playground for popular algorithms and data-structures problems.
 
 * Convert a Binary Tree into its Mirror Tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/mirror_tree.rb))
 
+* Root to leaf path sum equal to a given number ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/has_path_sum.rb))
+
+
 #### String
 
 * **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
