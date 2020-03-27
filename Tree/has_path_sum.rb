@@ -5,16 +5,14 @@
 Node = Struct.new(:key, :left, :right)
 
 def has_path_sum?(node, sum)
-  if node == nil
-    return false
+  if node.nil?
+    false
+  elsif node.left.nil? and node.right.nil?
+    sum == node.key
+  else
+    has_path_sum?(node.left, sum - node.key) ||
+    has_path_sum?(node.right, sum - node.key)
   end
-
-  if node.left == nil and node.right == nil
-    return sum - node.key == 0
-  end
-
-  return (has_path_sum?(node.left, sum - node.key) ||
-          has_path_sum?(node.right, sum - node.key))
 end
 
 root = Node.new(5)
@@ -28,4 +26,10 @@ root.right.right = Node.new(4)
 root.right.right.right = Node.new(1)
 
 
-puts " Has sum? : #{has_path_sum?(root, 22)}"
+for sum in [27,22,26,18]
+  puts " Has path sum for #{sum} : #{has_path_sum?(root, sum)}" # true
+end
+
+for sum in [5,7,9,20,17]
+  puts " Has path sum for #{sum} : #{has_path_sum?(root, sum)}" # false
+end
