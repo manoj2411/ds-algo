@@ -31,6 +31,8 @@ Playground for popular algorithms and data-structures problems.
 
 * **Product of Array Except Self** Given an array of integers, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i]. Without using division. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/product_except_self.rb))
 
+* Find the point where maximum intervals overlap ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/max_intervals_overlap.rb))
+
 
 
 #### Linked List
