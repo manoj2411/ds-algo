@@ -86,7 +86,10 @@ Playground for popular algorithms and data-structures problems.
 
 * **Valid Parenthesis String** string has 3 types of characters: `(`, `)` and `*`. `*` can be treated as `(` or `)` or empty string. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/check_valid_string.rb))
 
-* Balanced parenthesis : determine if are the parenthesis balanced in a given string ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/balanced_parenthesis.rb))
+* Balanced parenthesis : determine if are the parenthesis balanced in a given string
+  * [Solution where string has other chars as well](https://github.com/manoj2411/ds-algo/blob/master/String/balanced_parenthesis.rb)
+  * [Solution where string only has parenthesis](https://github.com/manoj2411/ds-algo/blob/master/String/parenthesis_checker.rb)
+
 
 #### Sortings
 
