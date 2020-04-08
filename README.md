@@ -33,6 +33,7 @@ Playground for popular algorithms and data-structures problems.
 
 * Find the point where maximum intervals overlap ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/max_intervals_overlap.rb))
 
+* Maximum Sum Circular Subarray ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/max_subarray_sum_circular.rb))
 
 
 #### Linked List
