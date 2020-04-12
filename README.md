@@ -108,6 +108,12 @@ Playground for popular algorithms and data-structures problems.
 
 * **Min Stack** : Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/min_stack.rb))
 
+
+#### Matrix / 2D
+
+* Flood fill Algorithm ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/flood_fill.rb))
+s
+
 #### Advance Data Structures
 
 * **Trie** operations with prefix search i.e. `insert`, `search`, `starts_with` ([Solution](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/trie_with_prefix.rb))
