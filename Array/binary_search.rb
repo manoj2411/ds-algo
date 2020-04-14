@@ -1,35 +1,50 @@
 def bsearch(arr, key)
   low = 0
   high = arr.length - 1
-  while high > low
+
+  while high >= low
     mid = (high + low) / 2
-    if arr[mid] == key
-      return mid
+
+    if key < arr[mid]
+      high = mid - 1
     elsif key > arr[mid]
       low = mid + 1
     else
-      high = mid - 1
+      return mid
     end
   end
-  return nil
+  -1
 end
 
 def bsearch_recur(arr, k, low, high)
-  if low <= high
-    mid = (low + high) / 2
-    if arr[mid] == k
-      return true
-    elsif k < arr[mid]
-      binary_search(arr, k, low, mid - 1)
-    else
-      binary_search(arr, k, mid + 1, high)
-    end
+  return -1 if low > high
+
+  mid = (low + high) / 2
+
+  if k > arr[mid]
+    bsearch_recur(arr, k, mid + 1, high)
+  elsif k < arr[mid]
+    bsearch_recur(arr, k, low, mid - 1)
   else
-    return false
+    return mid
   end
 end
 
-arr = [2,5,8,12,16,23,38,56,72]
-key = 72
-puts "Array: #{arr}"
-puts "has key #{key} at: #{bsearch(arr, key) || 'Not found'}"
+for arr, k in [
+    [[], 2], # -1
+    [[0,2], 2], # 1
+    [[0,2], 0], # 0
+    [[0,2], 1], # -1
+    [[1,2,3,4], 2], # 1
+    [[1,2,3,4], 1], # 0
+    [[1,2,3,4], 0], # -1
+    [[1,2,3,4], 4], # 3
+    [[1,2,3,4,5], 4], # 3
+    [[1,2,3,4,5], 5], # 4
+    [[1,2,3,4,5], 15], # -1
+    [[2,5,8,12,16,23,38,56,72], 72]
+]
+    puts "Binary Search : #{arr}, #{k}"
+    puts "#{bsearch(arr, k)}"
+    puts "#{bsearch_recur(arr, k, 0, arr.length - 1)}"
+end
