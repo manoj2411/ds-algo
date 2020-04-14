@@ -11,6 +11,8 @@ Playground for popular algorithms and data-structures problems.
 
 #### Arrays
 
+* Binary search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/binary_search.rb))
+
 * Subarray with given sum, non-negative numbers. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/subarray_for_sum_non-nag.rb))
 
 * Rearrange an array in maximum minimum form, O(1) extra space. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/rearrange_sorted_to_max_min.rb))
