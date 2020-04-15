@@ -11,7 +11,7 @@ Playground for popular algorithms and data-structures problems.
 
 #### Arrays
 
-* Binary search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/binary_search.rb))
+* Binary search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/binary_search.rb  ))
 
 * Subarray with given sum, non-negative numbers. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/subarray_for_sum_non-nag.rb))
 
@@ -83,6 +83,9 @@ Playground for popular algorithms and data-structures problems.
 * Convert a Binary Tree into its Mirror Tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/mirror_tree.rb))
 
 * Root to leaf path sum equal to a given number ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/has_path_sum.rb))
+
+* Check if tree is Symmetric i.e. mirror image of itself ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_symmetric.rb))
+
 
 
 #### String
