@@ -119,7 +119,8 @@ Playground for popular algorithms and data-structures problems.
 #### Matrix / 2D
 
 * Flood fill Algorithm ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/flood_fill.rb))
-s
+
+* Count square submatrices with all ones ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/count_squares.rb))
 
 #### Advance Data Structures
 
