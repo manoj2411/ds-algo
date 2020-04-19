@@ -41,6 +41,7 @@ Playground for popular algorithms and data-structures problems.
 
 * Find leaders : An element is leader if it is greater than all the elements to its right side, rightmost element is always a leader. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/find_leaders.rb))
 
+* Interval List Intersections : Given two lists of closed intervals, each list of intervals is pairwise disjoint and in sorted order. Return the intersection of these two interval lists. [Ref](https://leetcode.com/problems/interval-list-intersections). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/interval_intersection.rb))
 
 
 
