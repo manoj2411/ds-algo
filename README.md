@@ -87,6 +87,7 @@ Playground for popular algorithms and data-structures problems.
 
 * Check if tree is Symmetric i.e. mirror image of itself ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_symmetric.rb))
 
+* Double Tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/double_tree.rb))
 
 
 #### String
