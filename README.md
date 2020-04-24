@@ -8,6 +8,8 @@ Playground for popular algorithms and data-structures problems.
 
 * **Snake and Ladder Problem**: Given a snake and ladder game, find the minimum number of dice throws required to reach the destination from source. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Graphs/snake_ladder.rb))
 
+* **Course Schedule** There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses-1`. There are course prerequisites like [0,1], meaning to take `0` you have to `1` first. Find out if it is possible for you to finish all courses? [Ref](https://leetcode.com/problems/course-schedule/)
+  * [Solution](https://github.com/manoj2411/ds-algo/blob/master/Graphs/course_schedule.rb)
 
 #### Arrays
 
