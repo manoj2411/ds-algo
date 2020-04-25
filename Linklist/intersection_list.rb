@@ -1,6 +1,5 @@
 Node = Struct.new(:key, :next)
 
-
 class LinkList
 
   attr_accessor :head, :tail
@@ -37,8 +36,7 @@ class LinkList
   def self.intersection_list(list1, list2)
     curr1 = list1.head
     curr2 = list2.head
-    head = nil
-    tail = nil
+
     list = LinkList.new
     while (curr1 != nil && curr2 != nil)
       if curr1.key == curr2.key
@@ -51,7 +49,7 @@ class LinkList
         curr2 = curr2.next
       end
     end
-    return list
+    list
   end
 
 end

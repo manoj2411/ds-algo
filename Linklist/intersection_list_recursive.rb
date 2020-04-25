@@ -1,25 +1,26 @@
 Node = Struct.new(:key, :next)
 def inter_section_recur(node1, node2)
-  return nil if node1.nil? or node2.nil?
-
-  if node1.key == node2.key
+  if node1.nil? or node2.nil?
+    nil
+  elsif node1.key == node2.key
     node = Node.new(node2.key)
     node.next = inter_section_recur(node1.next, node2.next)
-    return node
+    node
   elsif node1.key < node2.key
-    return inter_section_recur(node1.next, node2)
+    inter_section_recur(node1.next, node2)
   else
-    return inter_section_recur(node1, node2.next)
+    inter_section_recur(node1, node2.next)
   end
 end
 
 def print_list(head)
   curr = head
-  print "\nList: "
+  print "List: "
   while curr != nil
     print "#{curr.key} "
     curr = curr.next
   end
+  puts
 end
 
 head1 = Node.new(1)
