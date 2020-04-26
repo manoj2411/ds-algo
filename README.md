@@ -67,6 +67,11 @@ Playground for popular algorithms and data-structures problems.
 
 * Remove loop in Linked List ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/remove_loop.rb))
 
+* Intersection of two Sorted Linked Lists ([ref](https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/))
+  * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/intersection_list.rb)
+  * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/intersection_list_recursive.rb)
+
+
 #### Tree
 
 * Maximum width of a binary tree. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_width_of_tree.rb))
