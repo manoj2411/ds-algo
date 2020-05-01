@@ -96,6 +96,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Double Tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/double_tree.rb))
 
+* Cousins in Binary Tree ([ref](https://leetcode.com/problems/cousins-in-binary-tree/)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_cousins.rb)
+
 
 #### String
 
