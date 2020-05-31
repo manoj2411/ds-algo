@@ -57,8 +57,8 @@ Playground for popular algorithms and data-structures problems.
 * Merge two sorted linked lists such that merged list is in reverse order. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_reverse.rb))
 
 * Merge two sorted lists (in-place).
-  * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_in_place_iterative.rb)
-  * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_recurr.rb)
+  * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_in_place_iterative.rb)
+  * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_in_place_recurr.rb)
 
 * Sort a linked list of 0s, 1s and 2s by changing links ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/sort_012.rb))
 
