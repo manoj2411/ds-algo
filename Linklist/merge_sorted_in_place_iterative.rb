@@ -1,6 +1,8 @@
 Node = Struct.new(:item, :next)
 
 # Without using dummy node/extra space
+
+
 def merge_inplace(list_a, list_b)
   if list_b.nil?
     return list_a
@@ -67,24 +69,19 @@ head2.next = Node.new(22)
 #  = Alternate approach =
 #  ======================
 
-def merge_util(list_a, list_b)
-  curr = list_a
-  _next = curr.next
-
-  while _next && list_b
-    if _next.item <= list_b.item
-      curr = curr.next
-      _next = curr.next
+def merge_util(result, other)
+  while result.next && other
+    if other.item > result.next.item
+      result = result.next
     else
-      curr.next = list_b
-      list_b = list_b.next
-      curr = curr.next
-      curr.next = _next
+      tmp = result.next
+      result.next = other
+      other = other.next
+      result = result.next
+      result.next = tmp
     end
   end
-
-  curr.next = list_b if list_b
-  list_a
+  result.next = other if other
 end
 
 
@@ -95,12 +92,14 @@ def merge(list_a, list_b)
     list_a
   elsif list_a.item <= list_b.item
     merge_util(list_a, list_b)
+    list_a
   else
     merge_util(list_b, list_a)
+    list_b
   end
 end
 
-result = merge(head1, head2)
+new_head = merge(head1, head2)
 
 puts "Printing Result"
-print_list(result)
+print_list(new_head)
