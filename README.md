@@ -14,7 +14,9 @@ Playground for popular algorithms and data-structures problems.
 
 #### Arrays
 
-* Binary search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/binary_search.rb  ))
+* Binary search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/binary_search.rb))
+
+* Ternary Search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/ternary_search.py))
 
 * Subarray with given sum, non-negative numbers. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/subarray_for_sum_non-nag.rb))
 

@@ -1,5 +1,4 @@
 def tsearch(lst, low, high, key):
-    #Code here
     if high >= low :
         mid1 = low + int((high - low) / 3)
         mid2 = mid1 + int((high - low) / 3)
