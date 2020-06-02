@@ -141,3 +141,8 @@ Playground for popular algorithms and data-structures problems.
 #### Advance Data Structures
 
 * **Trie** operations with prefix search i.e. `insert`, `search`, `starts_with` ([Solution](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/trie_with_prefix.rb))
+
+#### Graphs
+
+* **Making Change** Given an amount and coins, write a function to compute the minimum number of coins required to make that amount of change.
+  * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/make_coin_change.rb)
