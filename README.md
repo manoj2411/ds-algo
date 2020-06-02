@@ -91,7 +91,7 @@ Playground for popular algorithms and data-structures problems.
 
 * **Diameter of Binary Tree** : Diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/diameter-binary-tree.rb))
 
-* Convert a Binary Tree into its Mirror Tree ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/mirror_tree.rb))
+* Convert a Binary Tree into its Mirror Tree. Also known as **[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)** ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/mirror_tree.rb))
 
 * Root to leaf path sum equal to a given number ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/has_path_sum.rb))
 
