@@ -101,6 +101,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Cousins in Binary Tree ([ref](https://leetcode.com/problems/cousins-in-binary-tree/)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_cousins.rb)
 
+* Maximum Path Sum from one leaf node to another of a binary tree. ([ref](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_path_sum.rb)
+
 
 #### String
 
