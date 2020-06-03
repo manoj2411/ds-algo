@@ -146,3 +146,4 @@ Playground for popular algorithms and data-structures problems.
 
 * **Making Change** Given an amount and coins, write a function to compute the minimum number of coins required to make that amount of change.
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/make_coin_change_recursive.rb)
+  * [bottom-up solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/make_coin_change_iterative.rb)
