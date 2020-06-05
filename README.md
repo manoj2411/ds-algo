@@ -149,3 +149,7 @@ Playground for popular algorithms and data-structures problems.
 * **Making Change** Given an amount and coins, write a function to compute the minimum number of coins required to make that amount of change.
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/make_coin_change_recursive.rb)
   * [bottom-up solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/make_coin_change_iterative.rb)
+
+* **0-1 Knapsack** You have a knapsack which can carry a certain maximum amount of weight and you have a set of items with their own weight and a monetary value. You can only carry what fits in the knapsack. Find the maximize amount of money that you can earn.
+  * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/knapsack_recursive.rb)
+  * [bottom-up solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/knapsack_iterative.rb)
