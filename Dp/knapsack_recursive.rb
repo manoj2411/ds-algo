@@ -1,5 +1,4 @@
 # find max value with the given weight we can carry. Items quantity is 1.
-
 def knapsack(items, weight)
   util(items, weight, 0, {})
 end
