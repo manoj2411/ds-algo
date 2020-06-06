@@ -5,8 +5,8 @@ def target_sum(nums, target)
 end
 
 def helper(a, target, sum, i)
-  if i == a.length - 1
-    (sum + a[i] == target || sum - a[i] == target) ? 1 : 0
+  if i == a.length
+    sum == target ? 1 : 0
   else
     helper(a, target, sum + a[i], i + 1) +
     helper(a, target, sum - a[i], i + 1)
