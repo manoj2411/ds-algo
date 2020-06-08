@@ -144,7 +144,7 @@ Playground for popular algorithms and data-structures problems.
 
 * **Trie** operations with prefix search i.e. `insert`, `search`, `starts_with` ([Solution](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/trie_with_prefix.rb))
 
-#### Graphs
+#### DP
 
 * **Making Change** Given an amount and coins, write a function to compute the minimum number of coins required to make that amount of change.
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/make_coin_change_recursive.rb)
@@ -153,3 +153,6 @@ Playground for popular algorithms and data-structures problems.
 * **0-1 Knapsack** You have a knapsack which can carry a certain maximum amount of weight and you have a set of items with their own weight and a monetary value. You can only carry what fits in the knapsack. Find the maximize amount of money that you can earn.
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/knapsack_recursive.rb)
   * [bottom-up solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/knapsack_iterative.rb)
+
+* **Paint House III** Given an array `houses`, an `m * n` matrix cost and an integer `target`, return minimum cost of painting all the remaining houses in such a way that there are exactly `target` neighborhoods, if not possible return `-1` ([ref](https://leetcode.com/problems/paint-house-iii/))
+  * [recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii.rb)
