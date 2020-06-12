@@ -158,3 +158,7 @@ Playground for popular algorithms and data-structures problems.
 
 * **Paint House III** Given an array `houses`, an `m * n` matrix cost and an integer `target`, return minimum cost of painting all the remaining houses in such a way that there are exactly `target` neighborhoods, if not possible return `-1` ([ref](https://leetcode.com/problems/paint-house-iii/))
   * [recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii.rb)
+
+#### Misc
+
+* **Insert Delete GetRandom O(1) or Randomized Set** Design a data structure that supports all the operations in constant time O(1) [ref](https://leetcode.com/problems/insert-delete-getrandom-o1/). [Solution](https://github.com/manoj2411/ds-algo/blob/master/misc/randomized_set.rb)
