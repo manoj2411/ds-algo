@@ -38,6 +38,7 @@ def util(houses, cost, m, n, target, i, cc, grp)
 
 end
 
+
 houses = [0,0,0,0,0]; cost = [[1,10],[10,1],[10,1],[1,10],[5,1]]; m = 5; n = 2; target = 3
 puts min_cost(houses, cost, m, n, target) # 9
 
