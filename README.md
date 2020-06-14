@@ -158,6 +158,7 @@ Playground for popular algorithms and data-structures problems.
 
 * **Paint House III** Given an array `houses`, an `m * n` matrix cost and an integer `target`, return minimum cost of painting all the remaining houses in such a way that there are exactly `target` neighborhoods, if not possible return `-1` ([ref](https://leetcode.com/problems/paint-house-iii/))
   * [recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii_brute_force.rb) brute force
+  * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii_top_down.rb)
 
 
 #### Misc
