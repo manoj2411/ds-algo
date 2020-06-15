@@ -12,6 +12,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Reorder Routes to Make All Paths Lead to the City Zero, [ref](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/). ([Solution](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/discuss/662080/O(n)-Clean-solution-in-Ruby-BFS-faster-than-100.00-of-Ruby-online-submissions))
 
+* **Cheapest Flights Within K Stops** [ref](https://leetcode.com/problems/cheapest-flights-within-k-stops/). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Graphs/cheapest_flights_within_k_stops.rb))
+
 #### Arrays
 
 * Binary search ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/binary_search.rb))
