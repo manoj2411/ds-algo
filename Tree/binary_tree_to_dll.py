@@ -6,7 +6,6 @@ class Node:
         self.right = None
 
 def bToDLL(root):
-    # do Code here
     dummy = Node("dummy")
     prev = [dummy]
     inorder(root, prev)

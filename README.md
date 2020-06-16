@@ -107,6 +107,10 @@ Playground for popular algorithms and data-structures problems.
 
 * Maximum Path Sum from one leaf node to another of a binary tree. ([ref](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_path_sum.rb)
 
+* Convert a given Binary Tree to Doubly Linked List in-place, [ref](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1)
+  * [solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Tree/binary_tree_to_dll.rb)
+  * [solution in python](https://github.com/manoj2411/ds-algo/blob/master/Tree/binary_tree_to_dll.py)
+
 
 #### String
 
