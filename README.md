@@ -10,9 +10,12 @@ Playground for popular algorithms and data-structures problems.
 
 * **Course Schedule** There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses-1`. There are course prerequisites like [0,1], meaning to take `0` you have to `1` first. Find out if it is possible for you to finish all courses? [Ref](https://leetcode.com/problems/course-schedule/). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Graphs/course_schedule.rb))
 
-* Reorder Routes to Make All Paths Lead to the City Zero, [ref](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/). ([Solution](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/discuss/662080/O(n)-Clean-solution-in-Ruby-BFS-faster-than-100.00-of-Ruby-online-submissions))
+* Reorder Routes to Make All Paths Lead to the City Zero, [ref](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/). ([Solution](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/discuss/662080/on-clean-solution-in-ruby-bfs-faster-than-100-submissions))
 
 * **Cheapest Flights Within K Stops** [ref](https://leetcode.com/problems/cheapest-flights-within-k-stops/). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Graphs/cheapest_flights_within_k_stops.rb))
+
+* **Surrounded Regions** Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'. A region is captured by flipping all 'O's into 'X's in that surrounded region, [ref](https://leetcode.com/problems/surrounded-regions/). ([Solution](https://leetcode.com/problems/surrounded-regions/discuss/692397/ruby-clean-solution-bfs-faster-than-100-submissions))
+
 
 #### Arrays
 
