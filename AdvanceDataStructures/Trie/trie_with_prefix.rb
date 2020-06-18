@@ -7,9 +7,8 @@ class Trie
 
     def insert(word)
         curr = @store
-        for i in 0...(word.length)
-            chr = word[i]
-            curr[chr] = curr[chr] || {}
+        word.each_char do |chr|
+            curr[chr] = {} unless curr[chr]
             curr = curr[chr]
         end
         curr[EOW] = true
@@ -17,9 +16,9 @@ class Trie
 
     def search(word, check_eow = true)
         curr = @store
-        for i in 0...(word.length)
-            return false if !curr.key?(word[i])
-            curr = curr[word[i]]
+        word.each_char do |c|
+            curr = curr[c]
+            return false if curr.nil?
         end
         check_eow ? curr.key?(EOW) : true
     end

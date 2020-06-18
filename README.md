@@ -153,7 +153,8 @@ Playground for popular algorithms and data-structures problems.
 
 #### Advance Data Structures
 
-* **Trie** operations with prefix search i.e. `insert`, `search`, `starts_with` ([Solution](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/trie_with_prefix.rb))
+* **Trie** operations with prefix search i.e. `insert`, `search`, `starts_with`, [ref](https://leetcode.com/problems/implement-trie-prefix-tree/). ([Solution](https://leetcode.com/problems/implement-trie-prefix-tree/discuss/693234/Ruby-or-Clean-solution))
+
 
 #### DP
 
