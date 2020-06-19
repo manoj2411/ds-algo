@@ -55,6 +55,8 @@ Playground for popular algorithms and data-structures problems.
 
 * **Search Insert Position** Given a sorted array and a target value, return the index if the target is found otherwise return the index where it would be if it were inserted in order [ref](https://leetcode.com/problems/search-insert-position/). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/search_insert_position.rb)
 
+* **H-Index II** Given an array of citations sorted in ascending order of a researcher, write a function to compute the [researcher's h-index](https://en.wikipedia.org/wiki/H-index), [ref](https://leetcode.com/problems/h-index-ii/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Array/h_index_ii.rb))
+
 
 
 #### Linked List
