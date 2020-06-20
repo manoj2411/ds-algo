@@ -146,6 +146,8 @@ Playground for popular algorithms and data-structures problems.
 
 * **Min Stack** : Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/min_stack.rb))
 
+* **Infix to Postfix** [ref](https://practice.geeksforgeeks.org/problems/infix-to-postfix/0). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/infix_to_postfix.rb))
+
 
 #### Matrix / 2D
 

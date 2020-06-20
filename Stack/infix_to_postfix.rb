@@ -1,6 +1,4 @@
-require "pry"
-
-PRECIDENCE ={
+OPERATORS = {
   "^" => 3,
   "/" => 2,
   "*" => 2,
@@ -9,34 +7,42 @@ PRECIDENCE ={
   "(" => 0
 }
 
-OPERATORS = PRECIDENCE.keys
+
 def convert_infix_to_postfix(str)
   stack = []
-
+  res = []
   str.each_char do |chr|
+
     if chr == "("
       stack.push(chr)
     elsif chr == ")"
       while stack.last != "("
-        print stack.pop
+        res << stack.pop
       end
       stack.pop
-    elsif OPERATORS.find {|e| e == chr}
+    elsif OPERATORS.key?(chr)
       # push to stack
-      while !stack.empty? && PRECIDENCE[stack.last] >= PRECIDENCE[chr]
-        print stack.pop
+      while !stack.empty? && OPERATORS[stack.last] >= OPERATORS[chr]
+        res << stack.pop
       end
       stack.push(chr)
     else
-      print chr
+      res << chr
     end
   end
 
   while !stack.empty?
-    print stack.pop
+    res << stack.pop
   end
+  res.join
 end
 
+
 str = "a+b*c"
+puts convert_infix_to_postfix(str)
+
+puts convert_infix_to_postfix('A*(B+C)/D')
+
 str = "a+b*(c^d-e)^(f+g*h)-i"
-convert_infix_to_postfix(str)
+puts convert_infix_to_postfix(str)
+
