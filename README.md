@@ -16,6 +16,8 @@ Playground for popular algorithms and data-structures problems.
 
 * **Surrounded Regions** Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'. A region is captured by flipping all 'O's into 'X's in that surrounded region, [ref](https://leetcode.com/problems/surrounded-regions/). ([Solution](https://leetcode.com/problems/surrounded-regions/discuss/692397/ruby-clean-solution-bfs-faster-than-100-submissions))
 
+* Find shortest distances between every pair of vertices of weighted directed Graph - Floyd–Warshall's Algorithm, [ref](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Graphs/shortest_distances_floyd_warshall.rb))
+
 
 #### Arrays
 
