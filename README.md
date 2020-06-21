@@ -135,6 +135,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Find All Anagrams in a String ([ref](https://leetcode.com/problems/find-all-anagrams-in-a-string/)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/String/find_anagrams_in_string.rb)
 
+* **Making File Names Unique** Given a list of names, create `n` folders in your file system such that, create a folder for every name. Since two files cannot have the same name, if you enter a folder name which is previously used, the system will have a suffix addition to its name in the form of (k), where, k is the smallest positive integer such that the obtained name remains unique, [ref](https://leetcode.com/problems/making-file-names-unique/). ([solution](https://leetcode.com/problems/making-file-names-unique/discuss/698020/Ruby-or-super-easy-solution-or-faster-than-100-submissions))
+
 
 #### Sortings
 
