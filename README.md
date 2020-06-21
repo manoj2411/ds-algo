@@ -59,6 +59,9 @@ Playground for popular algorithms and data-structures problems.
 
 * **H-Index II** Given an array of citations sorted in ascending order of a researcher, write a function to compute the [researcher's h-index](https://en.wikipedia.org/wiki/H-index), [ref](https://leetcode.com/problems/h-index-ii/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Array/h_index_ii.rb))
 
+* **Avoid Flood in The City** [full details](https://leetcode.com/problems/avoid-flood-in-the-city/)
+  * [Solution exceeds time for large input](https://github.com/manoj2411/ds-algo/blob/master/Array/avoid_flood.rb)
+
 
 
 #### Linked List
