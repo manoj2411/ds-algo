@@ -121,6 +121,7 @@ Playground for popular algorithms and data-structures problems.
   * [solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Tree/binary_tree_to_dll.rb)
   * [solution in python](https://github.com/manoj2411/ds-algo/blob/master/Tree/binary_tree_to_dll.py)
 
+* Given a **complete binary tree**, count the number of nodes, [ref](https://leetcode.com/problems/count-complete-tree-nodes/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/count_complete_tree_nodes.rb))
 
 #### String
 
