@@ -1,23 +1,27 @@
 OPERATORS = %w{+ - / * ^}
+
 def evaluate_postfix_expression(str)
   stack = []
 
-  str.each_char do |char|
-    if OPERATORS.include?(char)
-      operand2 = stack.pop
-      operand1 = stack.pop
-      result = if char == "^"
-                  operand1 ** operand2
-                else
-                  operand1.send(char, operand2)
-                end
-      stack.push result
+  str.split(' ').each do |token|
+    if OPERATORS.include?(token)
+        operand2 = stack.pop
+        operand1 = stack.pop
+        result = token == "^" ? (operand1 ** operand2) : operand1.send(token, operand2)
+        stack.push result
     else
-      stack.push char.to_i
+        stack.push token.to_i
     end
   end
-  return stack.pop
+
+  stack.pop
 end
 
-str = "231*+9-"
-puts evaluate_postfix_expression(str)
+for exp in [
+    "2 3 1 * + 9 -", # -4
+    '1 2 3 + * 8 -', # -3
+    '100 200 + 2 / 5 * 7 +', # 757
+]
+    puts "Expression: #{exp}"
+    puts "#{evaluate_postfix_expression(exp)}"
+end
