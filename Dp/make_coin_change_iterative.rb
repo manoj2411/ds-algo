@@ -1,6 +1,6 @@
 def make_change(coins, sum)
     cache = Array.new(sum + 1)
-    cache[0] = 0 # soting base result; no coins when sum 0
+    cache[0] = 0 # storing base result; no coins when sum 0
 
     for curr_sum in 1..sum
         min_coins = Float::INFINITY
