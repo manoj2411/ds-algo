@@ -76,6 +76,11 @@ Playground for popular algorithms and data-structures problems.
   * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_in_place_iterative.rb)
   * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/merge_sorted_in_place_recurr.rb)
 
+* Merge k sorted lists or Flattening a Linked List, [ref](https://www.geeksforgeeks.org/flattening-a-linked-list/)
+  * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_k_sorted.rb)
+  * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_k_sorted.py)
+
+
 * Sort a linked list of 0s, 1s and 2s by changing links ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/sort_012.rb))
 
 * Add two numbers represented by linked lists, digits are stored in reverse order and each node contain a single digit. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/add_numbers.rb))
