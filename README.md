@@ -196,3 +196,5 @@ Playground for popular algorithms and data-structures problems.
 * **Insert Delete GetRandom O(1) or Randomized Set** Design a data structure that supports all the operations in constant time O(1) [ref](https://leetcode.com/problems/insert-delete-getrandom-o1/). [Solution](https://github.com/manoj2411/ds-algo/blob/master/misc/randomized_set.rb)
 
 * Given a list of `coordinates`, find if all of them are part of a same straign line. [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/check_straight_line.rb)
+
+* **Ugly Number II** Program to find `nth` ugly number i.e. a positive number whose prime factors only include `2, 3, 5`, [ref](https://leetcode.com/problems/ugly-number-ii/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Heap/ugly_number_ii.rb))
