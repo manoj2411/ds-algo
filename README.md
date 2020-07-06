@@ -191,6 +191,10 @@ Playground for popular algorithms and data-structures problems.
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii_top_down.rb)
 
 
+#### Bit Manipulation
+
+* The **Hamming distance** between two integers is the number of positions at which the corresponding bits are different, [ref](https://leetcode.com/problems/hamming-distance/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/BitManioulation/hamming_distance.rb))
+
 #### Misc
 
 * **Insert Delete GetRandom O(1) or Randomized Set** Design a data structure that supports all the operations in constant time O(1) [ref](https://leetcode.com/problems/insert-delete-getrandom-o1/). [Solution](https://github.com/manoj2411/ds-algo/blob/master/misc/randomized_set.rb)
