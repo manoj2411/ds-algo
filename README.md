@@ -130,6 +130,9 @@ Playground for popular algorithms and data-structures problems.
 
 * Given a binary tree containing digits from `0-9 `only, each root-to-leaf path could represent a number, ex: path `1->2->3` represents the number 123. Find the total sum of all **root-to-leaf numbers** [ref](https://leetcode.com/problems/sum-root-to-leaf-numbers/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/sum_root_leaf_numbers.rb))
 
+* Maximum difference between node and its ancestor in Binary Tree, [ref](https://practice.geeksforgeeks.org/problems/maximum-difference-between-node-and-its-ancestor/1). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_difference.py))
+
+
 #### String
 
 * **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
