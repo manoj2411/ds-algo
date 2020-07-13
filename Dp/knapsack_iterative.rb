@@ -25,3 +25,7 @@ end
 items = [{w:2, v:6}, {w:2, v:10}, {w:3, v:12}]
 max_weight = 5
 puts knapsack(items, max_weight) # 22
+
+items = [{w:1, v:1}, {w:3, v:4}, {w:4, v:5}, {w:5, v:7}]
+max_weight = 7
+puts knapsack(items, max_weight) # 9
