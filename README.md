@@ -215,3 +215,5 @@ valid_path.rb
 * **Subsets or Powerset** for given set of distinct integers, [ref](https://leetcode.com/problems/subsets/)
   * [cascade solution](https://github.com/manoj2411/ds-algo/blob/master/Array/subsets_powerset.rb)
   * [backtracking solution](https://github.com/manoj2411/ds-algo/blob/master/backtracking/subsets_powerset.rb)
+
+* Angle Between Hands of a Clock, [ref](https://leetcode.com/problems/angle-between-hands-of-a-clock/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/misc/angle_clock.rb))
