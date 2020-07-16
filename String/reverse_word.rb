@@ -1,3 +1,6 @@
+# reverse in palce, without using extra space
+#
+
 DELIMETER = ' '
 
 def reverse_words(line)
@@ -25,10 +28,16 @@ def reverse(str, left, right)
   end
 end
 
-['I love tea', 'geeks quiz practice code',
- 'getting good at coding needs a lot of practice'].each do |line|
+[
+  'I love tea',
+  'getting good at coding needs a lot of practice',
+  "    ",
+  "  a  ",
+  "  hello world!  ",
+].each do |line|
 
-  puts "String: #{line}"
+  puts "String: \"#{line}\""
   reverse_words(line)
-  puts "Reversed: #{line}"
+  puts "=> \"#{line}\""
+  puts
 end
