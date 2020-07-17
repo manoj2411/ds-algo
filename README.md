@@ -62,6 +62,8 @@ Playground for popular algorithms and data-structures problems.
 * **Avoid Flood in The City** [full details](https://leetcode.com/problems/avoid-flood-in-the-city/)
   * [Solution exceeds time for large input](https://github.com/manoj2411/ds-algo/blob/master/Array/avoid_flood.rb)
 
+* [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Array/largest_divisible_subset.rb))
+
 
 
 #### Linked List
