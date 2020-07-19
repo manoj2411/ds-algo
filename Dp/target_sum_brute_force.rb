@@ -1,4 +1,5 @@
-# Given an array of integers and a target value. Find the number of ways that you can add and subtract the values in nums to add up to T.
+# Given an array of integers and a target value. Find the number of ways that you
+# can add and subtract the values in nums to add up to T.
 #
 def target_sum(nums, target)
   helper(nums, target, 0, 0)

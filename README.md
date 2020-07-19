@@ -205,6 +205,10 @@ valid_path.rb
   * [recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii_brute_force.rb) brute force
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/paint_house_iii_top_down.rb)
 
+* **Target Sum** Given a list of non-negative numbers and a target, S. Find the number of ways that we can `add` and `subtract` the values in `nums` to add up to T [(ref)](https://leetcode.com/problems/target-sum/).
+  * [brute force solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/target_sum_brute_force.rb)
+  * [top down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/target_sum_top_down.rb)
+
 
 #### Bit Manipulation
 
