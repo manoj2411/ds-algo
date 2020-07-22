@@ -15,7 +15,7 @@ def pp(node)
 end
 
 def reverse_in_group(head, k)
-  prev = _next = nil
+  prev = nil
   curr = head
 
   i = 0
@@ -28,27 +28,31 @@ def reverse_in_group(head, k)
     i += 1
   end
 
-  if _next
-    head.next = reverse_in_group(_next, k)
-  end
+
+  head.next = reverse_in_group(curr, k) if curr
+
 
   prev
 
 end
 
 
-head = Node.new(1)
-head.next = Node.new 2
-head.next.next = Node.new 3
-head.next.next.next = Node.new 4
-head.next.next.next.next = Node.new 5
-head.next.next.next.next.next = Node.new 6
-head.next.next.next.next.next.next = Node.new 7
-head.next.next.next.next.next.next.next = Node.new 8
+[1,2,3,4].each do |k|
 
-puts "Original list: "
-pp head
-head = reverse_in_group head, 3
-puts "Reversed list:"
-pp head
+  head = Node.new(1)
+  head.next = Node.new 2
+  head.next.next = Node.new 3
+  head.next.next.next = Node.new 4
+  head.next.next.next.next = Node.new 5
+  head.next.next.next.next.next = Node.new 6
+  head.next.next.next.next.next.next = Node.new 7
+  head.next.next.next.next.next.next.next = Node.new 8
 
+
+  puts "Original: "
+  pp head
+  head = reverse_in_group head, k
+  puts "Reversed in group of #{k}"
+  pp head
+
+end

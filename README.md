@@ -98,6 +98,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Flatten a Multilevel Doubly Linked List, [ref](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_multi_level_doubly.rb))
 
+* Reverse a Linked List in groups of given size. ([solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/reverse_in_group.rb))
+
 
 #### Tree
 
