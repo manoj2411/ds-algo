@@ -211,6 +211,10 @@ valid_path.rb
   * [brute force solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/target_sum_brute_force.rb)
   * [top down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/target_sum_top_down.rb)
 
+* **Coin Change 2** Find number of combinations that make up that amount, assume that you have infinite coins ([ref](https://leetcode.com/problems/coin-change-2/)).
+  * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/coin_change_2_top_down.rb)
+
+
 
 #### Bit Manipulation
 
