@@ -214,7 +214,7 @@ valid_path.rb
 * **Coin Change 2** Find number of combinations that make up that amount, assume that you have infinite coins ([ref](https://leetcode.com/problems/coin-change-2/)).
   * [top-down solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/coin_change_2_top_down.rb)
 
-
+* Find maximum possible stolen value from houses ([ref](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/ )). [solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/max_possible_stolen_value_houses.py)
 
 #### Bit Manipulation
 
