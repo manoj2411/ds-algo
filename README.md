@@ -216,6 +216,9 @@ valid_path.rb
 
 * Find maximum possible stolen value from houses ([ref](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/ )). [solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/max_possible_stolen_value_houses.py)
 
+* **Word Break II** Given a non-empty string `s` and a dictionary wordDict, add spaces in `s` to construct a sentence where each word is a valid dictionary word. Return all such possible sentences, [ref](https://leetcode.com/problems/word-break-ii/). [solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/word_break_ii.rb)
+
+
 #### Bit Manipulation
 
 * The **Hamming distance** between two integers is the number of positions at which the corresponding bits are different, [ref](https://leetcode.com/problems/hamming-distance/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/BitManioulation/hamming_distance.rb))
