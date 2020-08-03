@@ -1,24 +1,34 @@
 require 'pry'
 
-Node = Struct.new(:key, :next, :child)
+Node = Struct.new(:key, :next, :child) do
+  def pp
+    curr = self
+    while curr
+      print "#{curr.key} "
+      curr = curr.next
+    end
+    puts
+  end
+
+end
 
 def flatten(head)
-  curr = head
-  tail = curr
+  tail = curr = head
 
-  while curr != nil
+  while curr
 
     if curr.child
-      while tail.next != nil
+      while tail.next
         tail = tail.next
       end
+
       tail.next = curr.child
     end
 
     curr = curr.next
   end
 
-  return head
+  head
 end
 
 
@@ -43,16 +53,5 @@ seven.child.child.next = Node.new(8)
 seven.child.child.child = Node.new(19)
 seven.child.child.child.next = Node.new(15)
 
-h1 = flatten(head)
-
-def _print(head)
-  curr = head
-  while curr != nil
-    print "#{curr.key} "
-    curr = curr.next
-  end
-  puts
-end
-
-_print(h1)
-
+flatten(head).pp
+# 10 > 5 > 12 > 7 > 11 > 4 > 20 > 13 > 17 > 6 > 2 > 16 > 9 > 8 > 3 > 19 > 15
