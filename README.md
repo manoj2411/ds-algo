@@ -243,3 +243,5 @@ valid_path.rb
   * [backtracking solution](https://github.com/manoj2411/ds-algo/blob/master/backtracking/subsets_powerset.rb)
 
 * Angle Between Hands of a Clock, [ref](https://leetcode.com/problems/angle-between-hands-of-a-clock/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/misc/angle_clock.rb))
+
+* Find all prime factors of a given number in increasing order. [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/prime_factors.py)
