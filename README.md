@@ -83,7 +83,6 @@ Playground for popular algorithms and data-structures problems.
   * [Recursive solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_k_sorted.rb)
   * [Iterative solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_k_sorted.py)
 
-
 * Sort a linked list of 0s, 1s and 2s by changing links ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/sort_012.rb))
 
 * Add two numbers represented by linked lists, digits are stored in reverse order and each node contain a single digit. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/add_numbers.rb))
@@ -100,6 +99,7 @@ Playground for popular algorithms and data-structures problems.
 
 * Reverse a Linked List in groups of given size. ([solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/reverse_in_group.rb))
 
+* Flatten a multilevel linked list in way that all nodes at first level should come first, then nodes of second level, and so on. ([ref](https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_multilevel.rb)
 
 #### Tree
 
