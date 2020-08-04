@@ -141,6 +141,8 @@ valid_path.rb
 
 * Maximum difference between node and its ancestor in Binary Tree, [ref](https://practice.geeksforgeeks.org/problems/maximum-difference-between-node-and-its-ancestor/1). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_difference.py))
 
+* Lowest Common Ancestor in a BST, assuming both the values exist in the tree. [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/lca_bst.py)
+
 
 #### String
 
