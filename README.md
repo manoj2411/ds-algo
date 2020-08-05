@@ -190,9 +190,13 @@ valid_path.rb
 
 * Count square submatrices with all ones ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/count_squares.rb))
 
+
+
 #### Advance Data Structures
 
 * **Trie** operations with prefix search i.e. `insert`, `search`, `starts_with`, [ref](https://leetcode.com/problems/implement-trie-prefix-tree/). ([Solution](https://leetcode.com/problems/implement-trie-prefix-tree/discuss/693234/Ruby-or-Clean-solution))
+
+* Add and Search Word - Data structure design, ([ref](https://leetcode.com/problems/add-and-search-word-data-structure-design/)). [solutuon](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/add_and_search_word.rb)
 
 
 #### DP
