@@ -143,6 +143,8 @@ valid_path.rb
 
 * Lowest Common Ancestor in a BST, assuming both the values exist in the tree. [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/lca_bst.py)
 
+*  Vertical Order Traversal of a Binary Tree, ([ref](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/vertical_order_traversal.rb)
+
 
 #### String
 
