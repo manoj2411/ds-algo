@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/path-sum-iii/
+
 Node = Struct.new(:val, :left, :right)
 
 def path_sum(root, sum)
