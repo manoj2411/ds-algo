@@ -66,6 +66,10 @@ Playground for popular algorithms and data-structures problems.
 
 * [**Top K Frequent Elements**](https://leetcode.com/problems/top-k-frequent-elements/) - [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/top_k_frequent.rb)
 
+* Given a sorted and rotated array, find if there is a pair with a given sum ([ref](https://www.geeksforgeeks.org/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/))
+  * [solution in `.py`](https://github.com/manoj2411/ds-algo/blob/master/Array/sum_pair_in_sorted_rotated_arr.py)
+  * [solution in `.rb`, optimised](https://github.com/manoj2411/ds-algo/blob/master/Array/pair_sum_in_sorted_rotated_arr.rb)
+
 
 #### Linked List
 
