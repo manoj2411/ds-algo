@@ -259,3 +259,5 @@ valid_path.rb
 * Angle Between Hands of a Clock, [ref](https://leetcode.com/problems/angle-between-hands-of-a-clock/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/misc/angle_clock.rb))
 
 * Find all prime factors of a given number in increasing order. [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/prime_factors.py)
+
+* Given a non-negative index k where 0 ≤ k ≤ 33, return the kth index row of the Pascal's triangle ([ref](https://leetcode.com/problems/pascals-triangle-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/pascals_triangle_ii.rb)
