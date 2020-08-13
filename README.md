@@ -206,6 +206,7 @@ valid_path.rb
 
 * Add and Search Word - Data structure design, ([ref](https://leetcode.com/problems/add-and-search-word-data-structure-design/)). [solutuon](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/add_and_search_word.rb)
 
+* Auto-complete feature using Trie. [solution](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/auto_complete.rb)
 
 #### DP
 
