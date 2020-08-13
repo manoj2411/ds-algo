@@ -1,6 +1,6 @@
-TrieNode = Struct.new(:children, :end_of_word) do
-  def initialize(children = {}, end_of_word = false)
-    super(children, end_of_word)
+TrieNode = Struct.new(:child_nodes, :end_of_word) do
+  def initialize(child_nodes = {}, end_of_word = false)
+    super(child_nodes, end_of_word)
   end
 end
 
@@ -14,44 +14,39 @@ class Trie
   def insert(str)
     curr = root
     str.each_char do |chr|
-      if curr.children[chr] == nil
-        curr.children[chr] = TrieNode.new
-      end
-      curr = curr.children[chr]
+        curr.child_nodes[chr] ||= TrieNode.new
+        curr = curr.child_nodes[chr]
     end
     curr.end_of_word = true
   end
 
-  def auto_complete(str)
-    if str.empty?
-      return ['No result']
-    end
+  def search_prefix(str)
     curr = root
-    str.length.times do |i|
-      chr = str[i]
-      if curr.children[chr] == nil
-        return ['No result']
-      end
-      curr = curr.children[chr]
+
+    str.each_char do |chr|
+      curr = curr.child_nodes[chr]
+      return [] if curr == nil
     end
 
-    result = []
-    fetch_matched(curr, str, result)
-    result
+    all_words(curr, str)
   end
 
-  def fetch_matched(curr, str, res)
-    if curr == nil
-      return
+  def all_words(node, str)
+    result = []
+    que = Queue.new
+    que.enq([node, str])
+
+    while not que.empty?
+      curr, s = que.deq
+
+      result.push s if curr.end_of_word
+
+      curr.child_nodes.each_pair do |chr, child_node|
+        que.enq([child_node, s + chr])
+      end
     end
 
-    if curr.end_of_word == true
-      res.push str
-    end
-
-    curr.children.each_pair do |chr, tnode|
-      fetch_matched(tnode, str + chr, res)
-    end
+    result
   end
 
 end
@@ -63,4 +58,9 @@ trie.insert('rat')
 trie.insert('ram')
 trie.insert('rama')
 
-p trie.auto_complete('ram')
+p trie.search_prefix('ram')
+p trie.search_prefix('r')
+p trie.search_prefix('room')
+p trie.search_prefix('')
+p trie.search_prefix('bat')
+
