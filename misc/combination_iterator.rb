@@ -22,15 +22,15 @@ class CombinationIterator
         def generate_next
             max = @characters.length - 1
             i = @curr.length - 1
-            j = 1
+            space = 1
             while i >= 0
                 # asking, do I have space to increase?
-                if @curr[i] <= (max - j)
+                if @curr[i] <= (max - space)
                     # yes I do have space here, so lets increase
                     @curr[i] += 1
                     break
                 end
-                j += 1
+                space += 1
                 i -= 1
             end
 
