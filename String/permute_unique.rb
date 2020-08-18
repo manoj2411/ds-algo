@@ -1,16 +1,18 @@
-def permute_util(chars, count, result, level)
-  if level == result.length
+def permute_util(chars, count, result, pos)
+  if pos == result.length
     puts result.join
     return
   end
+
   chars.each do |chr|
     next if count[chr] == 0
+
     # choose
     count[chr] -= 1
-    result[level] = chr
+    result[pos] = chr
 
     # explore
-    permute_util(chars, count, result, level + 1)
+    permute_util(chars, count, result, pos + 1)
 
     # un-choose
     count[chr] += 1
@@ -28,9 +30,14 @@ def permute(str)
   # puts chars.to_s
   # puts count.to_s
   result = Array.new(str.length)
-  level = 0
-  permute_util(chars, count, result, level)
+  pos = 0
+  permute_util(chars, count, result, pos)
 
 end
 
-permute('ABAC')
+for str in ['aab', 'ABAC']
+  puts "Str: #{str}"
+  permute(str)
+  puts
+end
+
