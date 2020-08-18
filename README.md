@@ -244,6 +244,8 @@ valid_path.rb
 
 * Word Search from a 2D board of characters, [(ref)](https://leetcode.com/problems/word-search/). [solution](https://github.com/manoj2411/ds-algo/blob/master/backtracking/word_search.rb)
 
+* Print all distinct permutations of a given string. ([solution](https://github.com/manoj2411/ds-algo/blob/master/backtracking/permute_unique.rb))
+
 
 #### Misc
 
