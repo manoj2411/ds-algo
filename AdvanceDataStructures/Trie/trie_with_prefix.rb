@@ -2,20 +2,20 @@ class Trie
     EOW = "eow".freeze
 
     def initialize()
-        @store = {}
+        @root = {}
     end
 
     def insert(word)
-        curr = @store
+        curr = @root
         word.each_char do |chr|
-            curr[chr] = {} unless curr[chr]
+            curr[chr] ||= {}
             curr = curr[chr]
         end
         curr[EOW] = true
     end
 
     def search(word, check_eow = true)
-        curr = @store
+        curr = @root
         word.each_char do |c|
             curr = curr[c]
             return false if curr.nil?
