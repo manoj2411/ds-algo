@@ -208,6 +208,9 @@ valid_path.rb
 
 * Auto-complete feature using Trie. [solution](https://github.com/manoj2411/ds-algo/blob/master/AdvanceDataStructures/Trie/auto_complete.rb)
 
+* Stream of Characters, ([details](https://leetcode.com/problems/stream-of-characters/)). [solution](https://leetcode.com/problems/stream-of-characters/discuss/808764/ruby-trie-with-reversed-words-faster-than-100-submissions)
+
+
 #### DP
 
 * **Making Change** Given an amount and coins, write a function to compute the minimum number of coins required to make that amount of change.
