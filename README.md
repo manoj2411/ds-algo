@@ -269,3 +269,6 @@ valid_path.rb
 * Given a non-negative index k where 0 ≤ k ≤ 33, return the kth index row of the Pascal's triangle ([ref](https://leetcode.com/problems/pascals-triangle-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/pascals_triangle_ii.rb)
 
 * Iterator for Combination, [problem details](https://leetcode.com/problems/iterator-for-combination/). [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/combination_iterator.rb)
+
+* Find Right Interval ([problem details](https://leetcode.com/problems/find-right-interval/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/FindRightInterval.java)
+
