@@ -176,7 +176,7 @@ valid_path.rb
   * [manage extra spaces](https://leetcode.com/problems/reverse-words-in-a-string/) : [solution](https://github.com/manoj2411/ds-algo/blob/master/String/reverse_words.rb)
   * in place : [solution](https://github.com/manoj2411/ds-algo/blob/master/String/reverse_word.rb)
 
-
+* Partition Labels : partition the given string into as many parts(groups) as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts. For example: for  string `"ababcbacadefegdehijhklij"` result would be `[9,7,8]` ([ref](https://leetcode.com/problems/partition-labels/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/String/PartitionLabels.java)
 
 #### Sortings
 
