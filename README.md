@@ -274,3 +274,7 @@ valid_path.rb
 
 * Find Right Interval ([problem details](https://leetcode.com/problems/find-right-interval/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/FindRightInterval.java)
 
+#### Leetcode
+
+* Word Pattern ([details](https://leetcode.com/problems/word-pattern/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordPattern.java)
+
