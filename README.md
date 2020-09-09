@@ -278,3 +278,4 @@ valid_path.rb
 
 * Word Pattern ([details](https://leetcode.com/problems/word-pattern/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordPattern.java)
 
+* Word Ladder ([details](https://leetcode.com/problems/word-ladder/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadder.java)
