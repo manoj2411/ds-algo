@@ -281,4 +281,7 @@ valid_path.rb
 * Word Ladder ([details](https://leetcode.com/problems/word-ladder/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadder.java)
 
 * 152 Maximum Product Subarray ([details](https://leetcode.com/problems/maximum-product-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumProductSubarray.java)
+
 * 980 Unique Paths III ([details](https://leetcode.com/problems/unique-paths-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniquePathsIII.java)
+
+* 1094 Car Pooling ([details](https://leetcode.com/problems/car-pooling/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CarPooling.java)
