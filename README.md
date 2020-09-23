@@ -200,6 +200,7 @@ valid_path.rb
 
 * Count square submatrices with all ones ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/count_squares.rb))
 
+* Island Perimeter, [ref](https://leetcode.com/problems/island-perimeter/)
 
 
 #### Advance Data Structures
@@ -285,3 +286,6 @@ valid_path.rb
 * 980 Unique Paths III ([details](https://leetcode.com/problems/unique-paths-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniquePathsIII.java)
 
 * 1094 Car Pooling ([details](https://leetcode.com/problems/car-pooling/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CarPooling.java)
+
+* 229 Majority Element II ([details](https://leetcode.com/problems/majority-element-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MajorityElementII.java)
+
