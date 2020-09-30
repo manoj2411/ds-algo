@@ -298,3 +298,6 @@ valid_path.rb
 * 713 Subarray Product Less Than K ([details](https://leetcode.com/problems/subarray-product-less-than-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SubarrayProductLessThanK.java)
 
 * 139 Word Break ([details](https://leetcode.com/problems/word-break/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordBreak.java)
+
+* 57. Insert Interval ([details](https://leetcode.com/problems/insert-interval/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/InsertInterval.java)
+
