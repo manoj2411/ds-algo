@@ -304,3 +304,5 @@ valid_path.rb
 * First Missing Positive ([details](https://leetcode.com/problems/first-missing-positive/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FirstMissingPositive.java)
 
 * Design Parking System ([details](https://leetcode.com/problems/design-parking-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ParkingSystem.java)
+
+* Combination Sum ([details](https://leetcode.com/problems/combination-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CombinationSum.java)
