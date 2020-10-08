@@ -11,7 +11,7 @@ class MostSignificantSetBit {
         // Assuming int is 32 bit
         n |= (n >> 1); // 1000000001 => 1100000001
         n |= (n >> 2); // 1100000001 => 1111000001
-        // similarly copi set bits till 16 bits
+        // similarly copy set bits till 16 bits
         n |= (n >> 4);
         n |= (n >> 8);
         n |= (n >> 16);

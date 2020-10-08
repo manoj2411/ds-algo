@@ -246,6 +246,9 @@ valid_path.rb
 
 * Position of first set bit found from right side in the binary representation of given the number. ([solution](https://github.com/manoj2411/ds-algo/blob/master/BitManioulation/first_set_bit.py))
 
+* Find most significant set bit of a number. ([solution](https://github.com/manoj2411/ds-algo/blob/master/BitManioulation/MostSignificantSetBit.java))
+
+
 #### Bacltracking
 
 * Word Search from a 2D board of characters, [(ref)](https://leetcode.com/problems/word-search/). [solution](https://github.com/manoj2411/ds-algo/blob/master/backtracking/word_search.rb)
