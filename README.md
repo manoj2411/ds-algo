@@ -309,3 +309,5 @@ valid_path.rb
 * Design Parking System ([details](https://leetcode.com/problems/design-parking-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ParkingSystem.java)
 
 * Combination Sum ([details](https://leetcode.com/problems/combination-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CombinationSum.java)
+
+* Serialize and Deserialize BST ([details](https://leetcode.com/problems/serialize-and-deserialize-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SerializeDeserializeBST.java)
