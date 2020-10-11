@@ -311,3 +311,5 @@ valid_path.rb
 * Combination Sum ([details](https://leetcode.com/problems/combination-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CombinationSum.java)
 
 * Serialize and Deserialize BST ([details](https://leetcode.com/problems/serialize-and-deserialize-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SerializeDeserializeBST.java)
+
+* Minimum Number of Arrows to Burst Balloons ([details](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinArrowstoBurstBalloons.java)
