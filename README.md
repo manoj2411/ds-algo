@@ -313,3 +313,5 @@ valid_path.rb
 * Serialize and Deserialize BST ([details](https://leetcode.com/problems/serialize-and-deserialize-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SerializeDeserializeBST.java)
 
 * Minimum Number of Arrows to Burst Balloons ([details](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinArrowstoBurstBalloons.java)
+
+* Remove Duplicate Letters ([details](https://leetcode.com/problems/remove-duplicate-letters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicateLetters.java)
