@@ -317,3 +317,5 @@ valid_path.rb
 * Remove Duplicate Letters ([details](https://leetcode.com/problems/remove-duplicate-letters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicateLetters.java)
 
 * Sliding Window Median ([details](https://leetcode.com/problems/sliding-window-median/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlidingWindowMedian.java)
+
+* Buddy Strings ([details](https://leetcode.com/problems/buddy-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BuddyStrings.java)
