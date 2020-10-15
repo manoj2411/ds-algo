@@ -319,3 +319,5 @@ valid_path.rb
 * Sliding Window Median ([details](https://leetcode.com/problems/sliding-window-median/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlidingWindowMedian.java)
 
 * Buddy Strings ([details](https://leetcode.com/problems/buddy-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BuddyStrings.java)
+
+* House Robber II ([details](https://leetcode.com/problems/house-robber-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/HouseRobberII.java)
