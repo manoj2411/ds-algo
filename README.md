@@ -323,3 +323,5 @@ valid_path.rb
 * House Robber II ([details](https://leetcode.com/problems/house-robber-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/HouseRobberII.java)
 
 * Clone Graph ([details](https://leetcode.com/problems/clone-graph/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CloneGraph.java)
+
+* Search a 2D Matrix ([details](https://leetcode.com/problems/search-a-2d-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SearchA2DMatrix.java)
