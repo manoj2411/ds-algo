@@ -7,25 +7,23 @@ public class MaximumProductSubarray {
         int currMin = max;
 
         for(int i = 1; i < nums.length; i++) {
-            int curr = nums[i];
-            int tmp;
-            if(curr > 0) {
-                tmp = currMax;
-                // can be : 0 , -10, 10
-                currMax = Math.max(curr, tmp * curr);
-                currMin = Math.min(currMin * curr, curr);
-            } else if(curr < 0) {
-                tmp = currMax;
-                // can be : 0 , -10, 10
-                currMax = Math.max(curr, currMin * curr);
-                currMin = Math.min(tmp * curr, curr);
+
+            if(nums[i] > 0) {
+                currMax = Math.max(nums[i], nums[i] * currMax);
+                currMin = nums[i] * currMin;
+            } else if(nums[i] < 0) {
+                int tmp = currMax;
+                currMax = currMin * nums[i];
+                currMin = Math.min(nums[i], nums[i] * tmp);
             } else {
-                currMin = 0;
-                currMax = 0;
+                currMin = nums[i]; // 0
+                currMax = nums[i]; // 0
             }
+
             if(currMax > max)
                 max = currMax;
         }
+
         return max;
     }
 
