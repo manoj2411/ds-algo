@@ -284,7 +284,7 @@ valid_path.rb
 
 * Word Ladder ([details](https://leetcode.com/problems/word-ladder/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadder.java)
 
-* 152 Maximum Product Subarray ([details](https://leetcode.com/problems/maximum-product-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumProductSubarray.java)
+* Maximum Product Subarray ([details](https://leetcode.com/problems/maximum-product-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumProductSubarray.java)
 
 * Unique Paths III ([details](https://leetcode.com/problems/unique-paths-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniquePathsIII.java)
 
@@ -325,3 +325,5 @@ valid_path.rb
 * Clone Graph ([details](https://leetcode.com/problems/clone-graph/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CloneGraph.java)
 
 * Search a 2D Matrix ([details](https://leetcode.com/problems/search-a-2d-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SearchA2DMatrix.java)
+
+* Minimum Domino Rotations For Equal Row ([details](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDominoRotations.java)
