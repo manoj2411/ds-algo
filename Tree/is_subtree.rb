@@ -2,58 +2,81 @@ Node = Struct.new(:key, :left, :right)
 
 def same_trees?(node1, node2)
   if node1 == nil && node2 == nil
-    return true
+    true
   elsif node1 == nil || node2 == nil
-    return false
-  end
-
-  return node1.key == node2.key && same_trees?(node1.left, node2.left) &&
-         same_trees?(node1.right, node2.right)
-end
-
-def subtree?(root1, root2)
-  if root1 == nil && root2 == nil
-    return true
-  end
-
-  if root1 == nil || root2 == nil
-    return false
-  end
-
-  if root1.key != root2.key
-    return subtree?(root1, root2.left) || subtree?(root1, root2.right)
+    false
   else
-    return same_trees?(root1, root2)
+    node1.key == node2.key &&
+    same_trees?(node1.left, node2.left) &&
+    same_trees?(node1.right, node2.right)
+  end
+end
+
+def subtree?(s, t)
+  if s == nil
+    true
+  elsif t == nil
+    false
+  elsif same_trees?(s, t)
+    true
+  else
+    subtree?(s, t.left) || subtree?(s, t.right)
   end
 end
 
 
-# root2 = Node.new(1)
-# root2.left = Node.new(2)
-# root2.right = Node.new(3)
-# root2.right.left = Node.new(4)
-# root2.right.right = Node.new(6)
-# root2.right.right.right = Node.new(7)
+t = Node.new(1)
+t.left = Node.new(2)
+t.right = Node.new(3)
+t.right.left = Node.new(4)
+t.right.right = Node.new(6)
+t.right.right.right = Node.new(7)
 
-# root1 = Node.new(3)
-# root1.left = Node.new(4)
-# root1.right = Node.new(6)
-# root1.right.right = Node.new(7)
+s = Node.new(3)
+s.left = Node.new(4)
+s.right = Node.new(6)
+s.right.right = Node.new(7)
+puts "Is S is subtree of T #{subtree?(s, t)}"
 
-root2 = Node.new(26)
-root2.left = Node.new(10)
-root2.right = Node.new(3)
-root2.right.right = Node.new(3)
-root2.left.left = Node.new(4)
-root2.left.right = Node.new(6)
-root2.left.left.right = Node.new(30)
-root2.right.right.right = Node.new(7)
+t = Node.new(26)
+t.left = Node.new(10)
+t.right = Node.new(3)
+t.right.right = Node.new(3)
+t.left.left = Node.new(4)
+t.left.right = Node.new(6)
+t.left.left.right = Node.new(30)
+t.right.right.right = Node.new(7)
 
-root1 = Node.new(10)
-root1.left = Node.new(4)
-root1.left.right = Node.new(30)
-root1.right = Node.new(6)
-# root1.right.left = Node.new(6)
-# root
+s = Node.new(10)
+s.left = Node.new(4)
+s.left.right = Node.new(30)
+s.right = Node.new(6)
+# s.right.left = Node.new(6)
+puts "Is S is subtree of T #{subtree?(s, t)}"
 
-puts "Is tree1 is subtree of tree2 #{subtree?(root1, root2)}"
+#        (S)
+#          x
+#        /    \
+#      a       b
+#     /
+#    c
+
+#        (T)
+#          x
+#        /    \
+#      a       b
+#     /         \
+#    c            d
+
+s = Node.new('x')
+s.left = Node.new('a')
+s.left.left = Node.new('c')
+s.right = Node.new('b')
+
+t = Node.new('x')
+t.left = Node.new('a')
+t.left.left = Node.new('c')
+t.right = Node.new('b')
+t.right.right = Node.new('d')
+puts "Is S is subtree of T #{subtree?(s, t)}"
+# false
