@@ -153,6 +153,8 @@ valid_path.rb
 
 * Delete Node in a BST ([ref](https://leetcode.com/problems/delete-node-in-a-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/DeleteNodeInBST.java)
 
+* Check if a binary tree is subtree of another binary tree ([ref](https://practice.geeksforgeeks.org/problems/check-if-subtree/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_subtree.rb)
+
 
 #### String
 

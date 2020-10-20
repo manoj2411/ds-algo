@@ -1,17 +1,8 @@
 Node = Struct.new(:key, :left, :right)
 
-def same_trees?(node1, node2)
-  if node1 == nil && node2 == nil
-    true
-  elsif node1 == nil || node2 == nil
-    false
-  else
-    node1.key == node2.key &&
-    same_trees?(node1.left, node2.left) &&
-    same_trees?(node1.right, node2.right)
-  end
-end
-
+# NOTE : This is a N^2 solution, there is another solution which has better
+#         time complexity, but this is nice, simple & concise.
+#
 def subtree?(s, t)
   if s == nil
     true
@@ -21,6 +12,18 @@ def subtree?(s, t)
     true
   else
     subtree?(s, t.left) || subtree?(s, t.right)
+  end
+end
+
+def same_trees?(node1, node2)
+  if node1 == nil && node2 == nil
+    true
+  elsif node1 == nil || node2 == nil
+    false
+  else
+    node1.key == node2.key &&
+    same_trees?(node1.left, node2.left) &&
+    same_trees?(node1.right, node2.right)
   end
 end
 
