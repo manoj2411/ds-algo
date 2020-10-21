@@ -284,7 +284,7 @@ valid_path.rb
 
 * Word Pattern ([details](https://leetcode.com/problems/word-pattern/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordPattern.java)
 
-* Word Ladder ([details](https://leetcode.com/problems/word-ladder/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadder.java)
+* Word Ladder ([details](https://leetcode.com/problems/word-ladder/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadder.java), [optimized solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadderAlt.java)
 
 * Maximum Product Subarray ([details](https://leetcode.com/problems/maximum-product-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumProductSubarray.java)
 
