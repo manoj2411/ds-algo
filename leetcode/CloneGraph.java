@@ -10,6 +10,10 @@ class CloneGraph {
     }
 }
 
+/*
+        Simple solution but creating exhaustive list of nodes, could waste space
+          Better solution is in the next section based in DFS
+*/
 class Solution {
     Node[] allnodes;
     boolean[] visited;
@@ -63,3 +67,27 @@ class Node {
     }
 }
 
+
+/*
+        Optimal solution based on DFS
+*/
+
+class SolutionDfs {
+    Map<Integer, Node> cache = new HashMap<>();
+
+    public Node cloneGraph(Node node) {
+        if(node == null)
+            return node;
+
+        if(cache.containsKey(node.val))
+            return cache.get(node.val);
+
+        Node clone = new Node(node.val);
+        cache.put(node.val, clone);
+        for(Node n : node.neighbors) {
+            clone.neighbors.add(cloneGraph(n));
+        }
+
+        return clone;
+    }
+}
