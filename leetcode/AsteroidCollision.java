@@ -1,5 +1,8 @@
 import java.util.*;
 
+/*
+    https://leetcode.com/problems/asteroid-collision/
+*/
 class AsteroidCollision {
     public static void main(String[] args) {
         Solution sol = new Solution();

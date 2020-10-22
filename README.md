@@ -329,3 +329,5 @@ valid_path.rb
 * Search a 2D Matrix ([details](https://leetcode.com/problems/search-a-2d-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SearchA2DMatrix.java)
 
 * Minimum Domino Rotations For Equal Row ([details](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDominoRotations.java)
+
+* Asteroid Collision ([details](https://leetcode.com/problems/asteroid-collision/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AsteroidCollision.java)
