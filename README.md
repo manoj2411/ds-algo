@@ -333,3 +333,5 @@ valid_path.rb
 * Asteroid Collision ([details](https://leetcode.com/problems/asteroid-collision/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AsteroidCollision.java)
 
 * Minimum Depth of Binary Tree ([details](https://leetcode.com/problems/minimum-depth-of-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AsteroidCollisionMinDepthBinaryTree.java)
+
+* Bag of Tokens ([details](https://leetcode.com/problems/bag-of-tokens/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BagOfTokens.java)
