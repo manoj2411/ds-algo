@@ -335,3 +335,6 @@ valid_path.rb
 * Minimum Depth of Binary Tree ([details](https://leetcode.com/problems/minimum-depth-of-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AsteroidCollisionMinDepthBinaryTree.java)
 
 * Bag of Tokens ([details](https://leetcode.com/problems/bag-of-tokens/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BagOfTokens.java)
+
+* Stone Game IV ([details](https://leetcode.com/problems/stone-game-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StoneGameIV.java)
+
