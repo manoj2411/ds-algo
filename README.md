@@ -338,3 +338,5 @@ valid_path.rb
 
 * Stone Game IV ([details](https://leetcode.com/problems/stone-game-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StoneGameIV.java)
 
+* Champagne Tower ([details](https://leetcode.com/problems/champagne-tower/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ChampagneTower.java)
+
