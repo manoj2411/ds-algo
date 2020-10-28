@@ -155,6 +155,7 @@ valid_path.rb
 
 * Check if a binary tree is subtree of another binary tree ([ref](https://practice.geeksforgeeks.org/problems/check-if-subtree/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_subtree.rb)
 
+* Preorder to Postorder : Given an array of N nodes representing preorder traversal of BST, print its postorder traversal in O(N) time ([ref](https://practice.geeksforgeeks.org/problems/preorder-to-postorder/0)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/PreorderToPostorderBST.java)
 
 #### String
 
