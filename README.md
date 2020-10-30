@@ -157,6 +157,9 @@ valid_path.rb
 
 * Preorder to Postorder : Given an array of N nodes representing preorder traversal of BST, print its postorder traversal in O(N) time ([ref](https://practice.geeksforgeeks.org/problems/preorder-to-postorder/0)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/PreorderToPostorderBST.java)
 
+* Find k-th smallest element in BST (Order Statistics in BST) ([ref](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/find_k_th_in_bst.rb)
+
+
 #### String
 
 * **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
