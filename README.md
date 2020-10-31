@@ -345,3 +345,5 @@ valid_path.rb
 * Champagne Tower ([details](https://leetcode.com/problems/champagne-tower/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ChampagneTower.java)
 
 * Maximize Distance to Closest Person ([details](https://leetcode.com/problems/maximize-distance-to-closest-person/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxDistanceToClosestPerson.java)
+
+* Number of Longest Increasing Subsequence ([details](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountLongestIncreasingSubsequence.java)
