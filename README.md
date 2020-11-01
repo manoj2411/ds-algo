@@ -347,3 +347,5 @@ valid_path.rb
 * Maximize Distance to Closest Person ([details](https://leetcode.com/problems/maximize-distance-to-closest-person/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxDistanceToClosestPerson.java)
 
 * Number of Longest Increasing Subsequence ([details](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountLongestIncreasingSubsequence.java)
+
+* Furthest Building You Can Reach ([details](https://leetcode.com/problems/furthest-building-you-can-reach/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FurthestBuildingCanReach.java)
