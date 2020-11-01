@@ -349,3 +349,5 @@ valid_path.rb
 * Number of Longest Increasing Subsequence ([details](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountLongestIncreasingSubsequence.java)
 
 * Furthest Building You Can Reach ([details](https://leetcode.com/problems/furthest-building-you-can-reach/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FurthestBuildingCanReach.java)
+
+* Convert Binary Number in a Linked List to Integer ([details](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertBinInLinkedListToInt.java)
