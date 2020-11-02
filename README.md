@@ -70,6 +70,7 @@ Playground for popular algorithms and data-structures problems.
   * [solution in `.py`](https://github.com/manoj2411/ds-algo/blob/master/Array/sum_pair_in_sorted_rotated_arr.py)
   * [solution in `.rb`, optimised](https://github.com/manoj2411/ds-algo/blob/master/Array/pair_sum_in_sorted_rotated_arr.rb)
 
+* Sort elements by frequency ([ref](https://www.geeksforgeeks.org/sort-elements-frequency-set-4-efficient-approach-using-hash/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/SortByFrequency.java)
 
 #### Linked List
 
