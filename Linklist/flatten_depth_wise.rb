@@ -2,40 +2,22 @@ Node = Struct.new(:key, :next, :child)
 
 def flatten(head)
     arr = []
-    return flatten_util(head, arr)
+    flatten_util(head, arr)
 end
 
-def flatten_util(node, last)
+def flatten_util(node, prev)
 
-    if node.next.nil? and node.child.nil?
-        last[0] = node
-        return node
-    end
+    return if node == nil
 
-    if node.child.nil?
-        node.next = flatten_util(node.next, last)
-    else
-        nxt = node.next
-        node.next = flatten_util(node.child, last)
-        last[0].next = flatten_util(nxt, last) if nxt
-    end
-    return node
 
-    # if node == nil
-    #     return
-    # end
+    prev[0] = node
+    nxt = node.next
 
-    # last[0] = node
-    # nxt = node.next
+    node.next = flatten_util(node.child, prev)
 
-    # if node.child
-    #     node.next = flatten_util(node.child, last)
-    # end
+    prev[0].next = flatten_util(nxt, prev)
 
-    # if nxt # not required
-    #     last[0].next = flatten_util(nxt, last)
-    # end
-    # return node
+    node
 end
 
 def _p(head)
