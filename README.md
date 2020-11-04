@@ -352,3 +352,6 @@ valid_path.rb
 * Furthest Building You Can Reach ([details](https://leetcode.com/problems/furthest-building-you-can-reach/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FurthestBuildingCanReach.java)
 
 * Convert Binary Number in a Linked List to Integer ([details](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertBinInLinkedListToInt.java)
+
+* Mini Parser ([details](https://leetcode.com/problems/mini-parser/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MiniParser.java)
+
