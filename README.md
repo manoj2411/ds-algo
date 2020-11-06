@@ -355,3 +355,5 @@ valid_path.rb
 
 * Mini Parser ([details](https://leetcode.com/problems/mini-parser/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MiniParser.java)
 
+* Minimum Cost to Move Chips to The Same Position ([details](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinCostToMoveChips.java)
+
