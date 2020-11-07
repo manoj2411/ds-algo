@@ -358,3 +358,6 @@ valid_path.rb
 * Minimum Cost to Move Chips to The Same Position ([details](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinCostToMoveChips.java)
 
 * Minimum Height Trees ([details](https://leetcode.com/problems/minimum-height-trees/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinHeightTrees.java)
+
+* Find the Smallest Divisor Given a Threshold ([details](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestDivisorBelowThreshold.java)
+
