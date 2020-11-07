@@ -185,6 +185,8 @@ valid_path.rb
 
 * Partition Labels : partition the given string into as many parts(groups) as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts. For example: for  string `"ababcbacadefegdehijhklij"` result would be `[9,7,8]` ([ref](https://leetcode.com/problems/partition-labels/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/String/PartitionLabels.java)
 
+* Roman Number to Integer. [solution](https://github.com/manoj2411/ds-algo/blob/master/String/roman_to_int.py)
+
 #### Sortings
 
 * QuickSort for array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Sortings/quick_sort.rb))
