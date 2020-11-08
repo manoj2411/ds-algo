@@ -92,6 +92,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Add two numbers represented by linked lists, digits are stored in reverse order and each node contain a single digit. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/add_numbers.rb))
 
+* Add two numbers represented by linked lists. Lists are non-empty. Reversing the lists is not allowed ([details](https://leetcode.com/problems/add-two-numbers-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/AddTwoNumbersII.java)
+
 * **Rotate a Linked List** counter-clockwise by k nodes, where `0 < k <= len(list)` ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/rotate.rb))
 
 * Remove loop in Linked List ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/remove_loop.rb))
@@ -363,3 +365,4 @@ valid_path.rb
 
 * Find the Smallest Divisor Given a Threshold ([details](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestDivisorBelowThreshold.java)
 
+* Add Two Numbers II ([details](https://leetcode.com/problems/add-two-numbers-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/AddTwoNumbersII.java)
