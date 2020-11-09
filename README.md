@@ -366,3 +366,5 @@ valid_path.rb
 * Find the Smallest Divisor Given a Threshold ([details](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestDivisorBelowThreshold.java)
 
 * Add Two Numbers II ([details](https://leetcode.com/problems/add-two-numbers-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/AddTwoNumbersII.java)
+
+* Binary Tree Tilt ([details](https://leetcode.com/problems/binary-tree-tilt/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/BinaryTreeTilt.java)
