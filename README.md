@@ -368,3 +368,5 @@ valid_path.rb
 * Add Two Numbers II ([details](https://leetcode.com/problems/add-two-numbers-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/AddTwoNumbersII.java)
 
 * Binary Tree Tilt ([details](https://leetcode.com/problems/binary-tree-tilt/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/BinaryTreeTilt.java)
+
+* Maximum Difference Between Node and Ancestor ([details](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/MaxDiffBtwnNodeAndAncestor.java)
