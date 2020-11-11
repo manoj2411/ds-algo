@@ -370,3 +370,5 @@ valid_path.rb
 * Binary Tree Tilt ([details](https://leetcode.com/problems/binary-tree-tilt/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/BinaryTreeTilt.java)
 
 * Maximum Difference Between Node and Ancestor ([details](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/MaxDiffBtwnNodeAndAncestor.java)
+
+* Flipping an Image ([details](https://leetcode.com/problems/flipping-an-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/FlippingImage.java)
