@@ -374,3 +374,5 @@ valid_path.rb
 * Flipping an Image ([details](https://leetcode.com/problems/flipping-an-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlippingImage.java)
 
 * Valid Square ([details](https://leetcode.com/problems/valid-square/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/valid_square.rb)
+
+* Permutations II ([details](https://leetcode.com/problems/permutations-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PermutationsII.java)
