@@ -376,3 +376,7 @@ valid_path.rb
 * Valid Square ([details](https://leetcode.com/problems/valid-square/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/valid_square.rb)
 
 * Permutations II ([details](https://leetcode.com/problems/permutations-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PermutationsII.java)
+
+* Populating Next Right Pointers in Each Node ([details](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PopulatingNextRightPointers.java)
+
+
