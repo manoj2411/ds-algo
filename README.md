@@ -381,3 +381,5 @@ valid_path.rb
 
 * Range Sum of BST ([details](https://leetcode.com/problems/range-sum-of-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeSumOfBST.java)
 
+* Minimum Deletions to Make String Balanced ([details](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDeletionsToMakeStrBalanced.java)
+
