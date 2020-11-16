@@ -383,3 +383,4 @@ valid_path.rb
 
 * Minimum Deletions to Make String Balanced ([details](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDeletionsToMakeStrBalanced.java)
 
+* Minimum Operations to Reduce X to Zero ([details](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinOpToReduceXtoZero.java)
