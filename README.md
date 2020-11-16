@@ -379,4 +379,5 @@ valid_path.rb
 
 * Populating Next Right Pointers in Each Node ([details](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PopulatingNextRightPointers.java)
 
+* Range Sum of BST ([details](https://leetcode.com/problems/range-sum-of-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeSumOfBST.java)
 
