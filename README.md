@@ -72,6 +72,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Sort elements by frequency ([ref](https://www.geeksforgeeks.org/sort-elements-frequency-set-4-efficient-approach-using-hash/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/SortByFrequency.java)
 
+* Sort a nearly sorted (or K sorted) array ([ref](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Heap/SortNearlySortedList.java)
+
 #### Linked List
 
 * Reverse a linked list
