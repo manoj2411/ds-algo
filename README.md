@@ -215,7 +215,7 @@ valid_path.rb
 
 * Island Perimeter, [ref](https://leetcode.com/problems/island-perimeter/)
 
-* Set every cell in matrix to 0 if that row or column contains a 0. ([details](https://www.geeksforgeeks.org/a-boolean-matrix-question/), [details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
+* Set every cell in matrix to 0 if that row or column contains a 0 ([details](https://www.geeksforgeeks.org/a-boolean-matrix-question/), [details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
 
 
 #### Advance Data Structures
@@ -392,3 +392,5 @@ valid_path.rb
 * Longest Mountain in Array ([details](https://leetcode.com/problems/longest-mountain-in-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestMountainInArray.java)
 
 * Set Matrix Zeroes ([details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
+
+* Merge Intervals ([details](https://leetcode.com/problems/merge-intervals/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MergeIntervals.java)
