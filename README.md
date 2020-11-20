@@ -164,6 +164,7 @@ valid_path.rb
 
 * Find k-th smallest element in BST (Order Statistics in BST) ([ref](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/find_k_th_in_bst.rb)
 
+* Reverse Level Order Traversal ([ref](https://www.geeksforgeeks.org/reverse-level-order-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/ReverseLevelOrderTraversal.java)
 
 #### String
 
