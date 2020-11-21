@@ -395,3 +395,5 @@ valid_path.rb
 * Set Matrix Zeroes ([details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
 
 * Merge Intervals ([details](https://leetcode.com/problems/merge-intervals/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MergeIntervals.java)
+
+* Decode String ([details](https://leetcode.com/problems/decode-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DecodeString.java)
