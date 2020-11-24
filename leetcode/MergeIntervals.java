@@ -12,9 +12,12 @@ class MergeIntervals {
 
         for(int[][] intervals : inputs) {
             Solution sol = new Solution();
+
             System.out.print("Intervals: ");
             printIntervals(intervals);
+
             int[][] result = sol.merge(intervals);
+
             System.out.print("Result: ");
             printIntervals(result);
             System.out.println();

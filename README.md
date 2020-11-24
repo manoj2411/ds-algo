@@ -397,3 +397,5 @@ valid_path.rb
 * Merge Intervals ([details](https://leetcode.com/problems/merge-intervals/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MergeIntervals.java)
 
 * Decode String ([details](https://leetcode.com/problems/decode-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DecodeString.java)
+
+* House Robber III ([details](https://leetcode.com/problems/house-robber-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/HouseRobberIII.java)
