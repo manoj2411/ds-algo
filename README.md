@@ -399,3 +399,5 @@ valid_path.rb
 * Decode String ([details](https://leetcode.com/problems/decode-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DecodeString.java)
 
 * House Robber III ([details](https://leetcode.com/problems/house-robber-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/HouseRobberIII.java)
+
+* Basic Calculator II ([details](https://leetcode.com/problems/basic-calculator-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BasicCalculatorII.java)
