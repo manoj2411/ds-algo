@@ -401,3 +401,5 @@ valid_path.rb
 * House Robber III ([details](https://leetcode.com/problems/house-robber-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/HouseRobberIII.java)
 
 * Basic Calculator II ([details](https://leetcode.com/problems/basic-calculator-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BasicCalculatorII.java)
+
+* Longest Substring with At Least K Repeating Characters ([details](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/longest_substring_min_k_repeating.rb)
