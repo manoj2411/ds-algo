@@ -74,6 +74,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Sort a nearly sorted (or K sorted) array ([ref](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Heap/SortNearlySortedList.java)
 
+* Relative Sorting : Sort A1 in such a way that the relative order among the elements will be same as those in A2. For the elements not present in A2, append them at last in sorted order ([ref](https://practice.geeksforgeeks.org/problems/relative-sorting/0)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/RelativeSorting.java)
+
 #### Linked List
 
 * Reverse a linked list
