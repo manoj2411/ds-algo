@@ -76,6 +76,9 @@ Playground for popular algorithms and data-structures problems.
 
 * Duplicates in an array : Given an array containing elements from `0` to `n-1`, with any of these numbers appearing any number of times, find these repeating numbers in **O(n)** and using only constant memory space. ([ref](https://www.geeksforgeeks.org/duplicates-array-using-o1-extra-space-set-2/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/DuplicatesInArray.java)
 
+* Relative Sorting : Sort A1 in such a way that the relative order among the elements will be same as those in A2. For the elements not present in A2, append them at last in sorted order ([ref](https://practice.geeksforgeeks.org/problems/relative-sorting/0)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/RelativeSorting.java)
+
+
 #### Linked List
 
 * Reverse a linked list
