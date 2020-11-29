@@ -74,6 +74,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Sort a nearly sorted (or K sorted) array ([ref](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Heap/SortNearlySortedList.java)
 
+* Duplicates in an array : Given an array containing elements from `0` to `n-1`, with any of these numbers appearing any number of times, find these repeating numbers in **O(n)** and using only constant memory space. ([ref](https://www.geeksforgeeks.org/duplicates-array-using-o1-extra-space-set-2/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/DuplicatesInArray.java)
+
 #### Linked List
 
 * Reverse a linked list
