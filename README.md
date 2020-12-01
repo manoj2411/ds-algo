@@ -39,7 +39,6 @@ Playground for popular algorithms and data-structures problems.
 
 * Reverse an array in groups of given size ([details](https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/reverse_in_group.py)
 
-
 * **Counting Elements** - Given an integer array, count element `x` such that `x + 1` is also in array. If there're duplicates in array, count them seperately. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/count_elements.rb))
 
 * **Last Stone Weight** - Given an integer array as collection of stones, Each turn, we choose the two heaviest stones and smash them together. The result of this smash is: If `x == y`, both stones are totally destroyed otherwise weight of `x` is destroyed, and the stone of weight `y` has new weight y-x ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Array/last_stone_weight.rb))
@@ -411,3 +410,5 @@ valid_path.rb
 * Basic Calculator II ([details](https://leetcode.com/problems/basic-calculator-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BasicCalculatorII.java)
 
 * Longest Substring with At Least K Repeating Characters ([details](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/longest_substring_min_k_repeating.rb)
+
+* Jump Game III ([details](https://leetcode.com/problems/jump-game-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameIII.java)
