@@ -411,3 +411,5 @@ valid_path.rb
 * Basic Calculator II ([details](https://leetcode.com/problems/basic-calculator-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BasicCalculatorII.java)
 
 * Longest Substring with At Least K Repeating Characters ([details](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/longest_substring_min_k_repeating.rb)
+
+* Increasing Order Search Tree ([details](https://leetcode.com/problems/increasing-order-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IncreasingOrderSearchTree.java)
