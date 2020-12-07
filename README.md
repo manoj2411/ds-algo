@@ -189,6 +189,8 @@ valid_path.rb
 
 * Find All Anagrams in a String ([ref](https://leetcode.com/problems/find-all-anagrams-in-a-string/)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/String/find_anagrams_in_string.rb)
 
+* Recursively remove all adjacent duplicates ([ref](https://practice.geeksforgeeks.org/problems/recursively-remove-all-adjacent-duplicates/0)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/String/RecursivelyRemoveAllAdjDuplicates.java)
+
 * **Making File Names Unique** Given a list of names, create `n` folders in your file system such that, create a folder for every name. Since two files cannot have the same name, if you enter a folder name which is previously used, the system will have a suffix addition to its name in the form of (k), where, k is the smallest positive integer such that the obtained name remains unique, [ref](https://leetcode.com/problems/making-file-names-unique/). ([solution](https://leetcode.com/problems/making-file-names-unique/discuss/698020/Ruby-or-super-easy-solution-or-faster-than-100-submissions))
 
 * Reverse words in a string OR reverse string word by word
@@ -412,3 +414,6 @@ valid_path.rb
 * Longest Substring with At Least K Repeating Characters ([details](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/longest_substring_min_k_repeating.rb)
 
 * Jump Game III ([details](https://leetcode.com/problems/jump-game-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameIII.java)
+
+* Increasing Order Search Tree ([details](https://leetcode.com/problems/increasing-order-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IncreasingOrderSearchTree.java)
+
