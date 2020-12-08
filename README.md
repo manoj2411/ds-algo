@@ -418,3 +418,5 @@ valid_path.rb
 * Increasing Order Search Tree ([details](https://leetcode.com/problems/increasing-order-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IncreasingOrderSearchTree.java)
 
 * Populating Next Right Pointers in Each Node II ([details](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PopulatingNextRightPointersII.java)
+
+* Spiral Matrix II ([details](https://leetcode.com/problems/spiral-matrix-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SpiralMatrixII.java)
