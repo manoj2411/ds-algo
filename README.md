@@ -159,7 +159,9 @@ valid_path.rb
 
 * Lowest Common Ancestor in a BST, assuming both the values exist in the tree. [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/lca_bst.py)
 
-* Vertical Order Traversal of a Binary Tree, ([ref](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/vertical_order_traversal.rb)
+* Vertical Order Traversal of a Binary Tree, ([ref](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)).
+  * [solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Tree/vertical_order_traversal.rb)
+  * [solution in java](https://github.com/manoj2411/ds-algo/blob/master/Tree/VerticalTraversal.java)
 
 * **Path Sum III** Each node of the tree contains an integer value, find the number of paths that sum to a given value. The path does not need to start or end at the root or a leaf, but it must go downwards, ([ref](https://leetcode.com/problems/path-sum-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/path_sum_iii.rb)
 
