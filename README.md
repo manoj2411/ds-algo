@@ -424,3 +424,5 @@ valid_path.rb
 * Spiral Matrix II ([details](https://leetcode.com/problems/spiral-matrix-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SpiralMatrixII.java)
 
 * Pairs of Songs With Total Durations Divisible by 60 ([details](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SongsPairsWithTotalDurDivisibleBy60.java)
+
+* Binary Search Tree Iterator ([details](https://leetcode.com/problems/binary-search-tree-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BSTIterator.java)
