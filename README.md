@@ -80,6 +80,10 @@ Playground for popular algorithms and data-structures problems.
 
 * Relative Sorting : Sort A1 in such a way that the relative order among the elements will be same as those in A2. For the elements not present in A2, append them at last in sorted order ([ref](https://practice.geeksforgeeks.org/problems/relative-sorting/0)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/RelativeSorting.java)
 
+* Pythagorean Triplet ([ref](https://practice.geeksforgeeks.org/problems/pythagorean-triplet3018/1#)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/RelativeSorting.java)
+  * [solution in `.py`](https://github.com/manoj2411/ds-algo/blob/master/Array/pythagorean_triplet.py)
+  * [solution in `.java`, optimised](https://github.com/manoj2411/ds-algo/blob/master/Array/PythagoreanTriplet.java)
+
 
 #### Linked List
 
