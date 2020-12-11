@@ -426,3 +426,5 @@ valid_path.rb
 * Pairs of Songs With Total Durations Divisible by 60 ([details](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SongsPairsWithTotalDurDivisibleBy60.java)
 
 * Binary Search Tree Iterator ([details](https://leetcode.com/problems/binary-search-tree-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BSTIterator.java)
+
+* Valid Mountain Array ([details](https://leetcode.com/problems/valid-mountain-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidMountainArray.java)
