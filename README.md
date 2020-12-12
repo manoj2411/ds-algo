@@ -432,3 +432,5 @@ valid_path.rb
 * Binary Search Tree Iterator ([details](https://leetcode.com/problems/binary-search-tree-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BSTIterator.java)
 
 * Valid Mountain Array ([details](https://leetcode.com/problems/valid-mountain-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidMountainArray.java)
+
+* Remove Duplicates from Sorted Array II ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicatesSortedArrII.java)
