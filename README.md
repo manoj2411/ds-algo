@@ -437,3 +437,4 @@ valid_path.rb
 
 * Burst Balloons ([details](https://leetcode.com/problems/burst-balloons/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/burst_balloons.rb)
 
+* Smallest Subtree with all the Deepest Nodes ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestSubtreeWithAllDeepestNodes.java)
