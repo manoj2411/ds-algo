@@ -434,3 +434,6 @@ valid_path.rb
 * Valid Mountain Array ([details](https://leetcode.com/problems/valid-mountain-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidMountainArray.java)
 
 * Remove Duplicates from Sorted Array II ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicatesSortedArrII.java)
+
+* Burst Balloons ([details](https://leetcode.com/problems/burst-balloons/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/burst_balloons.rb)
+
