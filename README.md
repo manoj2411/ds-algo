@@ -440,3 +440,6 @@ valid_path.rb
 * Smallest Subtree with all the Deepest Nodes ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestSubtreeWithAllDeepestNodes.java)
 
 * Palindrome Partitioning ([details](https://leetcode.com/problems/palindrome-partitioning/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/palindrome_partitioning.rb)
+
+* Squares of a Sorted Array ([details](https://leetcode.com/problems/squares-of-a-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SquaresOfSortedArray.java)
+
