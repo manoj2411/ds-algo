@@ -207,6 +207,10 @@ valid_path.rb
 
 * Roman Number to Integer. [solution](https://github.com/manoj2411/ds-algo/blob/master/String/roman_to_int.py)
 
+* Longest Palindrome in a String.
+  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/string/.rb)
+  * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/string/.java)
+
 #### Sortings
 
 * QuickSort for array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Sortings/quick_sort.rb))
