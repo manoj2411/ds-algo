@@ -181,7 +181,7 @@ valid_path.rb
 
 * Reverse Level Order Traversal ([ref](https://www.geeksforgeeks.org/reverse-level-order-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/ReverseLevelOrderTraversal.java)
 
-* Bottom View of Binary Tree [ref](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BottomViewBinTree.java)
+* Bottom View of Binary Tree ([ref](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BottomViewBinTree.java)
 
 #### String
 
@@ -212,8 +212,8 @@ valid_path.rb
 * Roman Number to Integer. [solution](https://github.com/manoj2411/ds-algo/blob/master/String/roman_to_int.py)
 
 * Longest Palindrome in a String.
-  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/string/.rb)
-  * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/string/.java)
+  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/string/longest_palindromic_substring.rb)
+  * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/string/LongestPalindromicSubstr.java)
 
 #### Sortings
 

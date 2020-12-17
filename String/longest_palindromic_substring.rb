@@ -1,9 +1,3 @@
-def print_matrix(matrix)
-  matrix.each do |row|
-    puts row.join("\t")
-  end
-end
-
 def longest_palindrom(str)
   length = str.length
   matrix = Array.new(length) { |i| Array.new(length, false) }
@@ -21,7 +15,7 @@ def longest_palindrom(str)
           start = i
           last = j
         end
-        matrix[i][j] = 1
+        matrix[i][j] = true
       end
     end
   end
@@ -31,15 +25,22 @@ end
 
 def is_palindrom?(str, i, j, matrix, length)
   if i == j
-    return true
+    true
   else
     if str[i] == str[j]
-      if j - i > 1 && matrix[i + 1][j - 1] != 1
+      if j - i > 1 && matrix[i + 1][j - 1] == false
         return false
       end
-      return true
+      true
+    else
+      false
     end
-    return false
+  end
+end
+
+def print_matrix(matrix)
+  matrix.each do |row|
+    puts row.join("\t")
   end
 end
 
