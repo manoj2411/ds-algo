@@ -181,6 +181,8 @@ valid_path.rb
 
 * Reverse Level Order Traversal ([ref](https://www.geeksforgeeks.org/reverse-level-order-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/ReverseLevelOrderTraversal.java)
 
+* Bottom View of Binary Tree [ref](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BottomViewBinTree.java)
+
 #### String
 
 * **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
