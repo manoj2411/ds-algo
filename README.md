@@ -84,6 +84,8 @@ Playground for popular algorithms and data-structures problems.
   * [solution in `.py`](https://github.com/manoj2411/ds-algo/blob/master/Array/pythagorean_triplet.py)
   * [solution in `.java`, optimised](https://github.com/manoj2411/ds-algo/blob/master/Array/PythagoreanTriplet.java)
 
+* Chocolate Distribution Problem ([ref](https://www.geeksforgeeks.org/chocolate-distribution-problem/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/ChocolateDistribution.java)
+
 
 #### Linked List
 
