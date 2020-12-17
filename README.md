@@ -211,9 +211,9 @@ valid_path.rb
 
 * Roman Number to Integer. [solution](https://github.com/manoj2411/ds-algo/blob/master/String/roman_to_int.py)
 
-* Longest Palindrome in a String.
-  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/string/longest_palindromic_substring.rb)
-  * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/string/LongestPalindromicSubstr.java)
+* Longest Palindrome in a String ([ref](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0)).
+  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/String/longest_palindromic_substring.rb)
+  * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/String/LongestPalindromicSubstr.java)
 
 #### Sortings
 
