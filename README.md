@@ -86,6 +86,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Chocolate Distribution Problem ([ref](https://www.geeksforgeeks.org/chocolate-distribution-problem/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/ChocolateDistribution.java)
 
+* Stock buy and sell ([ref](https://practice.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1#)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/StockBuySell.java)
+
 
 #### Linked List
 
