@@ -453,3 +453,5 @@ valid_path.rb
 
 * Squares of a Sorted Array ([details](https://leetcode.com/problems/squares-of-a-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SquaresOfSortedArray.java)
 
+* 4Sum II ([details](https://leetcode.com/problems/4sum-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FourSumII.java)
+
