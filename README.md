@@ -457,3 +457,4 @@ valid_path.rb
 
 * 4Sum II ([details](https://leetcode.com/problems/4sum-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FourSumII.java)
 
+* Increasing Triplet Subsequence ([details](https://leetcode.com/problems/increasing-triplet-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IncreasingTripletSubsequence.java)
