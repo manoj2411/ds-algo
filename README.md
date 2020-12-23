@@ -185,6 +185,8 @@ valid_path.rb
 
 * Bottom View of Binary Tree ([ref](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BottomViewBinTree.java)
 
+* Check if given Binary Tree is Height Balanced or Not ([details](https://leetcode.com/problems/balanced-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BalancedBinaryTree.java)
+
 #### String
 
 * **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
@@ -458,5 +460,3 @@ valid_path.rb
 * 4Sum II ([details](https://leetcode.com/problems/4sum-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FourSumII.java)
 
 * Increasing Triplet Subsequence ([details](https://leetcode.com/problems/increasing-triplet-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IncreasingTripletSubsequence.java)
-
-* Balanced Binary Tree ([details](https://leetcode.com/problems/balanced-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BalancedBinaryTree.java)
