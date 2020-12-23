@@ -1,3 +1,4 @@
 .byebug_history
 
 *.class
+*.DS_Store
