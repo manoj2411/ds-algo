@@ -247,6 +247,8 @@ valid_path.rb
 
 * Set every cell in matrix to 0 if that row or column contains a 0 ([details](https://www.geeksforgeeks.org/a-boolean-matrix-question/), [details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
 
+* Spirally traversing a matrix ([details](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SpirallyTraverse.java)
+
 
 #### Advance Data Structures
 
