@@ -464,3 +464,5 @@ valid_path.rb
 * Increasing Triplet Subsequence ([details](https://leetcode.com/problems/increasing-triplet-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IncreasingTripletSubsequence.java)
 
 * Next Greater Element III ([details](https://leetcode.com/problems/next-greater-element-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/next_greater_element_iii.rb)
+
+* Swap Nodes in Pairs ([details](https://leetcode.com/problems/swap-nodes-in-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwapNodesInPairs.java)
