@@ -88,6 +88,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Stock buy and sell ([ref](https://practice.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1#)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/StockBuySell.java)
 
+* Largest Number formed from an Array ([ref](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1#)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/LargetNumFormedFromArr.java)
+
 
 #### Linked List
 
