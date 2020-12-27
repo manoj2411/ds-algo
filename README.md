@@ -468,3 +468,5 @@ valid_path.rb
 * Next Greater Element III ([details](https://leetcode.com/problems/next-greater-element-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/next_greater_element_iii.rb)
 
 * Swap Nodes in Pairs ([details](https://leetcode.com/problems/swap-nodes-in-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwapNodesInPairs.java)
+
+* Decode Ways ([details](https://leetcode.com/problems/decode-ways/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/num_decodings.rb)
