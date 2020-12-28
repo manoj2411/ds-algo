@@ -90,6 +90,8 @@ Playground for popular algorithms and data-structures problems.
 
 * Largest Number formed from an Array ([ref](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1#)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/LargetNumFormedFromArr.java)
 
+* Merge k sorted arrays ([ref](https://www.geeksforgeeks.org/merge-k-sorted-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/MergeKsortedArrays.java)
+
 
 #### Linked List
 
