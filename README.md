@@ -470,3 +470,5 @@ valid_path.rb
 * Swap Nodes in Pairs ([details](https://leetcode.com/problems/swap-nodes-in-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwapNodesInPairs.java)
 
 * Decode Ways ([details](https://leetcode.com/problems/decode-ways/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/num_decodings.rb)
+
+* Jump Game IV ([details](https://leetcode.com/problems/jump-game-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameIV.java)
