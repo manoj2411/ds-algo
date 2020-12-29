@@ -223,6 +223,7 @@ valid_path.rb
   * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/String/longest_palindromic_substring.rb)
   * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/String/LongestPalindromicSubstr.java)
 
+
 #### Sortings
 
 * QuickSort for array ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Sortings/quick_sort.rb))
@@ -289,6 +290,11 @@ valid_path.rb
 * Find maximum possible stolen value from houses ([ref](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/ )). [solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/max_possible_stolen_value_houses.py)
 
 * **Word Break II** Given a non-empty string `s` and a dictionary wordDict, add spaces in `s` to construct a sentence where each word is a valid dictionary word. Return all such possible sentences, [ref](https://leetcode.com/problems/word-break-ii/). [solution](https://github.com/manoj2411/ds-algo/blob/master/Dp/word_break_ii.rb)
+
+* Longest Common Substring [ref](https://practice.geeksforgeeks.org/problems/longest-common-substring/0#).
+  * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/String/longest_commom_substring.rb)
+  * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/Dp/LongestCommonSubstring.java)
+
 
 
 #### Bit Manipulation
