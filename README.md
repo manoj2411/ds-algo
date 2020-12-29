@@ -299,6 +299,11 @@ valid_path.rb
 
 * Find most significant set bit of a number. ([solution](https://github.com/manoj2411/ds-algo/blob/master/BitManioulation/MostSignificantSetBit.java))
 
+#### Recursion
+
+* Construct all possible BSTs for keys 1 to N ([details](https://leetcode.com/problems/unique-binary-search-trees-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/recursion/AllPossibleBSTs1ToN.java)
+
+
 
 #### Bacltracking
 
