@@ -129,6 +129,10 @@ Playground for popular algorithms and data-structures problems.
 
 * Flatten a multilevel linked list in way that all nodes at first level should come first, then nodes of second level, and so on. ([ref](https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_multilevel.rb)
 
+* Merge K sorted linked lists [ref](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/MergeKsortedLinkedLists.java))
+
+
+
 #### Tree
 
 valid_path.rb
