@@ -487,3 +487,5 @@ valid_path.rb
 * Jump Game IV ([details](https://leetcode.com/problems/jump-game-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameIV.java)
 
 * Maximum Number of Eaten Apples ([details](https://leetcode.com/problems/maximum-number-of-eaten-apples/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxApplesEaten.java)
+
+* Pseudo-Palindromic Paths in a Binary Tree ([details](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PseudoPalindromicPathsBinTree.java)
