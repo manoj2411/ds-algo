@@ -496,3 +496,5 @@ valid_path.rb
 
 * Game of Life ([details](https://leetcode.com/problems/game-of-life/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GameOfLife.java)
   * [Constant space solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GameOfLifeFollowup1.java)
+
+* Check Array Formation Through Concatenation ([details](https://leetcode.com/problems/check-array-formation-through-concatenation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayFormationThroughConcat.java)
