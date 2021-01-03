@@ -500,3 +500,5 @@ valid_path.rb
 * Check Array Formation Through Concatenation ([details](https://leetcode.com/problems/check-array-formation-through-concatenation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayFormationThroughConcat.java)
 
 * Maximum Units on a Truck ([details](https://leetcode.com/problems/maximum-units-on-a-truck/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/max_units_on_truck.rb)
+
+* Count Good Meals ([details](https://leetcode.com/problems/count-good-meals/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/count_good_meals.rb)
