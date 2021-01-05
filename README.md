@@ -227,6 +227,8 @@ valid_path.rb
   * [Solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/String/longest_palindromic_substring.rb)
   * [Solution in java](https://github.com/manoj2411/ds-algo/blob/master/String/LongestPalindromicSubstr.java)
 
+* Length of the longest substring without repeating characters ([ref](https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring/0)). [solution](https://github.com/manoj2411/ds-algo/blob/master/String/LengthOfLongestSubstrUniqueChars.java)
+
 
 #### Sortings
 
