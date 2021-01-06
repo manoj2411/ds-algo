@@ -508,3 +508,5 @@ valid_path.rb
 * Find a Corresponding Node of a Binary Tree in a Clone of That Tree ([details](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindNodeInClonedBinaryTree.java)
 
 * Beautiful Arrangement ([details](https://leetcode.com/problems/beautiful-arrangement/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BeautifulArrangement.java)
+
+* Remove Duplicates from Sorted List II ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicatesFromSortedListII.java)
