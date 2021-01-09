@@ -510,3 +510,5 @@ valid_path.rb
 * Beautiful Arrangement ([details](https://leetcode.com/problems/beautiful-arrangement/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BeautifulArrangement.java)
 
 * Remove Duplicates from Sorted List II ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicatesFromSortedListII.java)
+
+* Valid Palindrome II ([details](https://leetcode.com/problems/valid-palindrome-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidPalindromeII.java)
