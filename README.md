@@ -125,7 +125,9 @@ Playground for popular algorithms and data-structures problems.
 
 * Flatten a Multilevel Doubly Linked List, [ref](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_multi_level_doubly.rb))
 
-* Reverse a Linked List in groups of given size. ([solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/reverse_in_group.rb))
+* Reverse a Linked List in groups of given size.
+  * [solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Linklist/reverse_in_group.rb)
+  * [solution in java](https://github.com/manoj2411/ds-algo/blob/master/Linklist/ReverseInGroup.java)
 
 * Flatten a multilevel linked list in way that all nodes at first level should come first, then nodes of second level, and so on. ([ref](https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Linklist/flatten_multilevel.rb)
 

@@ -54,5 +54,5 @@ end
   head = reverse_in_group head, k
   puts "Reversed in group of #{k}"
   pp head
-
+  puts
 end
