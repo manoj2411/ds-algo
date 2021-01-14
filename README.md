@@ -514,3 +514,6 @@ valid_path.rb
 * Remove Duplicates from Sorted List II ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDuplicatesFromSortedListII.java)
 
 * Valid Palindrome II ([details](https://leetcode.com/problems/valid-palindrome-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidPalindromeII.java)
+
+* Boats to Save People ([details](https://leetcode.com/problems/boats-to-save-people/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BoatsToSavePeople.java)
+
