@@ -1,3 +1,4 @@
+## Not covering all cases, ex: mississipie should be mpie but getting mipie
 def remove_adjecent_duplicates(str)
   len = str.length
   new_str = ""
@@ -22,7 +23,7 @@ def remove_adjecent_duplicates(str)
     i += 1
   end
 
-  return new_str
+  new_str
 end
 
 
@@ -32,11 +33,12 @@ def skip_chars_for(str, i, len)
   while i < len && str[i] == chr
     i += 1
   end
-  return i
+
+  i
 end
 
 ['geeksforgeek', 'acaaabbbacdddd', 'aabccbda', 'azxxzy', 'geeksforgeeg',
-  'caaabbbaacdddd', 'acaaabbbacdddd', 'aabccba'].each do |str|
-  puts "Str: #{str}"
-  puts "Output: #{remove_adjecent_duplicates(str)}"
+  'caaabbbaacdddd', 'acaaabbbacdddd', 'aabccba', 'mississipie'].each do |str|
+  puts "Str: #{str} -->> #{remove_adjecent_duplicates(str)}"
+  puts
 end
