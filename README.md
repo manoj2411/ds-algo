@@ -517,3 +517,4 @@ valid_path.rb
 
 * Boats to Save People ([details](https://leetcode.com/problems/boats-to-save-people/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BoatsToSavePeople.java)
 
+* Get Maximum in Generated Array ([details](https://leetcode.com/problems/get-maximum-in-generated-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GetMaximumInGeneratedArray.java)
