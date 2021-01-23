@@ -520,3 +520,5 @@ valid_path.rb
 * Get Maximum in Generated Array ([details](https://leetcode.com/problems/get-maximum-in-generated-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GetMaximumInGeneratedArray.java)
 
 * Find the Most Competitive Subsequence ([details](https://leetcode.com/problems/find-the-most-competitive-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MostCompetitiveSubsequence.java)
+
+* Determine if Two Strings Are Close ([details](https://leetcode.com/problems/determine-if-two-strings-are-close/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DetermineIf2StringsAreClose.java)
