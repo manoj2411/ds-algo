@@ -522,3 +522,5 @@ valid_path.rb
 * Find the Most Competitive Subsequence ([details](https://leetcode.com/problems/find-the-most-competitive-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MostCompetitiveSubsequence.java)
 
 * Determine if Two Strings Are Close ([details](https://leetcode.com/problems/determine-if-two-strings-are-close/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DetermineIf2StringsAreClose.java)
+
+* Sort the Matrix Diagonally ([details](https://leetcode.com/problems/sort-the-matrix-diagonally/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortMatrixDiagonally.java)
