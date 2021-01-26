@@ -524,3 +524,5 @@ valid_path.rb
 * Determine if Two Strings Are Close ([details](https://leetcode.com/problems/determine-if-two-strings-are-close/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DetermineIf2StringsAreClose.java)
 
 * Sort the Matrix Diagonally ([details](https://leetcode.com/problems/sort-the-matrix-diagonally/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortMatrixDiagonally.java)
+
+* Check If All 1's Are at Least Length K Places Away ([details](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsAllOneAtLeastKPlacesAway.java)
