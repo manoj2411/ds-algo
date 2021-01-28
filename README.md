@@ -526,3 +526,7 @@ valid_path.rb
 * Sort the Matrix Diagonally ([details](https://leetcode.com/problems/sort-the-matrix-diagonally/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortMatrixDiagonally.java)
 
 * Check If All 1's Are at Least Length K Places Away ([details](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsAllOneAtLeastKPlacesAway.java)
+
+* Concatenation of Consecutive Binary Numbers ([details](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/concatenated_consecutive_binary.rb)
+
+
