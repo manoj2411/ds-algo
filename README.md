@@ -529,4 +529,5 @@ valid_path.rb
 
 * Concatenation of Consecutive Binary Numbers ([details](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/concatenated_consecutive_binary.rb)
 
+* Smallest String With A Given Numeric Value ([details](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestStrWithGivenValue.java)
 
