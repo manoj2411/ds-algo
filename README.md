@@ -163,7 +163,9 @@ valid_path.rb
 
 * Cousins in Binary Tree ([ref](https://leetcode.com/problems/cousins-in-binary-tree/)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/is_cousins.rb)
 
-* Maximum Path Sum from one leaf node to another of a binary tree. ([ref](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1)). [Solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_path_sum.rb)
+* Maximum Path Sum from one leaf node to another of a binary tree. ([ref](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1)).
+  * [solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Tree/max_path_sum.rb)
+  * [solution in java](https://github.com/manoj2411/ds-algo/blob/master/Tree/MaxPathSumBwLeafNode.java)
 
 * Convert a given Binary Tree to Doubly Linked List in-place, [ref](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1)
   * [solution in ruby](https://github.com/manoj2411/ds-algo/blob/master/Tree/binary_tree_to_dll.rb)
