@@ -533,3 +533,4 @@ valid_path.rb
 
 * Smallest String With A Given Numeric Value ([details](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestStrWithGivenValue.java)
 
+* Next Permutation ([details](https://leetcode.com/problems/next-permutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextPermutation.java)
