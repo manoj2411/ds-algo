@@ -315,6 +315,7 @@ valid_path.rb
 
 * Find most significant set bit of a number. ([solution](https://github.com/manoj2411/ds-algo/blob/master/BitManioulation/MostSignificantSetBit.java))
 
+
 #### Recursion
 
 * Construct all possible BSTs for keys 1 to N ([details](https://leetcode.com/problems/unique-binary-search-trees-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/recursion/AllPossibleBSTs1ToN.java)
@@ -534,3 +535,5 @@ valid_path.rb
 * Smallest String With A Given Numeric Value ([details](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SmallestStrWithGivenValue.java)
 
 * Next Permutation ([details](https://leetcode.com/problems/next-permutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextPermutation.java)
+
+* Trim a Binary Search Tree ([details](https://leetcode.com/problems/trim-a-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TrimBinarySearchTree.java)
