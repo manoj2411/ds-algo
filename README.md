@@ -537,3 +537,5 @@ valid_path.rb
 * Next Permutation ([details](https://leetcode.com/problems/next-permutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextPermutation.java)
 
 * Trim a Binary Search Tree ([details](https://leetcode.com/problems/trim-a-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TrimBinarySearchTree.java)
+
+* Simplify Path ([details](https://leetcode.com/problems/simplify-path/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SimplifyPath.java)
