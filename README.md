@@ -539,3 +539,5 @@ valid_path.rb
 * Trim a Binary Search Tree ([details](https://leetcode.com/problems/trim-a-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TrimBinarySearchTree.java)
 
 * Simplify Path ([details](https://leetcode.com/problems/simplify-path/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SimplifyPath.java)
+
+* Binary Tree Right Side View ([details](https://leetcode.com/problems/binary-tree-right-side-view/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BinaryTreeRightView.java)
