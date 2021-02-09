@@ -541,3 +541,5 @@ valid_path.rb
 * Simplify Path ([details](https://leetcode.com/problems/simplify-path/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SimplifyPath.java)
 
 * Binary Tree Right Side View ([details](https://leetcode.com/problems/binary-tree-right-side-view/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BinaryTreeRightView.java)
+
+* Peeking Iterator ([details](https://leetcode.com/problems/peeking-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PeekingIteratorRunner.java)
