@@ -543,3 +543,5 @@ valid_path.rb
 * Binary Tree Right Side View ([details](https://leetcode.com/problems/binary-tree-right-side-view/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BinaryTreeRightView.java)
 
 * Peeking Iterator ([details](https://leetcode.com/problems/peeking-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PeekingIteratorRunner.java)
+
+* Convert BST to Greater Tree ([details](https://leetcode.com/problems/convert-bst-to-greater-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertBSTtoGreaterTree.java)
