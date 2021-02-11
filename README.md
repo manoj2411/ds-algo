@@ -545,3 +545,5 @@ valid_path.rb
 * Peeking Iterator ([details](https://leetcode.com/problems/peeking-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PeekingIteratorRunner.java)
 
 * Convert BST to Greater Tree ([details](https://leetcode.com/problems/convert-bst-to-greater-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertBSTtoGreaterTree.java)
+
+* Copy List with Random Pointer ([details](https://leetcode.com/problems/copy-list-with-random-pointer/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CopyListwithRandomPointer.java)
