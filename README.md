@@ -549,3 +549,5 @@ valid_path.rb
 * Copy List with Random Pointer ([details](https://leetcode.com/problems/copy-list-with-random-pointer/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CopyListwithRandomPointer.java)
 
 * Valid Anagram ([details](https://leetcode.com/problems/valid-anagram/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidAnagram.java)
+
+* Shortest Path in Binary Matrix ([details](https://leetcode.com/problems/shortest-path-in-binary-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathInBinaryMatrix.java)
