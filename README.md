@@ -551,3 +551,5 @@ valid_path.rb
 * Valid Anagram ([details](https://leetcode.com/problems/valid-anagram/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidAnagram.java)
 
 * Shortest Path in Binary Matrix ([details](https://leetcode.com/problems/shortest-path-in-binary-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathInBinaryMatrix.java)
+
+* Is Graph Bipartite? ([details](https://leetcode.com/problems/is-graph-bipartite/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsGraphBipartite.java)
