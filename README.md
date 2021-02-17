@@ -555,3 +555,5 @@ valid_path.rb
 * Is Graph Bipartite? ([details](https://leetcode.com/problems/is-graph-bipartite/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsGraphBipartite.java)
 
 * The K Weakest Rows in a Matrix ([details](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KWeakestRowsInMatrix.java)
+
+* Letter Case Permutation ([details](https://leetcode.com/problems/letter-case-permutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LetterCasePermutation.java)
