@@ -1,4 +1,4 @@
-# find max value with the given weight we can carry. Items quantity is 1.
+# 0/1 - knapsack : find max value with the given weight we can carry. Items quantity is 1.
 def knapsack(items, weight)
   util(items, weight, 0, {})
 end
@@ -11,11 +11,11 @@ def util(items, weight, i, cache)
   else
     result =
       if items[i][:w] > weight
-        util(items, weight, i + 1, cache)
+        util(items, weight, i + 1, cache) # can't fit curr weight, get result without considering curr wt & curr val
       else
         [
-          util(items, weight, i + 1, cache),
-          items[i][:v] + util(items, weight - items[i][:w], i + 1, cache)
+          util(items, weight, i + 1, cache), # do not include curr wt & val
+          items[i][:v] + util(items, weight - items[i][:w], i + 1, cache) # include curr wt & val
         ].max
       end
     cache[[i,weight]] = result
