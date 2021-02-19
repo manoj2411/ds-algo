@@ -1,0 +1,158 @@
+Links
+
+Java
+------
+Basics
+OOPs
+classes
+structs
+
+Spring boot
+ORM - Spring data - Spring JPA
+
+Tomcat, container
+Design Patterns
+
+
+
+
+New window
+-----------
+https://www.geeksforgeeks.org/microsoft-interview-experience-set-154-1-5-years-experienced/
+https://www.geeksforgeeks.org/microsoft-idc-interview-experience-set-156-off-campus-for-full-time/
+https://www.geeksforgeeks.org/microsoft-interview-experience-set-160-off-campus/
+https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+https://www.geeksforgeeks.org/microsoft-interview-experience-sde-2-3-years-experienced/
+https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/
+
+Large Object Storage in a Database or a Filesystem?
+https://arxiv.org/ftp/cs/papers/0701/0701168.pdf
+http://www.codespaghetti.com/java-design-pattern-interview-questions/
+What I Learned Doing 250 Interviews at Google-https://www.youtube.com/watch?v=r8RxkpUvxK0&t=5s
+Introduction to Algorithms - https://www.youtube.com/watch?v=JPyuH4qXLZ0
+https://www.quora.com/Has-any-interviewer-in-the-tech-industry-realized-that-they-lost-a-good-software-engineer-just-because-he-she-failed-the-algorithms-interview
+Data Science Leadership -https://www.youtube.com/watch?time_continue=514&v=8eTtS9KrSt0
+Introduction to Machine Learning - https://www.youtube.com/watch?v=h0e2HAPTGF4
+SOLID Ruby by: Jim Weirich - https://www.youtube.com/watch?v=dKRbsE061u4
+https://codeburst.io/understanding-solid-principles-single-responsibility-b7c7ec0bf80
+https://codeburst.io/understanding-solid-principles-dependency-injection-d570c15560ab
+http://www.codespaghetti.com/interview-success/
+Immutability Changes Everything - file:///Users/manoj/Dropbox/Study/Immutability%20Changes%20Everything%20CIDR15_Paper16.pdf
+
+
+
+OOD
+---------
+https://stackoverflow.com/questions/4501891/workbook-on-object-oriented-design-object-model-domain-system-sequence-diagram/4502112#4502112
+--
+https://softwareengineering.stackexchange.com/questions/289403/how-to-break-mental-model-of-objects
+https://xp123.com/articles/test-first-challenge/
+https://www.dropbox.com/s/bejw7ecdhqjsnbm/objectcalisthenics.rtf?dl=0
+http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
+https://www.iei.liu.se/is/edu/courses/it-projekt---fordjupning/objektorienterad-analys-och-design/extra-material/1.452827/coffeebrewerdesign.pdf
+
+http://www.codespaghetti.com/abstract-interview-questions/
+http://www.java67.com/2016/07/top-5-object-oriented-design-interview-questions.html
+https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
+Coffee maker - https://drive.google.com/file/d/0BwhCYaYDn8EgY2I3ZjUzNWMtMzE0ZS00ZDhlLTlmZGItMThkOTQzYzM0MTE3/view
+Building Skills in Object-Oriented Design - http://www.itmaybeahack.com/book/oodesign-java-2.1/html/index.html
+
+Cheatsheet
+-----------
+http://bigocheatsheet.com/
+http://discrete.gr/complexity/
+
+Reverse Proxy Caching
+-----------------------
+Varnish or Squid Cache
+
+https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/
+
+Varnish
+-------
+http://highscalability.com/blog/2011/2/28/a-practical-guide-to-varnish-why-varnish-matters.html
+https://easyengine.io/wordpress-nginx/tutorials/single-site/fastcgi-cache-with-purging/
+https://www.g2crowd.com/categories/web-server-accelerator
+https://www.google.co.in/search?q=squid+vs+varnish&oq=Squid+vs+&aqs=chrome.5.0j69i57j0l4.6932j0j1&sourceid=chrome&ie=UTF-8
+
+Mock and stub
+-------------------
+https://stackoverflow.com/questions/7340808/whats-the-difference-between-mock-stub-and-factory-girl
+https://stackoverflow.com/questions/5164102/mocks-and-stubs
+https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations
+
+
+Window - gainlo
+---------------
+http://blog.gainlo.co/index.php/2015/12/08/projects-are-the-future-of-hiring-coding-interview/
+http://blog.gainlo.co/index.php/2015/10/22/7-simple-ways-to-improve-your-code-in-interviews/
+http://blog.gainlo.co/index.php/2015/10/23/7-red-flags-in-code-interview/
+http://blog.gainlo.co/index.php/2015/12/22/how-to-crack-the-coding-interview-with-practicing-only-30-questions/
+
+
+
+Incog
+-------
+https://www.quora.com/I-am-a-software-engineer-with-20+-years-experience-but-Ive-failed-5-tech-interviews-in-a-row-because-I-didnt-do-that-well-in-the-algorithm-problems-Should-I-change-my-career
+https://www.bostonglobe.com/ideas/2015/07/25/the-power-slow-thinking/ToZbzYl7rG0yVMCtsZ7WnJ/story.html
+https://www.forbes.com/sites/quora/2017/07/06/after-30-failed-tech-interviews-i-finally-figured-out-what-i-was-doing-wrong/#3fee5d181a25
+http://www.careerride.com/cracking-an-IT-interview.aspx
+http://www.softwaretestinghelp.com/18-tips-to-handle-any-job-interview-successfully/
+https://insights.dice.com/2012/10/02/gayle-laakmann-mcdowell-coding-interviews/
+https://medium.freecodecamp.org/software-engineering-interviews-744380f4f2af
+https://simpleprogrammer.com/software-development-job-without-experience/
+https://simpleprogrammer.com/10-developer-job-interview-tips-to-land-the-best-job-you-can/
+https://www.developer.com/mgmt/three-types-of-interview-questions-software-developers-should-expect.html
+
+Mysql Indexes
+---------------
+https://www.slideshare.net/matsunobu/more-mastering-the-art-of-indexing
+http://yoshinorimatsunobu.blogspot.in/2009/04/mastering-art-of-indexing-slides.html
+https://conferences.oreilly.com/mysql/mysql2010/public/schedule/detail/13284
+https://www.scribd.com/document/77510315/Mastering-the-Art-of-Indexing-Presentation
+
+https://karolgalanciak.com/blog/2018/01/30/postgresql-quick-tips-working-with-dates-using-extract-function/
+Normalization - 1NF, 2NF, 3NF and 4NF - https://www.youtube.com/watch?v=UrYLYV7WSHM
+
+Other topics
+-------------
+Google Kubernetes Engine
+Kubernetes
+https://cloudonair.withgoogle.com/events/modernize-it-apac?expand=segment:go-jek-go-jek
+MICROSERVICES FOR STARTUPS - https://buttercms.com/books/microservices-for-startups/should-you-always-start-with-a-monolith
+
+Ruby
+----
+http://hackernotes.io/rails-5s-best-feature-one-may-not-noticed/
+https://www.toptal.com/ruby/the-many-shades-of-the-ruby-programming-language
+https://www.jimmycuadra.com/posts/self-in-ruby/
+http://weblog.jamisbuck.org/2015/12/12/little-things-proc-parameters.html
+https://github.com/franzejr/best-ruby/blob/master/tricks/introspecting_block_parameters.md
+https://github.com/franzejr/best-ruby/blob/master/tricks/add_uniq_value_to_array.md
+
+Grape gem
+---------
+https://www.toptal.com/ruby/grape-gem-tutorial-how-to-build-a-rest-like-api-in-ruby
+https://github.com/ruby-grape/grape-on-goliath
+http://www.ruby-grape.org/examples/
+https://github.com/ruby-grape/grape
+
+
+Design Patterns
+---------------
+
+Command
+ https://medium.com/@dljerome/design-patterns-in-ruby-command-802b785d1bbd
+ https://github.com/nslocum/design-patterns-in-ruby/blob/master/commands/command.rb
+Memento
+mediator
+  https://github.com/nslocum/design-patterns-in-ruby/tree/master/mediator
+observer
+  https://github.com/nslocum/design-patterns-in-ruby/tree/master/observer
+builder
+  https://github.com/nslocum/design-patterns-in-ruby/blob/master/builder/computer_builder.rb
+Visitor
+  https://medium.com/kkempin/visitor-design-pattern-in-ruby-bc07395c4abc
+State
+  https://www.geeksforgeeks.org/state-design-pattern/
+

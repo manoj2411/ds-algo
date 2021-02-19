@@ -1,0 +1,528 @@
+def uniq_count_helper(l, s, slen, llen, tick)
+  count = 0
+  for i in 0...(llen - slen + 1)
+    if l[i...i + slen] == s && tick[i] == 0
+      tick[i] += 1
+      count += 1
+    end
+  end
+  return count
+end
+
+def get_type1(l, s)
+  llen = l.length
+  slen = s.length
+  tick = Array.new(llen, 0)
+  return uniq_count_helper(l, s, slen, llen, tick)
+end
+
+def get_type2(l, s)
+  llen = l.length
+  slen = s.length
+  tick = Array.new(llen, 0)
+
+  type2 = 0
+
+  for i in 0...s.length
+    char = s[i]
+    s[i] = ''
+    type2 += uniq_count_helper(l, s, slen - 1, llen, tick)
+    s.insert(i, char)
+  end
+  return type2
+end
+
+def get_type3(l, s)
+  llen = l.length
+  slen = s.length
+  tick = Array.new(llen, 0)
+  chars = %w{A G C T}
+  puts "S: #{s}"
+  type3 = 0
+  for i in 0...s.length
+    char = s[i]
+    s[i] = ''
+    type2 += uniq_count_helper(l, s, slen - 1, llen, tick)
+    s.insert(i, char)
+  end
+
+end
+
+STDIN.each_line do |line|
+  s, l = line.split(' ')
+  puts "#{get_type1(l, s)} #{get_type2(l, s)}"
+  # puts get_type1(l, s)
+  # puts get_type2(l, s)
+end
+
+==========================
+
+Node = Struct.new(:key, :left, :right)
+
+def find_first_common_parent(key1, key2, root)
+  store = {key1: nil, key2: nil, fcp: nil}
+  helper(root, key1, key2, store)
+  if store[:fcp]
+    return store[:fcp]
+  end
+  if store[:key1] || store[:key2]
+    if store[:key1] && find_node(store[:key1], key2)
+      return store[:key1].key
+    elsif find_node(store[:key2], key1)
+      return store[:key2].key
+    else
+      return -1
+    end
+  else
+    return -1
+  end
+end
+
+
+def find_node(node, key)
+  if node == nil
+    return false
+  elsif node.key == key
+    return true
+  end
+  return find_node(node.left, key) || find_node(node.right, key)
+end
+
+def helper(node, key1, key2, store)
+  if node == nil || store[:fcp]
+    return false
+  end
+
+  if node.key == key1
+    store[:key1] = node
+    return true
+  elsif node.eky == key2
+    store[:key2] = node
+    return true
+  end
+
+  left = helper(node.left, key1, key2, store)
+  right = helper(node.right, key1, key2, store)
+
+  if left && right
+    store[:fcp] = node
+    return true
+  end
+
+  return left || right
+
+end
+
+
+----
+
+Write down challanges
+1. Handle load on read. Users will constantly refresh the page to check available inventory. It’s also likely that all users will request for other similar resource at the same time, such as account, item description, etc
+2. Provide high throughput. There will be many concurrent read and write to the limited inventory records, so the database lock may result in timeout for some of the requests.
+3.
+
+=============
+
+sharding concepts
+routing policies like weighted routing
+
+
+If you are given a big array of free bytes, and requests keep coming for some size, how will you allocate that. After allocation, how will you deallocate. Note that we de-llocate using free which takes only the pointer to delete the memory it is pointing to. We don’t give the size here, so, we need to maintain the size for each allocation request in our implementation
+
+fault tolerance, reliability, user experience, load handling
+
+
+1. customer_id based, a service will return the shard address for user
+2.
+
+Range Based Partitioning
+ - example, splitting up sales transactions by what year they were created or assigning users to servers based on the first digit of their zip code
+ - main problem with this approach is that if the value whose range is used for partitioning isn't chosen carefully then the sharding scheme leads to unbalanced servers
+ - current year gets a disproportionate amount of read and write traffic
+ -
+
+
+Lesson 1: Right Size Your Shards
+- Pick a number that will give you 18-24 months of growth with a margin for safety
+Lesson 2: Use Math on Shard Counts
+Lesson 3: Carefully Consider the Spread(distribution)
+- simplest strategy is a uniform distribution which can be achieved using simple modulo math on the primary access key
+-
+
+============
+
+How Does DNS Works : Resolving DNS
+1. Machine trie to find out the ip address, computer asks the resolving name server the ip adress for the url.
+"Resolver" is often my ISP's resolving name server.
+The resolver seraches its cache for the answer. If it doesnt have the answer it asks the root-zone name server like do you know this domain. Root-Zone look its files, if it does not have this information then it sends ip of "com" name server.
+The resolver then sends his question to ".com" name server which looks into its own files.
+
+https://www.youtube.com/watch?v=72snZctFFtA
+
+https://www.youtube.com/watch?v=3EvjwlQ43_4
+
+
+====================
+
+Implement the File Management System of the windows OS
+
+Design data structure that supports insert(), remove(), find-max(), delete-max() operations. All operations should run in O(1) time
+
+
+Design Clustered caching system for an web site like Amazon.com
+Design only Train search functionality of IRCTC
+Design online teaching system,there are n number of teachers and each one teaches only one subject to any number of students. And a student can join to any number of teachers to learn those subjects.
+
+----
+Q. Given a cube of size N. which was constructed by N^3 number of 1 unit smaller white cubes. Now you dipped that cube in a black color paint and taken out.
+after that how many cubes are still in white color. Prove your answer( by writing mathematical equations)
+Q3. There are N bolts each of which different size and N nuts, they are also with different sizes. and each bolt fits with exactly 1 nut.
+Give an algorithm that combines those N bolts and nuts into N pairs of Matched bolt and nut.
+
+
+
+============
+
+Microservices at Netflix Scale
+------------
+
+- Microservices: all benefits, no cost?
+ - you put bug into 1 machine, its a bug into all machines
+ - 1 DB, single point of failure
+
+1st prencipals / assumptions
+- Services should be stateless. Must not rely on sticky sessions.
+- scaleup vs scale out
+ - if you keep scaling up, you hit the limit
+ - Horizontal scaling gives you longer runway
+ - Its always easier to add instances in cloud, its a good elasticity
+- Redundancy and isolation for Resiliency
+ - No single point of failure
+ - Isolate the blast radius for any given failure.
+- Automate destructive testing
+ - Simian Army
+ - Started with Chaos Monkey
+ - Failure will occure, it the matter of when it will occur
+ - Eventually you have to do it on production, no matter what.
+Cost of Microservices
+ - Nothing is free
+ - Its an Org changes, Org changesa are hard.
+ -
+
+ ==============
+
+Binary search tree into Sorted doubly linked list
+topological sort
+
+property that when a process is killed, corresponding Threads also get killed.
+
+
+1. Job scheduling problem: you have to do certain things first then only yuo can do next like you can only wear pants after underwear, or you can wear shoes only after shocks
+- You have some jobs to complete, some dependent on other, you have to find out a way to do all those things is the topological sort
+
+
+==============
+
+1. Mind does exactly what it thing you wanted to do, things in your very best inteno
+ - exams ar ekilling me, I am dying. I cant code under stress
+ - I love working under stress, love writing code
+
+2. Hardwired to move you towards pleasure & away from pain
+ - I want the pain, I choose this, I wanted it.
+
+3. Pictures you made to yourselfs and the words you say to yourself
+4. Mind loves waht is familiar - Tell yourself that your  are the great, greatest and best.
+
+
+Tell mind eactly what you want and attach pleasure to it
+
+
+
+===============
+
+BrowserStack
+--------
+
+1. Write a program which takes JSON as input and gives prettified JSON
+ - Input will be uglifiedjson in one line and output will be prettified format of that
+
+2. grepping for info from logs
+
+3. Sort an array having N elements where every element is < N. The array has no duplicate values.
+
+4. Implement a remote 'tailf' over http and websockets without using any library
+- Multi-client web application to simulate "Tail -f <filename>"
+ (Keep track of the lastRead and broadcast of the length of the file increases to all connecting outputstreams from response.)
+5. Write code to take screenshot of the last opened page of chrome without using any external library
+- A standalone application which gets the screenshot and the URL of the last opened web page in the currently running browser instance. The screenshot should the full web page and not just what is shown on the screen i.e. its a web page shot.
+ (Use the History sqllite file from chrome in User Data/Profile 1. Screenshot using Selenium's Webdriver.)
+
+
+=======
+
+Synchronizing data in a distributed system is an enormous challenge
+often don’t know which version of a piece of data is the most up-to-date based on physical timestamp alone.
+example, two synchronized servers that write timestamps to the same system. If one server falls behind by even a few milliseconds, it would quickly be impossible to know the actual order of events. To solve this problem, we can use logical clocks based on events rather than time to build partially ordered sets
+"vector clock" or "Lamport timestamp"
+
+Lamport Timestamps:
+
+===============
+
+Post - authors =>
+
+Select * from posts joins post_users on posts.id = post_users.post_id joins users on users.id = post_users.user_id
+
+All Authors who havn;t posted in last 180 days
+
+Select user_id w
+
+Select * from users outer joins post_users.post_id = users.id joins posts on posts.id = post_users.post_id where posts.
+
+
+
+1. how to handle external service changes in yuor app
+2. how to build great product
+3. Freeze string in ruby.
+4. 0 down time deployment
+5. unit test and integration
+
+- Is ruby a dynamically typed languaged?
+- Difference between dynamicaly typed language and static typed language?
+
+finding duplicate numbers in an array
+
+Determine if an array contains duplicate entries.
+Now what if the array is very large, and had to be distributed across multiple machines.
+What if the network connection between these machines are prone to failure?
+What if the hardware themselves are not 100% reliable and may occasionally give off wrong answers?
+Design a system so that multiple simultaneous users may need to update this array, while you need to maintain uniqueness of its entries.
+
+
+Dummies: Its a value/object that is passed in a method call, but never actually used.
+Stub: replacing a method with code that returns a specified result. return hard coded information in order to reduce test dependencies and avoid time consuming operations.
+Mock: Mocking is used to improve the performance of your tests. Mocks are "smart" stubs, their purpose is to verify that some method was called. They are created with some expectations (expected method calls) and can then be verified to ensure those methods were called.
+
+
+Find open source projects
+
+
+================
+
+### When to use Double, Stub, and Mock
+-
+
+
+### How would you deploy and configure 100 servers
+
+
+=========
+
+Q. Javascript what are you?
+A. I am a single-threaded, non-blocking, asynchronous, cuncurrent, language :)
+ - I have a call stack, an event loop, a callback queue, some other api's and stuff
+
+Q. Hey V8, do you have a call stack, event loop, a callback queue, some apis and stuff?
+A. I have a callstack and a heap.
+
+"WTF are those things :( "
+
+
+### The call stack
+1.  one thread == one call stack == one thing at a time
+
+Simple - its a data structure which records where in the program we are.
+
+###Blocking : What happens when things are slow?
+- its just the code that is slow.
+- If we write code like synchronously call 3 api's then page will freeze bcz we blocked the call stack. This is what happens when write code in a single threaded language, browser can't do anything else now.
+
+The Solution is "asynchronous callbacks"
+how it works?
+
+### Concurrency and the EventLoop
+1 thing at a time, except not really.
+
+We can do more than 1 things at a time bcz browser is more than just a Runtime.
+Browser give us these other things webAPIs, these are effectively threads that you cannot access like thread, instead you can make call to it.
+These pieces of the browser is where the concurrency kicks in.
+
+EX: setTimeout- it is something given by wepapis, when we call it, we kickoff a timer in webspis thread.
+When timer is done, it push your callback to the "task queue" or callback queue
+
+Now comes the eventloop, It has 1 very simple job. Its job is to look at the stack and look at the task queue.
+When the stack is empty, it takes 1st thing in the queue and pushes on to the stack, which then runs it.
+Now someone comes and tells you that that just put 0 in setTimeout, why would he want to do that, simple: If you are trying to deffer something until the stack is clear.
+Remember: event loop runs only when the stack is clear, otherwise it'll wait.
+
+
+
+
+React uses one-way data binding to make things simpler. Every time you type in an input field in a React UI, for example, it doesn’t directly change the state of that component. Instead, it updates the data model, which causes the UI to be updated and the text you typed into the field appears in the field.
+
+Q. Is the DOM slow?
+today’s JavaScript engines are extremely fast, reading from and writing to the browser’s DOM is slow?
+This isn’t exactly true. The DOM is fast. Adding and removing DOM nodes doesn’t take much more than setting a property on a JavaScript object. It’s a simple operation.
+What is slow, however, is the layout that browsers have to do whenever the DOM changes. Every time the DOM changes, browser need to recalculate the CSS, do layout, and repaint the web page. This is what takes time.
+Browser makers are continually working to shorten the time it takes to repaint the screen. The biggest thing that can be done is to minimize and batch the DOM changes that make redraws necessary.
+This strategy of reducing and batching DOM changes, taken to another level of abstraction, is the idea behind React’s Virtual DOM.
+
+Updating the browser’s DOM is a three-step process in React:
+1. Whenever anything may have changed, the entire UI will be re-rendered in a Virtual DOM representation
+2. The difference between the previous Virtual DOM representation and the new one will be calculated.
+3. The real DOM will be updated with what has actually changed. This is very much like applying a patch.
+
+clearly, if it was just about how fast they are, pure JavaScript and jQuery win easily. However, this is just common sense. Using a library is slower than not using a library. And creating an in-memory representation of the DOM before actually manipulating the DOM is slower than just manipulating the DOM directly, when it’s done correctly.
+
+React is designed for managing updates to pages, so dont compare it with load event or single change.
+
+
+
+
+Q. what is javascript runtime?
+Q. V8 and various runtimes, chrome runtime?
+
+=============
+System Design
+--------------
+
+1. Make your own hands dirty. Build small small apps/programs. and Think about its scaling.
+
+- Be familiar with basic knowledge
+
+how to abstract a system
+Network. You should be able to explain clearly what happened when you type “gainlo.co” in your browser, things like DNS lookup, HTTP request should be clear.
+Machine learning (optional). You don’t need to be an expert, but again some basic concepts like feature selection, how ML algorithm works in general are better to be familiar with.
+neural network in the interview, but you should be able to explain it within a sentence
+
+always good to start with high-level ideas and then figure out details step by step, so this should be a top-down approach
+
+Let’s use Youtube recommendation system as an example. I might first divide this into front-end and backend (the interviewer may only ask for backend or a specific part, but I’ll cover the whole system to give you an idea). For backend, the flow can be 3 steps: collect user data (like videos he watched, location, preferences etc.), offline pipeline that generating the recommendation, and store and serve the data to front-end. And then, we can jump into each detailed components.
+
+For user data, we can list features that we think are relevant to videos a user may like. For pipeline, we can discuss how to train the dataset etc.. We can go even deeper. Since Youtube has a huge dataset, the offline pipeline must run over a huge number of data, then MapReduce or Hadoop might be used.
+
+We can continue this analysis infinitely by going deeper and deeper, but the idea I want to explain here is that you should always have a big picture
+
+have a clear estimation of how much memory your system or program would cause, how fast it runs, and based on your estimation, how would you adjust your design
+
+
+==========
+
+EventLoop
+-------
+
+
+How eventloop helps react virtual to render fast?
+
+
+### JavaScript engine
+- several different implementations of JavaScript engines, most popular version is Google Chrome’s V8 engine, which is not limited to the browser but also exists in the server via NodeJS.
+
+- what exactly does the JavaScript Engine do?
+ - it’s job is to go through all the lines of JavaScript in an application and process them one at a time, meaning that JavaScript is single-threaded.
+
+- how does the JavaScript engine know how to process a single line of JavaScript at a time?
+ - It uses a call stack.
+
+asynchronous callback functions?
+ - ex: setTimeout
+
+
+- What is tick?
+ - iteration is called a tick in the Event Loop.
+
+- Promises?
+
+ ```
+     var x = 1;
+    var y = 2;
+    console.log(x + y);
+ ```
+ - Say, we need to retrieve the values of both x and y from the server, before they can be used in the expression. Let’s imagine that we have a function loadX and loadY that respectively load the values of x and y from the server. Then, imagine that we have a function sum that sums the values of x and y once both of them are loaded
+ ========
+
+
+
+Why nginx?
+How exactly nginx is fast web server then apache?
+
+
+@ tumblr, we're using varnish for a full page cache (we use it for parts of the API as well for response caching), and invalidate when a blog updates (or your page can just TTL out)
+=======
+
+Implement a Words Suggestion system as in mobile
+
+In a taxi hailing service app, given the constraint that map level API and real-time API calls are very expensive to make, how would you go about showing nearby taxis when the user is making making a booking?
+
+
+============
+
+External Sort:
+
+The data can be sorted using external sorting which uses merging technique. This can be done as follows: 1. Divide the data into 10 groups each of size 100. 2. Sort each group and write them to disk. 3. Load 10 items from each group into main memory. 4. Output the smallest item from the main memory to disk. Load the next item from the group whose item was chosen. 5. Loop step #4 until all items are not outputted. The step 3-5 is called as merging technique.
+
+What is memory leak. And how can it effect the product. What are the ways to debug it and resolution
+What is High CPU Usage problem. how to detect it and resolution
+Given a cost matrix, you have to find the minimum cost to travel from station 0 to station n-1. (you can only travel in ascending direction)
+
+Given a server that has a 900 MB file and a client that has a maximum available space of 100MB, sort the file on the client
+
+
+================
+
+buy direct funds from fund house/AMC
+
+nearest office of the AMC once and submit KYC documents
+
+Can I switch my existing investments from regular plan to direct plan?
+
+=========
+
+Enum
+----------
+- consisting of a set of named values called elements, members, enumeral, or enumerators of the type
+- A variable that has been declared as having an enumerated type can be assigned any of the enumerators as a value
+- ex: four suits in a deck of playing cards may be four enumerators named Club, Diamond, Heart, and Spade, belonging to an enumerated type named suit.
+ ex: enumerated type called color may be defined to consist of the enumerators Red, Green, Zebra, Missing, and Bacon
+-
+
+You should always use enums when a variable (especially a method parameter) can only take one out of a small set of possible values. Examples would be things like type constants (contract status: "permanent", "temp", "apprentice"), or flags ("execute now", "defer execution")
+
+If you use enums instead of integers (or String codes), you increase compile-time checking and avoid errors from passing in invalid constants, and you document which values are legal to use
+
+https://stackoverflow.com/questions/4709175/what-are-enums-and-why-are-they-useful
+
+mainly used to assign names to integral constants, the names make a program easy to read and maintain
+
+enum State {Working = 1, Failed = 0};
+
+Enum variable takes only one value out of many possible values
+
+ENUMERATED DATA TYPES
+Enumerated data type variables can only assume values which have been previously declared.
+
+
+    enum month { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
+    enum month this_month;
+
+    this_month = feb;
+
+In the above declaration, month is declared as an enumerated data type. It consists of a set of values, jan to dec. Numerically, jan is given the value 1, feb the value 2, and so on. The variable this_month is declared to be of the same type as month, then is assigned the value associated with feb. This_month cannot be assigned any values outside those specified in the initialization list for the declaration of month.
+
+
+MySQL - https://dev.mysql.com/doc/refman/5.5/en/enum.html#enum-nulls
+-------
+The ENUM Type
+An ENUM is a string object with a value chosen from a list of permitted values that are enumerated explicitly in the column specification at table creation time.
+
+Advantages:
+- Compact data storage in situations where a column has a limited set of possible values. strings you specify as input values are automatically encoded as numbers
+- Readable queries and output. numbers are translated back to the corresponding strings in query results
+
+potential issues to consider:
+- values that look like numbers, it is easy to mix up the literal values with their internal index numbers.
+- Using ENUM columns in ORDER BY clauses requires extra care. ENUM values are sorted based on their index numbers, which depend on the order in which the enumeration members were listed in the column specification
+
+
+================
+

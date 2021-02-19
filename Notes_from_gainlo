@@ -1,0 +1,102 @@
+Solid code - :)
+
+
+last week plan
+-------------------
+1. Basic knowledge review - Bi-Weekly
+    https://gist.github.com/TSiege/cbb0507082bb18ff7e4b
+    http://bigocheatsheet.com/
+    know pros and cons of those data structures/algorithms and know exactly when to use which of them. 90% failure happens because of this thing.
+2. Glassdoor
+3. Mock interviews
+4. Whiteboard / Codesharing - dependent upon next round
+5. know about company
+6. Prepare questions to ask interviewer
+7. Prepare timeline for 7 days and stick to ti
+8. Sleep well
+
+
+Improve coding speed
+--------------------
+- number one thing is to keep practice and track your improvement.
+- Clear mind: have concrete idea in your mind. Start coding only after confident about the approach
+- Track your time: Put timer.
+
+Things To Do After You Failed an Interview
+------------------------------------------
+- Maintain a positive attitude:
+- Summarize all the details: note down most of the conversations and things like hints interviewer provided, time you spent on each phrase and so on
+- Check solutions:
+- Make a concrete plan: make actionable items.
+
+Common mistakes
+----------------
+1. Write code before having a clear mind: terrible mistake
+2. Over optimization: tend to complicate the problem. better to postpone this discussion after you’ve finished the simple solution
+
+Solutions:
+    two parts of a coding interview:
+     1. coming up with the right approach
+     2. writing solid code
+    figure out which is your bottleneck before the optimization.
+
+    Naive solution first: think loudly
+
+Skills needed
+-------------
+1. Basic CS fundamentals: know pros and cons of those data structures/algorithms and know exactly when to use which of them. 90% failure happens because of this thing.
+2. System design -
+    http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
+    http://blog.gainlo.co/index.php/2015/12/08/projects-are-the-future-of-hiring-coding-interview/
+    - most of your ideas about system design are coming from problem solving
+    -
+3. Problem solving skill: provide solutions to a new problem. whole process is the core, misunderstanding is that only the solution matters. few points:
+- Define the problem: question is not well-defined or ambiguous, you are expected to define and clarify the question. real life projects are usually open ended and unclear, engineers should definitely clarify everything before working on them
+- Analysis: When facing a new problem, you are not expected to come up with a solution immediately. interviewers will observe how you analyze everything. have a clear mind instead of generating random thoughts. you should be quick to react based on certain hints, for instance, you are expected to think about hash when talking about storing data.
+- Initiate and compare solutions: How do you compare each of the solutions? How do you optimize them? As an interviewer, I really like to ask candidates to compare different solutions, which is a great way to evaluate whether they have a clear understanding or not. Also, when working on real life projects, it’s quite common to have multiple options and you always need to make a decision based on different situations.
+
+4. Communication skill:
+- First and foremost, most common warm up questions is to describe your background and past experiences. candidates tended to make the introduction quite messy like hard-to-understand descriptions, too verbose and so on.
+- how you explain your ideas is also very important. When analyzing the problem, you need to explain your thoughts even if there’s no concrete solution.
+- communication skill is not something you are born with. Instead, it requires a lot of practice to improve. Few tips here:
+ - Prepare well for your introduction. It’s like your elevator pitch and you’d better keep practicing and refining
+ - Keep talking while thinking. You should do this throughout your preparation
+ - Have mock interviews
+
+
+
+What to Do When You Get Stuck In a Coding Interview
+-------------------------------
+Keep a clear mind:
+ - what you are working on: people tend to lose the big picture when they get stuck by some details.ex: start coding when they can’t figure out the solution. If you are trying to find the right solution, coding may not be helpful
+ - what’s your current problem: lot of people have no idea of what they’re stuck on during coding interviews. Try to figure out which part of the problem you’ve already solved and what you are stuck on right now
+ - what doesn’t work: If you have already tried with some methods and they don’t work, never try them again unless something has changed.
+
+Start with simple situation:
+Consider extreme cases:
+Interviewers may not know the answer:
+- you shouldn’t be nervous when you don’t know the answer
+- always tell what’s in your mind even if you don’t have any concrete solution
+- Talk about your random thoughts, your current strategy or just what you are stuck on. What really matters is not the solution, but your analysis process
+-
+
+Be confident in communication - Be yourself.
+Smile - Don’t take an interview as a painful exam. think of it as a chance to discuss interesting problems with someone else
+
+
+NOTE: everyone can get stuck during coding interviews. Instead of being nervous, try to enjoy this process as it can be interesting to discuss challenging problems with smart people
+
+
+
+Telephonic
+--------------
+- If he sound’s confidant? His answers to the technical questions i have asked?
+- Can he explain about most common programming concepts?
+-
+
+Homework about company
+-----------------------
+- main products and in which industry they deal with
+- What is the financial condition of the company. If possible check the last quarter financial report
+- main competitors and where does the company lies with the competition
+-
