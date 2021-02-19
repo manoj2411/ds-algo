@@ -547,3 +547,5 @@ valid_path.rb
 * Convert BST to Greater Tree ([details](https://leetcode.com/problems/convert-bst-to-greater-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertBSTtoGreaterTree.java)
 
 * Copy List with Random Pointer ([details](https://leetcode.com/problems/copy-list-with-random-pointer/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CopyListwithRandomPointer.java)
+
+* Arithmetic Slices ([details](https://leetcode.com/problems/arithmetic-slices/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArithmeticSlices.java)
