@@ -18,7 +18,7 @@ class MinRemoveToMakeValidParentheses {
 class Solution {
     public String minRemoveToMakeValid(String s) {
         Stack<Integer> stack = new Stack<>();
-        Stack<Integer> toRemove = new Stack();
+        Set<Integer> toRemove = new HashSet<>();
 
 
         for(int i = 0; i < s.length(); i++) {
@@ -27,16 +27,18 @@ class Solution {
             if(ch == '(') stack.push(i);
             else if(ch == ')') {
 
-                if(stack.isEmpty()) toRemove.push(i);
+                if(stack.isEmpty()) toRemove.add(i);
                 else stack.pop();
             }
         }
 
-        StringBuilder sb = new StringBuilder(s);
+        while(stack.size() > 0) toRemove.add(stack.pop());
 
-        while(stack.size() > 0) sb.deleteCharAt(stack.pop());
+        StringBuilder sb = new StringBuilder();
 
-        while(toRemove.size() > 0) sb.deleteCharAt(toRemove.pop());
+        for(int i = 0 ; i < s.length(); i++) {
+            if(!toRemove.contains(i)) sb.append(s.charAt(i));
+        }
 
         return sb.toString();
     }
