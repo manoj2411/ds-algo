@@ -560,3 +560,5 @@ valid_path.rb
 * Letter Case Permutation ([details](https://leetcode.com/problems/letter-case-permutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LetterCasePermutation.java)
 
 * Arithmetic Slices ([details](https://leetcode.com/problems/arithmetic-slices/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArithmeticSlices.java)
+
+* Minimum Remove to Make Valid Parentheses ([details](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinRemoveToMakeValidParentheses.java)
