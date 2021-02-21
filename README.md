@@ -561,4 +561,6 @@ valid_path.rb
 
 * Arithmetic Slices ([details](https://leetcode.com/problems/arithmetic-slices/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArithmeticSlices.java)
 
+* Roman to Integer ([details](https://leetcode.com/problems/roman-to-integer/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RomantoInteger.java)
+
 * Minimum Remove to Make Valid Parentheses ([details](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinRemoveToMakeValidParentheses.java)
