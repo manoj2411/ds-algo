@@ -572,3 +572,5 @@ valid_path.rb
 * Search a 2D Matrix II ([details](https://leetcode.com/problems/search-a-2d-matrix-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Search2DMatrixII.java)
 
 * Shortest Unsorted Continuous Subarray ([details](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestUnsortedContinuousSubarray.java)
+
+* Ugly Number ([details](https://leetcode.com/problems/ugly-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UglyNumber.java)
