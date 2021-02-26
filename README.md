@@ -570,3 +570,5 @@ valid_path.rb
 * Longest Word in Dictionary through Deleting ([details](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestWordInDictByDeleting.java)
 
 * Search a 2D Matrix II ([details](https://leetcode.com/problems/search-a-2d-matrix-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Search2DMatrixII.java)
+
+* Shortest Unsorted Continuous Subarray ([details](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestUnsortedContinuousSubarray.java)
