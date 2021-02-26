@@ -17,17 +17,20 @@ class ShortestUnsortedContinuousSubarray {
 			System.out.println("nums: " + Arrays.toString(nums));
 			System.out.println("length of unsorted array: "
 				+ new Solution().findUnsortedSubarray(nums));
+            System.out.println("(optimized solution): "
+                + new OptSolution().findUnsortedSubarray(nums));
 			System.out.println();
 		}
 	}
 }
+
 class Solution {
-		/* Complexity
 
-			time 	: O(N)
-			space 	: O(N)
-		*/
+	/* Complexity
 
+		time 	: O(N)
+		space 	: O(N)
+	*/
     public int findUnsortedSubarray(int[] nums) {
         Stack<Integer> stack = new Stack<>();
 
@@ -61,5 +64,38 @@ class Solution {
 
         return end == -1 ? 0 : end - start;
 
+    }
+}
+
+class OptSolution {
+
+    /* Complexity
+
+        time    : O(N)
+        space   : O(1)
+    */
+    public int findUnsortedSubarray(int[] nums) {
+
+        int max = nums[0];
+        int start = nums.length + 1;
+        int end = -1;
+
+        for(int i = 1; i < nums.length; i++) {
+            if(nums[i] >= max) { // happy case, sorted
+                max = nums[i];
+            } else {             // unsorted item occurred
+
+                if(start > i) start = i - 1; // first time setting start
+
+                while(start >= 0 && nums[start] > nums[i]) {
+                    start--;
+                } // now nums[start] will contains a value that is less than or eq to nums[i],
+                  //  means start + 1 is the correct position for this item.
+
+                end = i;
+            }
+        }
+
+        return end == -1 ? 0 : end - start;
     }
 }
