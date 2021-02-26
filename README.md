@@ -336,7 +336,10 @@ valid_path.rb
 
 * Given a list of `coordinates`, find if all of them are part of a same straign line. [solution](https://github.com/manoj2411/ds-algo/blob/master/misc/check_straight_line.rb)
 
-* **Ugly Number II** Program to find `nth` ugly number i.e. a positive number whose prime factors only include `2, 3, 5`, [ref](https://leetcode.com/problems/ugly-number-ii/). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Heap/ugly_number_ii.rb))
+* **Ugly Number II** Program to find `nth` ugly number i.e. a positive number whose prime factors only include `2, 3, 5`, [ref](https://leetcode.com/problems/ugly-number-ii/).
+
+  * [ruby solution with heap implementation](https://github.com/manoj2411/ds-algo/blob/master/Heap/ugly_number_ii.rb))
+  * [java solution ](https://github.com/manoj2411/ds-algo/blob/master/Heap/UglyNumberII.java))
 
 * **Subsets or Powerset** for given set of distinct integers, [ref](https://leetcode.com/problems/subsets/)
   * [cascade solution](https://github.com/manoj2411/ds-algo/blob/master/Array/subsets_powerset.rb)
