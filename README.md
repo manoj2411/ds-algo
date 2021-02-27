@@ -338,8 +338,8 @@ valid_path.rb
 
 * **Ugly Number II** Program to find `nth` ugly number i.e. a positive number whose prime factors only include `2, 3, 5`, [ref](https://leetcode.com/problems/ugly-number-ii/).
 
-  * [ruby solution with heap implementation](https://github.com/manoj2411/ds-algo/blob/master/Heap/ugly_number_ii.rb))
-  * [java solution ](https://github.com/manoj2411/ds-algo/blob/master/Heap/UglyNumberII.java))
+  * [ruby solution with heap implementation](https://github.com/manoj2411/ds-algo/blob/master/Heap/ugly_number_ii.rb)
+  * [java solution ](https://github.com/manoj2411/ds-algo/blob/master/Heap/UglyNumberII.java)
 
 * **Subsets or Powerset** for given set of distinct integers, [ref](https://leetcode.com/problems/subsets/)
   * [cascade solution](https://github.com/manoj2411/ds-algo/blob/master/Array/subsets_powerset.rb)
@@ -577,3 +577,5 @@ valid_path.rb
 * Shortest Unsorted Continuous Subarray ([details](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestUnsortedContinuousSubarray.java)
 
 * Ugly Number ([details](https://leetcode.com/problems/ugly-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UglyNumber.java)
+
+* Validate Stack Sequences ([details](https://leetcode.com/problems/validate-stack-sequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidateStackSequences.java)
