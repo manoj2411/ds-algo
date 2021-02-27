@@ -92,6 +92,10 @@ Playground for popular algorithms and data-structures problems.
 
 * Merge k sorted arrays ([ref](https://www.geeksforgeeks.org/merge-k-sorted-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Array/MergeKsortedArrays.java)
 
+* Trapping Rain Water ([ref](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1#)):
+  * [O(n) time, O(n) space solution](https://github.com/manoj2411/ds-algo/blob/master/Array/TrappingRainWaterI.java)
+  * [O(n) time, constant space solution](https://github.com/manoj2411/ds-algo/blob/master/Array/TrappingRainWaterII.java)
+
 
 #### Linked List
 
