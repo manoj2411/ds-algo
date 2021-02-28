@@ -583,3 +583,5 @@ valid_path.rb
 * Ugly Number ([details](https://leetcode.com/problems/ugly-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UglyNumber.java)
 
 * Validate Stack Sequences ([details](https://leetcode.com/problems/validate-stack-sequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidateStackSequences.java)
+
+* Divide Two Integers ([details](https://leetcode.com/problems/divide-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/divide_two_integers.rb)
