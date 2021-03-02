@@ -587,3 +587,5 @@ valid_path.rb
 * Divide Two Integers ([details](https://leetcode.com/problems/divide-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/divide_two_integers.rb)
 
 * Maximum Frequency Stack ([details](https://leetcode.com/problems/maximum-frequency-stack/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumFrequencyStack.java)
+
+* Distribute Candies ([details](https://leetcode.com/problems/distribute-candies/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DistributeCandies.java)
