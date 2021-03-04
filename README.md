@@ -591,3 +591,5 @@ valid_path.rb
 * Distribute Candies ([details](https://leetcode.com/problems/distribute-candies/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DistributeCandies.java)
 
 * Set Mismatch ([details](https://leetcode.com/problems/set-mismatch/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SetMismatch.java)
+
+* Missing Number ([details](https://leetcode.com/problems/missing-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MissingNumber.java)
