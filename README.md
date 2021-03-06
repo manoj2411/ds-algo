@@ -597,3 +597,5 @@ valid_path.rb
 * Intersection of Two Linked Lists ([details](https://leetcode.com/problems/intersection-of-two-linked-lists/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntersectionOfTwoLinkedLists.java)
 
 * Reorder List ([details](https://leetcode.com/problems/reorder-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorderList.java)
+
+* Average of Levels in Binary Tree ([details](https://leetcode.com/problems/average-of-levels-in-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AvgOfLevelsInBinaryTree.java)
