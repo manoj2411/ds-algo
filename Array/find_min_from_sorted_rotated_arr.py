@@ -13,6 +13,10 @@ def find_min(arr):
             left = mid + 1
 
 arr = [5, 6, 1, 22, 33, 44]
-arr = [2, 2, 2, 2, 2, 2, 2, 2, 0, 1, 1, 2]
+print(find_min(arr))
 
+arr = [2, 6, 0, 1]
+print(find_min(arr))
+
+arr = [0, 1, 4, 5]
 print(find_min(arr))
