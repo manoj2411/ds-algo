@@ -96,6 +96,10 @@ Playground for popular algorithms and data-structures problems.
   * [O(n) time, O(n) space solution](https://github.com/manoj2411/ds-algo/blob/master/Array/TrappingRainWaterI.java)
   * [O(n) time, constant space solution](https://github.com/manoj2411/ds-algo/blob/master/Array/TrappingRainWaterII.java)
 
+* Find the minimum element in a sorted and rotated array ([ref](https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/)).
+  * [solution in java](https://github.com/manoj2411/ds-algo/blob/master/Array/MinFromSortedRotatedArray.java)
+  * [solution in python](https://github.com/manoj2411/ds-algo/blob/master/Array/find_min_from_sorted_rotated_arr.py)
+
 
 #### Linked List
 
