@@ -207,6 +207,9 @@ valid_path.rb
 
 * Check if given Binary Tree is Height Balanced or Not ([details](https://leetcode.com/problems/balanced-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BalancedBinaryTree.java)
 
+* Boundary Traversal of binary tree ([details](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/Tree/BoundaryTraversal.java)
+
+
 #### String
 
 * **Backspace String Compare**: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/String/backspace_compare.rb))
