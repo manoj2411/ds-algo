@@ -612,3 +612,5 @@ valid_path.rb
 * Design HashMap ([details](https://leetcode.com/problems/design-hashmap/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DesignHashMap.java)
 
 * Remove Palindromic Subsequences ([details](https://leetcode.com/problems/remove-palindromic-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemovePalindromicSubsequences.java)
+
+* Median of Two Sorted Arrays ([details](https://leetcode.com/problems/median-of-two-sorted-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MedianOfTwoSortedArrays.java)
