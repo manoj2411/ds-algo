@@ -610,3 +610,5 @@ valid_path.rb
 * Short Encoding of Words ([details](https://leetcode.com/problems/short-encoding-of-words/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/short_encoding_of_words.rb)
 
 * Design HashMap ([details](https://leetcode.com/problems/design-hashmap/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DesignHashMap.java)
+
+* Remove Palindromic Subsequences ([details](https://leetcode.com/problems/remove-palindromic-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemovePalindromicSubsequences.java)
