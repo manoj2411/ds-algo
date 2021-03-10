@@ -614,3 +614,5 @@ valid_path.rb
 * Remove Palindromic Subsequences ([details](https://leetcode.com/problems/remove-palindromic-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemovePalindromicSubsequences.java)
 
 * Median of Two Sorted Arrays ([details](https://leetcode.com/problems/median-of-two-sorted-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MedianOfTwoSortedArrays.java)
+
+* Add One Row to Tree ([details](https://leetcode.com/problems/add-one-row-to-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AddOneRowToTree.java)
