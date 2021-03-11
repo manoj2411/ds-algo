@@ -616,3 +616,6 @@ valid_path.rb
 * Median of Two Sorted Arrays ([details](https://leetcode.com/problems/median-of-two-sorted-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MedianOfTwoSortedArrays.java)
 
 * Add One Row to Tree ([details](https://leetcode.com/problems/add-one-row-to-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AddOneRowToTree.java)
+
+* Integer to Roman ([details](https://leetcode.com/problems/integer-to-roman/)).
+  * [solution using only 7 original characters](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRoman.java)
