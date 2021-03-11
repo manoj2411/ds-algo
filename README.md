@@ -618,4 +618,5 @@ valid_path.rb
 * Add One Row to Tree ([details](https://leetcode.com/problems/add-one-row-to-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AddOneRowToTree.java)
 
 * Integer to Roman ([details](https://leetcode.com/problems/integer-to-roman/)).
-  * [solution using only 7 original characters](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRoman.java)
+  * [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRoman.java) using only 7 original characters
+  * clean logic and fast [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRomanOptmized.java)
