@@ -620,3 +620,5 @@ valid_path.rb
 * Integer to Roman ([details](https://leetcode.com/problems/integer-to-roman/)).
   * [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRoman.java) using only 7 original characters
   * clean logic and fast [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRomanOptmized.java)
+
+* Coin Change ([details](https://leetcode.com/problems/coin-change/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CoinChange.java)
