@@ -624,3 +624,5 @@ valid_path.rb
 * Coin Change ([details](https://leetcode.com/problems/coin-change/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CoinChange.java)
 
 * Check If a String Contains All Binary Codes of Size K ([details](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StrContainsAllBinaryCodesOfSizeK.java)
+
+* Matching Pairs ([ref](https://leetcode.com/discuss/interview-question/632717/Facebook-or-Recruiting-Portal-or-Matching-Pairs)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MatchingPairs.java)
