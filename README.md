@@ -622,3 +622,5 @@ valid_path.rb
   * clean logic and fast [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerToRomanOptmized.java)
 
 * Coin Change ([details](https://leetcode.com/problems/coin-change/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CoinChange.java)
+
+* Check If a String Contains All Binary Codes of Size K ([details](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StrContainsAllBinaryCodesOfSizeK.java)
