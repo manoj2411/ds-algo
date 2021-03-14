@@ -626,3 +626,5 @@ valid_path.rb
 * Check If a String Contains All Binary Codes of Size K ([details](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StrContainsAllBinaryCodesOfSizeK.java)
 
 * Matching Pairs ([ref](https://leetcode.com/discuss/interview-question/632717/Facebook-or-Recruiting-Portal-or-Matching-Pairs)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MatchingPairs.java)
+
+* Binary Trees With Factors ([ref](https://leetcode.com/problems/binary-trees-with-factors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreesWithFactors.java)
