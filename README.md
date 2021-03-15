@@ -628,3 +628,5 @@ valid_path.rb
 * Matching Pairs ([ref](https://leetcode.com/discuss/interview-question/632717/Facebook-or-Recruiting-Portal-or-Matching-Pairs)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MatchingPairs.java)
 
 * Binary Trees With Factors ([ref](https://leetcode.com/problems/binary-trees-with-factors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreesWithFactors.java)
+
+* Swapping Nodes in a Linked List ([ref](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwappingNodesOfLinkedList.java)
