@@ -630,3 +630,5 @@ valid_path.rb
 * Binary Trees With Factors ([ref](https://leetcode.com/problems/binary-trees-with-factors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreesWithFactors.java)
 
 * Swapping Nodes in a Linked List ([ref](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwappingNodesOfLinkedList.java)
+
+* Wiggle Subsequence ([ref](https://leetcode.com/problems/wiggle-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WiggleSubsequence.java)
