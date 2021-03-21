@@ -634,3 +634,5 @@ valid_path.rb
 * Wiggle Subsequence ([ref](https://leetcode.com/problems/wiggle-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WiggleSubsequence.java)
 
 * Reordered Power of 2 ([ref](https://leetcode.com/problems/reordered-power-of-2/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorderedPowerOf2.java)
+
+* Design Underground System ([ref](https://leetcode.com/problems/design-underground-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DesignUndergroundSystem.java)
