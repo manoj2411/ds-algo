@@ -632,3 +632,5 @@ valid_path.rb
 * Swapping Nodes in a Linked List ([ref](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwappingNodesOfLinkedList.java)
 
 * Wiggle Subsequence ([ref](https://leetcode.com/problems/wiggle-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WiggleSubsequence.java)
+
+* Reordered Power of 2 ([ref](https://leetcode.com/problems/reordered-power-of-2/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorderedPowerOf2.java)
