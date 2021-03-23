@@ -636,3 +636,5 @@ valid_path.rb
 * Reordered Power of 2 ([ref](https://leetcode.com/problems/reordered-power-of-2/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorderedPowerOf2.java)
 
 * Design Underground System ([ref](https://leetcode.com/problems/design-underground-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DesignUndergroundSystem.java)
+
+* Vowel Spellchecker ([ref](https://leetcode.com/problems/vowel-spellchecker/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/VowelSpellchecker.java)
