@@ -642,3 +642,5 @@ valid_path.rb
 * Reconstruct Original Digits from English ([ref](https://leetcode.com/problems/reconstruct-original-digits-from-english/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReconstructOriginalDigitsFromStr.java)
 
 * Flip Binary Tree To Match Preorder Traversal ([ref](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlipTreeToMatchPreorder.java)
+
+* Palindrome Linked List ([ref](https://leetcode.com/problems/palindrome-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PalindromeLinkedList.java)
