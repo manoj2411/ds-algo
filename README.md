@@ -644,3 +644,5 @@ valid_path.rb
 * Flip Binary Tree To Match Preorder Traversal ([ref](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlipTreeToMatchPreorder.java)
 
 * Palindrome Linked List ([ref](https://leetcode.com/problems/palindrome-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PalindromeLinkedList.java)
+
+* Ones and Zeroes ([ref](https://leetcode.com/problems/ones-and-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ones_and_zeroes.rb)
