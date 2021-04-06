@@ -646,3 +646,5 @@ valid_path.rb
 * Palindrome Linked List ([ref](https://leetcode.com/problems/palindrome-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PalindromeLinkedList.java)
 
 * Ones and Zeroes ([ref](https://leetcode.com/problems/ones-and-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ones_and_zeroes.rb)
+
+* Global and Local Inversions ([ref](https://leetcode.com/problems/global-and-local-inversions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GlobalAndLocalInversions.java)
