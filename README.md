@@ -648,3 +648,6 @@ valid_path.rb
 * Ones and Zeroes ([ref](https://leetcode.com/problems/ones-and-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ones_and_zeroes.rb)
 
 * Global and Local Inversions ([ref](https://leetcode.com/problems/global-and-local-inversions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GlobalAndLocalInversions.java)
+
+* Letter Combinations of a Phone Number ([ref](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LetterCombinationsOfPhoneNumber.java)
+
