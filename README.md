@@ -651,3 +651,4 @@ valid_path.rb
 
 * Letter Combinations of a Phone Number ([ref](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LetterCombinationsOfPhoneNumber.java)
 
+* Verifying an Alien Dictionary ([ref](https://leetcode.com/problems/verifying-an-alien-dictionary/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/VerifyingAlienDictionary.java)
