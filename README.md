@@ -656,3 +656,5 @@ valid_path.rb
 * Longest Increasing Path in a Matrix ([ref](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestIncreasingPathInMatrix.java)
 
 * Deepest Leaves Sum ([ref](https://leetcode.com/problems/deepest-leaves-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeepestLeavesSum.java)
+
+* Partition List ([ref](https://leetcode.com/problems/deepest-leaves-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionList.java)
