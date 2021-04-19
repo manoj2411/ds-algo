@@ -658,3 +658,5 @@ valid_path.rb
 * Deepest Leaves Sum ([ref](https://leetcode.com/problems/deepest-leaves-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeepestLeavesSum.java)
 
 * Partition List ([ref](https://leetcode.com/problems/deepest-leaves-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionList.java)
+
+* Remove Nth Node From End of List ([ref](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveNthNodeFromEndofList.java)
