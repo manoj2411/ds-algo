@@ -660,3 +660,5 @@ valid_path.rb
 * Partition List ([ref](https://leetcode.com/problems/deepest-leaves-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionList.java)
 
 * Remove Nth Node From End of List ([ref](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveNthNodeFromEndofList.java)
+
+* Combination Sum IV ([ref](https://leetcode.com/problems/combination-sum-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CombinationSumIV.java)
