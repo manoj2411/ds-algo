@@ -662,3 +662,5 @@ valid_path.rb
 * Remove Nth Node From End of List ([ref](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveNthNodeFromEndofList.java)
 
 * Combination Sum IV ([ref](https://leetcode.com/problems/combination-sum-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CombinationSumIV.java)
+
+* N-ary Tree Preorder Traversal ([ref](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/N_aryTreePreorderTraversal.java)
