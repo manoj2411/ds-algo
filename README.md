@@ -664,3 +664,5 @@ valid_path.rb
 * Combination Sum IV ([ref](https://leetcode.com/problems/combination-sum-iv/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CombinationSumIV.java)
 
 * N-ary Tree Preorder Traversal ([ref](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/N_aryTreePreorderTraversal.java)
+
+* Triangle ([ref](https://leetcode.com/problems/triangle/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Triangle.java)
