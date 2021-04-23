@@ -666,3 +666,5 @@ valid_path.rb
 * N-ary Tree Preorder Traversal ([ref](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/N_aryTreePreorderTraversal.java)
 
 * Triangle ([ref](https://leetcode.com/problems/triangle/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Triangle.java)
+
+* Count Binary Substrings ([ref](https://leetcode.com/problems/count-binary-substrings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountBinarySubstrings.java)
