@@ -670,3 +670,5 @@ valid_path.rb
 * Count Binary Substrings ([ref](https://leetcode.com/problems/count-binary-substrings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountBinarySubstrings.java)
 
 * Rotate Image ([ref](https://leetcode.com/problems/rotate-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RotateImage.java)
+
+* Critical Connections in a Network ([ref](https://leetcode.com/problems/rotate-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CriticalConnectionsInNetwork.java)
