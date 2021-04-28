@@ -672,3 +672,5 @@ valid_path.rb
 * Rotate Image ([ref](https://leetcode.com/problems/rotate-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RotateImage.java)
 
 * Critical Connections in a Network ([ref](https://leetcode.com/problems/rotate-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CriticalConnectionsInNetwork.java)
+
+* Unique Paths II ([details](https://leetcode.com/problems/unique-paths-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniquePathsII.java)
