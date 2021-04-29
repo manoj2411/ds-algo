@@ -674,3 +674,5 @@ valid_path.rb
 * Critical Connections in a Network ([ref](https://leetcode.com/problems/rotate-image/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CriticalConnectionsInNetwork.java)
 
 * Unique Paths II ([details](https://leetcode.com/problems/unique-paths-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniquePathsII.java)
+
+* Find First and Last Position of Element in Sorted Array ([details](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindFirstLastPositionOfElementInSortedArr.java)
