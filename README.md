@@ -676,3 +676,5 @@ valid_path.rb
 * Unique Paths II ([details](https://leetcode.com/problems/unique-paths-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniquePathsII.java)
 
 * Find First and Last Position of Element in Sorted Array ([details](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindFirstLastPositionOfElementInSortedArr.java)
+
+* Powerful Integers ([details](https://leetcode.com/problems/powerful-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PowerfulIntegers.java)
