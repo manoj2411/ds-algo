@@ -679,4 +679,6 @@ valid_path.rb
 
 * Powerful Integers ([details](https://leetcode.com/problems/powerful-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PowerfulIntegers.java)
 
+* Prefix and Suffix Search ([details](https://leetcode.com/problems/prefix-and-suffix-search/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PrefixAndSuffixSearch.java)
+
 * Non-decreasing Array ([details](https://leetcode.com/problems/non-decreasing-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NonDecreasingArray.java)
