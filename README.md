@@ -682,3 +682,5 @@ valid_path.rb
 * Prefix and Suffix Search ([details](https://leetcode.com/problems/prefix-and-suffix-search/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PrefixAndSuffixSearch.java)
 
 * Non-decreasing Array ([details](https://leetcode.com/problems/non-decreasing-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NonDecreasingArray.java)
+
+* Jump Game II ([details](https://leetcode.com/problems/jump-game-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameII.java)
