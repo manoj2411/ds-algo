@@ -684,3 +684,5 @@ valid_path.rb
 * Non-decreasing Array ([details](https://leetcode.com/problems/non-decreasing-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NonDecreasingArray.java)
 
 * Jump Game II ([details](https://leetcode.com/problems/jump-game-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameII.java)
+
+* Convert Sorted List to height balanced Binary Search Tree ([details](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertSortedListToBST.java)
