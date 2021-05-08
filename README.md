@@ -686,3 +686,5 @@ valid_path.rb
 * Jump Game II ([details](https://leetcode.com/problems/jump-game-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameII.java)
 
 * Convert Sorted List to height balanced Binary Search Tree ([details](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertSortedListToBST.java)
+
+* Delete Operation for Two Strings ([details](https://leetcode.com/problems/delete-operation-for-two-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeleteOperationForTwoStrings.java)
