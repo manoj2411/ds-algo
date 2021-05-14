@@ -690,3 +690,5 @@ valid_path.rb
 * Delete Operation for Two Strings ([details](https://leetcode.com/problems/delete-operation-for-two-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeleteOperationForTwoStrings.java)
 
 * Maximum Points You Can Obtain from Cards ([details](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxPointsYouCanObtainFromCards.java)
+
+* Ambiguous Coordinates ([details](https://leetcode.com/problems/ambiguous-coordinates/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ambiguous_coordinates.rb)
