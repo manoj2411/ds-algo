@@ -692,3 +692,5 @@ valid_path.rb
 * Maximum Points You Can Obtain from Cards ([details](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxPointsYouCanObtainFromCards.java)
 
 * Ambiguous Coordinates ([details](https://leetcode.com/problems/ambiguous-coordinates/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ambiguous_coordinates.rb)
+
+* Flatten Binary Tree to Linked List ([details](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlattenBinaryTreeToLinkedList.java)
