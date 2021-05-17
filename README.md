@@ -696,3 +696,5 @@ valid_path.rb
 * Flatten Binary Tree to Linked List ([details](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlattenBinaryTreeToLinkedList.java)
 
 * Valid Number ([details](https://leetcode.com/problems/valid-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidNumber.java)
+
+* Binary Tree Cameras ([details](https://leetcode.com/problems/binary-tree-cameras/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreeCameras.java)
