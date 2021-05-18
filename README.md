@@ -698,3 +698,5 @@ valid_path.rb
 * Valid Number ([details](https://leetcode.com/problems/valid-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidNumber.java)
 
 * Binary Tree Cameras ([details](https://leetcode.com/problems/binary-tree-cameras/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreeCameras.java)
+
+* Longest String Chain ([details](https://leetcode.com/problems/longest-string-chain/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestStringChain.java)
