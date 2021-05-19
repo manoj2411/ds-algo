@@ -700,3 +700,5 @@ valid_path.rb
 * Binary Tree Cameras ([details](https://leetcode.com/problems/binary-tree-cameras/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreeCameras.java)
 
 * Longest String Chain ([details](https://leetcode.com/problems/longest-string-chain/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestStringChain.java)
+
+* Find Duplicate File in System ([details](https://leetcode.com/problems/find-duplicate-file-in-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindDuplicateFileInSystem.java)
