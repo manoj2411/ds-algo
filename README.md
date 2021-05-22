@@ -702,3 +702,5 @@ valid_path.rb
 * Longest String Chain ([details](https://leetcode.com/problems/longest-string-chain/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestStringChain.java)
 
 * Find Duplicate File in System ([details](https://leetcode.com/problems/find-duplicate-file-in-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindDuplicateFileInSystem.java)
+
+* Find and Replace Pattern ([details](https://leetcode.com/problems/find-and-replace-pattern/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindReplacePattern.java)
