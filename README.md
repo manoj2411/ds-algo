@@ -704,3 +704,5 @@ valid_path.rb
 * Find Duplicate File in System ([details](https://leetcode.com/problems/find-duplicate-file-in-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindDuplicateFileInSystem.java)
 
 * Find and Replace Pattern ([details](https://leetcode.com/problems/find-and-replace-pattern/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindReplacePattern.java)
+
+* N-Queens ([details](https://leetcode.com/problems/n-queens/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NQueens.java)
