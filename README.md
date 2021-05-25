@@ -706,3 +706,5 @@ valid_path.rb
 * Find and Replace Pattern ([details](https://leetcode.com/problems/find-and-replace-pattern/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindReplacePattern.java)
 
 * N-Queens ([details](https://leetcode.com/problems/n-queens/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NQueens.java)
+
+* To Lower Case ([details](https://leetcode.com/problems/to-lower-case/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/to_lower_case.rb)
