@@ -710,3 +710,5 @@ valid_path.rb
 * To Lower Case ([details](https://leetcode.com/problems/to-lower-case/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/to_lower_case.rb)
 
 * Evaluate Reverse Polish Notation ([details](https://leetcode.com/problems/evaluate-reverse-polish-notation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/EvaluateReversePolishNotation.java)
+
+* Maximum Erasure Value ([details](https://leetcode.com/problems/maximum-erasure-value/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumErasureValue.java)
