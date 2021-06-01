@@ -714,3 +714,5 @@ valid_path.rb
 * Maximum Erasure Value ([details](https://leetcode.com/problems/maximum-erasure-value/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumErasureValue.java)
 
 * Search Suggestions System ([details](https://leetcode.com/problems/search-suggestions-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/search_suggestions_system.rb)
+
+* Max Area of Island ([details](https://leetcode.com/problems/max-area-of-island/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxAreaOfIsland.java)
