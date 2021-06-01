@@ -712,3 +712,5 @@ valid_path.rb
 * Evaluate Reverse Polish Notation ([details](https://leetcode.com/problems/evaluate-reverse-polish-notation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/EvaluateReversePolishNotation.java)
 
 * Maximum Erasure Value ([details](https://leetcode.com/problems/maximum-erasure-value/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumErasureValue.java)
+
+* Search Suggestions System ([details](https://leetcode.com/problems/search-suggestions-system/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/search_suggestions_system.rb)
