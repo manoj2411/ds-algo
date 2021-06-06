@@ -719,3 +719,4 @@ valid_path.rb
 
 * Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts ([details](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxAreaAfterHorizontalVerticalCuts.java)
 
+* Maximum Performance of a Team ([details](https://leetcode.com/problems/maximum-performance-of-a-team/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumPerformanceOfTeam.java)
