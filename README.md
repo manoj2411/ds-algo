@@ -722,3 +722,5 @@ valid_path.rb
 * Maximum Performance of a Team ([details](https://leetcode.com/problems/maximum-performance-of-a-team/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumPerformanceOfTeam.java)
 
 * Longest Consecutive Sequence ([details](https://leetcode.com/problems/longest-consecutive-sequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestConsecutiveSequence.java)
+
+* Min Cost Climbing Stairs ([details](https://leetcode.com/problems/min-cost-climbing-stairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinCostClimbingStairs.java)
