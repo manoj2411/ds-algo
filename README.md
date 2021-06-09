@@ -724,3 +724,5 @@ valid_path.rb
 * Longest Consecutive Sequence ([details](https://leetcode.com/problems/longest-consecutive-sequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestConsecutiveSequence.java)
 
 * Min Cost Climbing Stairs ([details](https://leetcode.com/problems/min-cost-climbing-stairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinCostClimbingStairs.java)
+
+* Construct Binary Tree from Preorder and Inorder Traversal ([details](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConstructBTreeFromPreorderInorder.java)
