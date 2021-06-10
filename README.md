@@ -726,3 +726,6 @@ valid_path.rb
 * Min Cost Climbing Stairs ([details](https://leetcode.com/problems/min-cost-climbing-stairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinCostClimbingStairs.java)
 
 * Construct Binary Tree from Preorder and Inorder Traversal ([details](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConstructBTreeFromPreorderInorder.java)
+
+* Jump Game VI ([details](https://leetcode.com/problems/jump-game-vi/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameVI.java)
+
