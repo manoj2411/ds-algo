@@ -730,3 +730,5 @@ valid_path.rb
 * Jump Game VI ([details](https://leetcode.com/problems/jump-game-vi/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGameVI.java)
 
 * Maximum Units on a Truck ([details](https://leetcode.com/problems/maximum-units-on-a-truck/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumUnitsOnTruck.java)
+
+* Matchsticks to Square ([details](https://leetcode.com/problems/matchsticks-to-square/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MatchsticksToSquare.java)
