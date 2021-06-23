@@ -734,3 +734,5 @@ valid_path.rb
 * Matchsticks to Square ([details](https://leetcode.com/problems/matchsticks-to-square/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MatchsticksToSquare.java)
 
 * Swim in Rising Water ([details](https://leetcode.com/problems/swim-in-rising-water/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwimInRisingWater.java)
+
+* Number of Matching Subsequences ([details](https://leetcode.com/problems/number-of-matching-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfMatchingSubsequences.java)
