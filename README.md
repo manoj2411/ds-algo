@@ -736,3 +736,5 @@ valid_path.rb
 * Swim in Rising Water ([details](https://leetcode.com/problems/swim-in-rising-water/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SwimInRisingWater.java)
 
 * Number of Matching Subsequences ([details](https://leetcode.com/problems/number-of-matching-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfMatchingSubsequences.java)
+
+* Reverse Linked List II ([details](https://leetcode.com/problems/reverse-linked-list-ii/solution/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseLinkedListII.java)
