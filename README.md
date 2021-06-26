@@ -737,4 +737,6 @@ valid_path.rb
 
 * Number of Matching Subsequences ([details](https://leetcode.com/problems/number-of-matching-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfMatchingSubsequences.java)
 
-* Reverse Linked List II ([details](https://leetcode.com/problems/reverse-linked-list-ii/solution/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseLinkedListII.java)
+* Reverse Linked List II ([details](https://leetcode.com/problems/reverse-linked-list-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseLinkedListII.java)
+
+* Redundant Connection ([details](https://leetcode.com/problems/redundant-connection/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RedundantConnection.java)

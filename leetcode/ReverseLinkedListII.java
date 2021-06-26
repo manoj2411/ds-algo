@@ -1,7 +1,7 @@
 import java.util.*;
 
 /*
-	https://leetcode.com/problems/reverse-linked-list-ii/solution/
+	https://leetcode.com/problems/reverse-linked-list-ii/
 */
 class ReverseLinkedListII {
 	public static void main(String[] args) {
