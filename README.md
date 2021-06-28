@@ -740,3 +740,5 @@ valid_path.rb
 * Reverse Linked List II ([details](https://leetcode.com/problems/reverse-linked-list-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseLinkedListII.java)
 
 * Redundant Connection ([details](https://leetcode.com/problems/redundant-connection/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RedundantConnection.java)
+
+* Count of Smaller Numbers After Self ([details](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountOfSmallerNumsAfterSelf.java)
