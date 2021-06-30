@@ -742,3 +742,7 @@ valid_path.rb
 * Redundant Connection ([details](https://leetcode.com/problems/redundant-connection/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RedundantConnection.java)
 
 * Count of Smaller Numbers After Self ([details](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountOfSmallerNumsAfterSelf.java)
+
+* Remove All Adjacent Duplicates In String ([details](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveAllAdjacentDuplicatesInString.java)
+
+* Max Consecutive Ones III ([details](https://leetcode.com/problems/max-consecutive-ones-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxConsecutiveOnesIII.java)
