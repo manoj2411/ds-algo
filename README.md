@@ -746,3 +746,5 @@ valid_path.rb
 * Remove All Adjacent Duplicates In String ([details](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveAllAdjacentDuplicatesInString.java)
 
 * Max Consecutive Ones III ([details](https://leetcode.com/problems/max-consecutive-ones-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxConsecutiveOnesIII.java)
+
+* Lowest Common Ancestor of a Binary Tree ([details](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LowestCommonAncestorOfBinaryTree.java)
