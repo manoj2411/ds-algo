@@ -748,3 +748,5 @@ valid_path.rb
 * Max Consecutive Ones III ([details](https://leetcode.com/problems/max-consecutive-ones-iii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxConsecutiveOnesIII.java)
 
 * Lowest Common Ancestor of a Binary Tree ([details](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LowestCommonAncestorOfBinaryTree.java)
+
+* Reshape the Matrix ([details](https://leetcode.com/problems/reshape-the-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReshapeTheMatrix.java)
