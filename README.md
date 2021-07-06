@@ -752,3 +752,5 @@ valid_path.rb
 * Reshape the Matrix ([details](https://leetcode.com/problems/reshape-the-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReshapeTheMatrix.java)
 
 * Find K Closest Elements ([details](https://leetcode.com/problems/find-k-closest-elements/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindKClosestElements.java)
+
+* Reduce Array Size to The Half ([details](https://leetcode.com/problems/reduce-array-size-to-the-half/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReduceArraySizeToHalf.java)
