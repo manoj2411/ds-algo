@@ -754,3 +754,5 @@ valid_path.rb
 * Find K Closest Elements ([details](https://leetcode.com/problems/find-k-closest-elements/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindKClosestElements.java)
 
 * Reduce Array Size to The Half ([details](https://leetcode.com/problems/reduce-array-size-to-the-half/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReduceArraySizeToHalf.java)
+
+* Kth Smallest Element in a Sorted Matrix ([details](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSmallestElementInSortedMatrix.java)
