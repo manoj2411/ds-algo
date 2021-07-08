@@ -756,3 +756,5 @@ valid_path.rb
 * Reduce Array Size to The Half ([details](https://leetcode.com/problems/reduce-array-size-to-the-half/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReduceArraySizeToHalf.java)
 
 * Kth Smallest Element in a Sorted Matrix ([details](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSmallestElementInSortedMatrix.java)
+
+* Maximum Length of Repeated Subarray ([details](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLengthOfRepeatedSubarray.java)
