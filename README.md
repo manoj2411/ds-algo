@@ -758,3 +758,5 @@ valid_path.rb
 * Kth Smallest Element in a Sorted Matrix ([details](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSmallestElementInSortedMatrix.java)
 
 * Maximum Length of Repeated Subarray ([details](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLengthOfRepeatedSubarray.java)
+
+* Longest Increasing Subsequence ([details](https://leetcode.com/problems/longest-increasing-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestIncreasingSubsequence.java)
