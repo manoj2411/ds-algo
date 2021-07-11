@@ -760,3 +760,5 @@ valid_path.rb
 * Maximum Length of Repeated Subarray ([details](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLengthOfRepeatedSubarray.java)
 
 * Longest Increasing Subsequence ([details](https://leetcode.com/problems/longest-increasing-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestIncreasingSubsequence.java)
+
+* Find Median from Data Stream ([details](https://leetcode.com/problems/find-median-from-data-stream/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMedianFromDataStream.java)
