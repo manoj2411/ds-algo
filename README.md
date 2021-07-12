@@ -762,3 +762,5 @@ valid_path.rb
 * Longest Increasing Subsequence ([details](https://leetcode.com/problems/longest-increasing-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestIncreasingSubsequence.java)
 
 * Find Median from Data Stream ([details](https://leetcode.com/problems/find-median-from-data-stream/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMedianFromDataStream.java)
+
+* Isomorphic Strings ([details](https://leetcode.com/problems/isomorphic-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsomorphicStrings.java)
