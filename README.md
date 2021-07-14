@@ -764,3 +764,5 @@ valid_path.rb
 * Find Median from Data Stream ([details](https://leetcode.com/problems/find-median-from-data-stream/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMedianFromDataStream.java)
 
 * Isomorphic Strings ([details](https://leetcode.com/problems/isomorphic-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsomorphicStrings.java)
+
+* Find Peak Element ([details](https://leetcode.com/problems/find-peak-element/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindPeakElement.java)
