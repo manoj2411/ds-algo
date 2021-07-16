@@ -768,3 +768,5 @@ valid_path.rb
 * Find Peak Element ([details](https://leetcode.com/problems/find-peak-element/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindPeakElement.java)
 
 * Custom Sort String ([details](https://leetcode.com/problems/custom-sort-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CustomSortString.java)
+
+* 4Sum ([details](https://leetcode.com/problems/4sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FourSum.java)
