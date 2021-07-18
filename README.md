@@ -770,3 +770,5 @@ valid_path.rb
 * Custom Sort String ([details](https://leetcode.com/problems/custom-sort-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CustomSortString.java)
 
 * 4Sum ([details](https://leetcode.com/problems/4sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FourSum.java)
+
+* Make Two Arrays Equal by Reversing Sub-arrays ([details](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MakeTwoArraysEqualByReversingSubarrays.java)
