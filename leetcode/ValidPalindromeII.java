@@ -17,24 +17,23 @@ class Solution {
         return isPalindromeUtil(s, 0, s.length() - 1, false);
     }
 
-    boolean isPalindromeUtil(String s, int l, int r, boolean ignoredOnce) {
+    boolean isPalindromeUtil(String s, int left, int right, boolean ignoredOnce) {
 
-        while(l < r) {
-            char left = s.charAt(l);
-            char right = s.charAt(r);
+        while(left < right) {
 
-            if(left != right) {
+            if(s.charAt(left) != s.charAt(right)) {
 
                 if(ignoredOnce) {
                     return false;
                 } else {
-                    return isPalindromeUtil(s, l, r - 1, true) || isPalindromeUtil(s, l + 1, r, true);
+                    return isPalindromeUtil(s, left, right - 1, true) ||
+                    isPalindromeUtil(s, left + 1, right, true);
                 }
 
             }
 
-            l++;
-            r--;
+            left++;
+            right--;
         }
 
         return true;
