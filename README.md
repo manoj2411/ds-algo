@@ -772,3 +772,5 @@ valid_path.rb
 * 4Sum ([details](https://leetcode.com/problems/4sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FourSum.java)
 
 * Make Two Arrays Equal by Reversing Sub-arrays ([details](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MakeTwoArraysEqualByReversingSubarrays.java)
+
+* Reverse Nodes in k-Group ([details](https://leetcode.com/problems/reverse-nodes-in-k-group/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseNodesInKGroup.java)
