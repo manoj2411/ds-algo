@@ -776,3 +776,5 @@ valid_path.rb
 * Reverse Nodes in k-Group ([details](https://leetcode.com/problems/reverse-nodes-in-k-group/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseNodesInKGroup.java)
 
 * Add Strings ([details](https://leetcode.com/problems/add-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AddStrings.java)
+
+* Lowest Common Ancestor of a Binary Search Tree ([details](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LowestCommonAncestorOfBST.java)
