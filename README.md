@@ -778,3 +778,5 @@ valid_path.rb
 * Add Strings ([details](https://leetcode.com/problems/add-strings/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AddStrings.java)
 
 * Lowest Common Ancestor of a Binary Search Tree ([details](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LowestCommonAncestorOfBST.java)
+
+* Shuffle an Array ([details](https://leetcode.com/problems/shuffle-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShuffleAnArray.java)
