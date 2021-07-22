@@ -780,3 +780,5 @@ valid_path.rb
 * Lowest Common Ancestor of a Binary Search Tree ([details](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LowestCommonAncestorOfBST.java)
 
 * Shuffle an Array ([details](https://leetcode.com/problems/shuffle-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShuffleAnArray.java)
+
+* Push Dominoes ([details](https://leetcode.com/problems/push-dominoes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PushDominoes.java)
