@@ -782,3 +782,5 @@ valid_path.rb
 * Shuffle an Array ([details](https://leetcode.com/problems/shuffle-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShuffleAnArray.java)
 
 * Push Dominoes ([details](https://leetcode.com/problems/push-dominoes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PushDominoes.java)
+
+* Binary Tree Pruning ([details](https://leetcode.com/problems/binary-tree-pruning/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreePruning.java)
