@@ -784,3 +784,5 @@ valid_path.rb
 * Push Dominoes ([details](https://leetcode.com/problems/push-dominoes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PushDominoes.java)
 
 * Binary Tree Pruning ([details](https://leetcode.com/problems/binary-tree-pruning/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BinaryTreePruning.java)
+
+* Partition Array into Disjoint Intervals ([details](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionArrayIntoDisjointIntervals.java)
