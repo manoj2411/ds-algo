@@ -788,3 +788,5 @@ valid_path.rb
 * Partition Array into Disjoint Intervals ([details](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionArrayIntoDisjointIntervals.java)
 
 * Word Ladder II ([details](https://leetcode.com/problems/word-ladder-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/WordLadderII.java)
+
+* Add Binary ([details](https://leetcode.com/problems/add-binary/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AddBinary.java)
