@@ -794,3 +794,5 @@ valid_path.rb
 * Convert Sorted Array to Binary Search Tree ([details](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConvertSortedArrayToBST.java)
 
 * Kth Missing Positive Number ([details](https://leetcode.com/problems/kth-missing-positive-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthMissingPositiveNumber.java)
+
+* 3Sum Closest ([details](https://leetcode.com/problems/3sum-closest/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ThreeSumClosest.java)
