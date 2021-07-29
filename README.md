@@ -796,3 +796,5 @@ valid_path.rb
 * Kth Missing Positive Number ([details](https://leetcode.com/problems/kth-missing-positive-number/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthMissingPositiveNumber.java)
 
 * 3Sum Closest ([details](https://leetcode.com/problems/3sum-closest/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ThreeSumClosest.java)
+
+* 01 Matrix ([details](https://leetcode.com/problems/01-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ZeroOneMatrix.java)
