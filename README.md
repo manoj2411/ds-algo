@@ -798,3 +798,5 @@ valid_path.rb
 * 3Sum Closest ([details](https://leetcode.com/problems/3sum-closest/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ThreeSumClosest.java)
 
 * 01 Matrix ([details](https://leetcode.com/problems/01-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ZeroOneMatrix.java)
+
+* Making A Large Island ([details](https://leetcode.com/problems/making-a-large-island/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MakingALargeIsland.java)
