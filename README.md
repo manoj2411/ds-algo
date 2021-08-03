@@ -800,3 +800,5 @@ valid_path.rb
 * 01 Matrix ([details](https://leetcode.com/problems/01-matrix/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ZeroOneMatrix.java)
 
 * Making A Large Island ([details](https://leetcode.com/problems/making-a-large-island/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MakingALargeIsland.java)
+
+* Two Sum ([details](https://leetcode.com/problems/two-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TwoSum.java)
