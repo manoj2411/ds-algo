@@ -802,3 +802,5 @@ valid_path.rb
 * Making A Large Island ([details](https://leetcode.com/problems/making-a-large-island/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MakingALargeIsland.java)
 
 * Two Sum ([details](https://leetcode.com/problems/two-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TwoSum.java)
+
+* Sentence Screen Fitting ([details](https://leetcode.com/problems/sentence-screen-fitting/)) or for free users([details](https://www.lintcode.com/problem/889/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SentenceScreenFitting.java)
