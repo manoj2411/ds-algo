@@ -805,4 +805,6 @@ valid_path.rb
 
 * Sentence Screen Fitting ([details](https://leetcode.com/problems/sentence-screen-fitting/)) or for free users([details](https://www.lintcode.com/problem/889/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SentenceScreenFitting.java)
 
-* Path Sum II ([details](https://leetcode.com/problems/path-sum-ii/)) or for free users([details](https://www.lintcode.com/problem/889/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathSumII.java)
+* Path Sum II ([details](https://leetcode.com/problems/path-sum-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathSumII.java)
+
+* N-ary Tree Level Order Traversal ([details](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NaryTreeLevelOrderTraversal.java)
