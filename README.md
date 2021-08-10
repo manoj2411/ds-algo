@@ -808,3 +808,5 @@ valid_path.rb
 * Path Sum II ([details](https://leetcode.com/problems/path-sum-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathSumII.java)
 
 * N-ary Tree Level Order Traversal ([details](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NaryTreeLevelOrderTraversal.java)
+
+* Text Justification ([details](https://leetcode.com/problems/text-justification/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TextJustification.java)
