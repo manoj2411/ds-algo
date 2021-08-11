@@ -810,3 +810,5 @@ valid_path.rb
 * N-ary Tree Level Order Traversal ([details](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NaryTreeLevelOrderTraversal.java)
 
 * Text Justification ([details](https://leetcode.com/problems/text-justification/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TextJustification.java)
+
+* Array of Doubled Pairs ([details](https://leetcode.com/problems/array-of-doubled-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayOfDoubledPairs.java)
