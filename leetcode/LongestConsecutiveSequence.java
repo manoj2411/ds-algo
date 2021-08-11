@@ -29,4 +29,36 @@ class Solution {
 
         return result;
     }
+
+    /*  alternative solution  */
+
+    public int longestConsecutiveNew(int[] nums) {
+        int maxLen = 0;
+
+        Set<Integer> set = new HashSet<Integer>();
+
+        for(int num : nums) set.add(num);
+
+        for(int num : nums) {
+
+            if (!set.contains(num)) continue;
+
+            int len = 0;
+            int curr = num;
+            while(set.contains(curr)) { // expand towards right
+                len++;
+                set.remove(curr++);
+            }
+
+            curr = num - 1;
+            while(set.contains(curr)) { // expand towards left
+                len++;
+                set.remove(curr--);
+            }
+
+            maxLen = Math.max(maxLen, len);
+        }
+
+        return maxLen;
+    }
 }
