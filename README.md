@@ -812,3 +812,5 @@ valid_path.rb
 * Text Justification ([details](https://leetcode.com/problems/text-justification/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TextJustification.java)
 
 * Array of Doubled Pairs ([details](https://leetcode.com/problems/array-of-doubled-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayOfDoubledPairs.java)
+
+* Flip String to Monotone Increasing ([details](https://leetcode.com/problems/flip-string-to-monotone-increasing/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlipStringToMonotoneIncreasing.java)
