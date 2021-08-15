@@ -818,3 +818,5 @@ valid_path.rb
 * Replace Words ([details](https://leetcode.com/problems/replace-words/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReplaceWords.java)
 
 * Top K Frequent Words ([details](https://leetcode.com/problems/top-k-frequent-words/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TopKFrequentWords.java)
+
+* Maximal Rectangle ([details](https://leetcode.com/problems/maximal-rectangle/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximalRectangle.java)
