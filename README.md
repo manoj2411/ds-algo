@@ -823,3 +823,4 @@ valid_path.rb
 
 * Minimum Window Substring ([details](https://leetcode.com/problems/minimum-window-substring/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumWindowSubstring.java)
 
+* Range Sum Query - Immutable ([details]()). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeSumQueryImmutable.java)
