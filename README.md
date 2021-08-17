@@ -823,4 +823,6 @@ valid_path.rb
 
 * Minimum Window Substring ([details](https://leetcode.com/problems/minimum-window-substring/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumWindowSubstring.java)
 
-* Range Sum Query - Immutable ([details]()). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeSumQueryImmutable.java)
+* Range Sum Query - Immutable ([details](https://leetcode.com/problems/range-sum-query-immutable/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeSumQueryImmutable.java)
+
+* Guess Number Higher or Lower II ([details](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GuessNumberHigherorLowerII.java)
