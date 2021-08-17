@@ -826,3 +826,6 @@ valid_path.rb
 * Range Sum Query - Immutable ([details](https://leetcode.com/problems/range-sum-query-immutable/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeSumQueryImmutable.java)
 
 * Guess Number Higher or Lower II ([details](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GuessNumberHigherorLowerII.java)
+
+* Count Good Nodes in Binary Tree ([details](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountGoodNodesInBinaryTree.java)
+
