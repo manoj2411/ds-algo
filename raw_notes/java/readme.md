@@ -1,0 +1,48 @@
+# String
+
+- `String toUpperCase()` and `String toLowerCase()`
+- `String trim()` : remove white spaces before and after the String
+- `String valueOf()` : coverts given type such as int, long, float, double, boolean, char and char array into String
+- replace :replaces all occurrence of s1 with s2
+  - `String replace(char oldChar, char newChar)`
+  - `String replace(String oldStr, String newStr)`
+  - `String replaceFirst(String regex, String replacement)`
+  - `String replaceAll(String regex, String replacement)`
+
+- substring
+  - `String substring(int beginIndex)`
+  - `String substring(int beginIndex, int endIndex)`
+- `String join(CharSequence delimiter, CharSequence... elements)` : join string with delimiter
+  - `String.join("-", "This", "is", "a", "String")`
+  - `String.join(", ", list)`
+
+- `boolean equalsIgnoreCase(String anotherString)`
+- `int compareToIgnoreCase()` : similar to compareTo with ignoring case
+- `boolean contains(CharSequence str)` : its case sensitive
+- `boolean endsWith(String str)`
+- startsWith
+  - `boolean startsWith(String str)`
+  - `boolean startsWith(String str, index fromIndex)`
+- indexOf
+  - `int indexOf(int ch)`
+  - `int indexOf(int ch, int fromIndex)`
+  - `int indexOf(String str)`
+  - `int indexOf(String str, int fromIndex)`
+- lastIndexOf
+  - `int lastIndexOf(int ch)`
+  - `int lastIndexOf(int ch, int fromIndex)`
+  - `int lastIndexOf(String str)`
+  - `int lastIndexOf(String str, int fromIndex)`
+- split
+  - `String[] split(String regex)`
+  - `String[] split(String regex, int limit)`
+- `boolean isEmpty()`
+- `boolean matches(String regex)`
+- regionMatches
+  - `boolean regionMatches(int toffset, String other, int ooffset, int len)` : Tests if two string regions are equal, compare toffset+len with ooffset+len.
+  - `boolean regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)`
+- `char[] toCharArray()`
+- `void getChars(int srcBegin, int srcEnd, char[] dest, int destBegin)`
+- copyValueOf
+  - `String copyValueOf(char[] data)`: It copies the whole array (data) to the string
+  - `String copyValueOf(char[] data, int offset, int count)` copies only specified characters to the string using the specified offset and count values
