@@ -23,7 +23,43 @@ class SquaresOfSortedArray {
 }
 
 class Solution {
+    /*
+        idea is simple, take 2 pointer left and right that starts with pointing
+         first and last element, then check whose absolute value is greater and
+         put it in the result and move to the next element.
+    */
     public int[] sortedSquares(int[] nums) {
+        int N = nums.length;
+
+        int[] result = new int[N];
+
+        int r = N - 1;
+        int left = 0;
+        int right = N - 1;
+
+        while(left <= right) {
+
+            if ( Math.abs(nums[left]) > Math.abs(nums[right]) ) { // process left
+                result[r] = nums[left] * nums[left];
+                left++;
+            } else { // process right
+                result[r] = nums[right] * nums[right];
+                right--;
+            }
+
+            r--;
+        }
+
+        return result;
+    }
+
+
+    /*
+        Idea is to do binary search to find closest positive to 0 and closest
+        negative to 0 using binary search as left and right and then fill in
+        result array moving left towards 0 and right towards length()
+    */
+    public int[] sortedSquaresOld(int[] nums) {
         int left = -1;
         int right = nums.length;
 
@@ -34,7 +70,7 @@ class Solution {
             else
                 left = mid;
         }
-        // System.out.println("left: " + left + ", right: " + right);
+        System.out.println("left: " + left + ", right: " + right);
 
         int[] res = new int[nums.length];
         int i = 0;
