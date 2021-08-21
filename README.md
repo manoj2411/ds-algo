@@ -830,3 +830,5 @@ valid_path.rb
 * Count Good Nodes in Binary Tree ([details](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountGoodNodesInBinaryTree.java)
 
 * Maximum Product of Splitted Binary Tree ([details](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumProductOfSplittedBinTree.java)
+
+* Valid Sudoku ([details](https://leetcode.com/problems/valid-sudoku/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidSudoku.java)
