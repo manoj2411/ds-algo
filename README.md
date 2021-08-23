@@ -832,3 +832,5 @@ valid_path.rb
 * Maximum Product of Splitted Binary Tree ([details](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumProductOfSplittedBinTree.java)
 
 * Valid Sudoku ([details](https://leetcode.com/problems/valid-sudoku/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidSudoku.java)
+
+* Sudoku Solver ([details](https://leetcode.com/problems/sudoku-solver/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SudokuSolver.java)
