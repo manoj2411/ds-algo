@@ -838,3 +838,5 @@ valid_path.rb
 * Two Sum IV - Input is a BST ([details](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TwoSumIV_InputIsaBST.java)
 
 * Complex Number Multiplication ([details](https://leetcode.com/problems/complex-number-multiplication/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ComplexNumberMultiplication.java)
+
+* Split Array Largest Sum ([details](https://leetcode.com/problems/split-array-largest-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitArrayLargestSum.java)
