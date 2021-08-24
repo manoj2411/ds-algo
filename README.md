@@ -836,3 +836,5 @@ valid_path.rb
 * Sudoku Solver ([details](https://leetcode.com/problems/sudoku-solver/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SudokuSolver.java)
 
 * Two Sum IV - Input is a BST ([details](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TwoSumIV_InputIsaBST.java)
+
+* Complex Number Multiplication ([details](https://leetcode.com/problems/complex-number-multiplication/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ComplexNumberMultiplication.java)
