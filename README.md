@@ -840,3 +840,5 @@ valid_path.rb
 * Complex Number Multiplication ([details](https://leetcode.com/problems/complex-number-multiplication/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ComplexNumberMultiplication.java)
 
 * Split Array Largest Sum ([details](https://leetcode.com/problems/split-array-largest-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitArrayLargestSum.java)
+
+* Sum of Square Numbers ([details](https://leetcode.com/problems/sum-of-square-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumofSquareNumbers.java)
