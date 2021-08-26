@@ -842,3 +842,5 @@ valid_path.rb
 * Split Array Largest Sum ([details](https://leetcode.com/problems/split-array-largest-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitArrayLargestSum.java)
 
 * Sum of Square Numbers ([details](https://leetcode.com/problems/sum-of-square-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumofSquareNumbers.java)
+
+* Verify Preorder Serialization of a Binary Tree ([details](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/VerifyPreorderSerializationofBinTree.java)

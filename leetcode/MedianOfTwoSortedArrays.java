@@ -22,6 +22,12 @@ class MedianOfTwoSortedArrays {
 }
 
 class Solution {
+    /*
+        complexity of solution:
+
+            time:   O(m+n)
+            space:  O(1)
+    */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         int len1 = nums1.length;
@@ -87,10 +93,3 @@ class Solution {
         return (total % 2 == 1) ? (double)curr : ((double)(curr+prev)) / 2;
     }
 }
-
-/*
-	complexity of solution:
-
-		time: 	O(m+n)
-		space: 	O(1)
-*/
