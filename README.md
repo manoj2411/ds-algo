@@ -844,3 +844,5 @@ valid_path.rb
 * Sum of Square Numbers ([details](https://leetcode.com/problems/sum-of-square-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumofSquareNumbers.java)
 
 * Verify Preorder Serialization of a Binary Tree ([details](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/VerifyPreorderSerializationofBinTree.java)
+
+* Capacity To Ship Packages Within D Days ([details](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CapacityToShipPackagesWithinDDays.java)
