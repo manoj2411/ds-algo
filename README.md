@@ -848,3 +848,5 @@ valid_path.rb
 * Capacity To Ship Packages Within D Days ([details](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CapacityToShipPackagesWithinDDays.java)
 
 * Longest Uncommon Subsequence II ([details](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestUncommonSubsequenceII.java)
+
+* Patching Array ([details](https://leetcode.com/problems/patching-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PatchingArray.java)
