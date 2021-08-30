@@ -850,3 +850,5 @@ valid_path.rb
 * Longest Uncommon Subsequence II ([details](https://leetcode.com/problems/longest-uncommon-subsequence-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestUncommonSubsequenceII.java)
 
 * Patching Array ([details](https://leetcode.com/problems/patching-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PatchingArray.java)
+
+* Range Addition II ([details](https://leetcode.com/problems/range-addition-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeAdditionII.java)
