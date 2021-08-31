@@ -852,3 +852,5 @@ valid_path.rb
 * Patching Array ([details](https://leetcode.com/problems/patching-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PatchingArray.java)
 
 * Range Addition II ([details](https://leetcode.com/problems/range-addition-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RangeAdditionII.java)
+
+* Find Minimum in Rotated Sorted Array ([details](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMinimumInRotatedSortedArray.java)
