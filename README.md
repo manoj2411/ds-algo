@@ -858,3 +858,5 @@ valid_path.rb
 * Student Attendance Record II ([details](https://leetcode.com/problems/student-attendance-record-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StudentAttendanceRecordII.java)
 
 * Array Nesting ([details](https://leetcode.com/problems/array-nesting/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayNesting.java)
+
+* Unique Binary Search Trees II ([details](https://leetcode.com/problems/unique-binary-search-trees-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniqueBinarySearchTreesII.java)
