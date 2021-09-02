@@ -856,3 +856,5 @@ valid_path.rb
 * Find Minimum in Rotated Sorted Array ([details](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMinimumInRotatedSortedArray.java)
 
 * Student Attendance Record II ([details](https://leetcode.com/problems/student-attendance-record-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StudentAttendanceRecordII.java)
+
+* Array Nesting ([details](https://leetcode.com/problems/array-nesting/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayNesting.java)
