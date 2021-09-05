@@ -860,3 +860,5 @@ valid_path.rb
 * Array Nesting ([details](https://leetcode.com/problems/array-nesting/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ArrayNesting.java)
 
 * Unique Binary Search Trees II ([details](https://leetcode.com/problems/unique-binary-search-trees-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniqueBinarySearchTreesII.java)
+
+* Sum of Distances in Tree ([details](https://leetcode.com/problems/sum-of-distances-in-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfDistancesInTree.java)
