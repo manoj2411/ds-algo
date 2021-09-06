@@ -862,3 +862,5 @@ valid_path.rb
 * Unique Binary Search Trees II ([details](https://leetcode.com/problems/unique-binary-search-trees-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniqueBinarySearchTreesII.java)
 
 * Sum of Distances in Tree ([details](https://leetcode.com/problems/sum-of-distances-in-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfDistancesInTree.java)
+
+* Slowest Key ([details](https://leetcode.com/problems/slowest-key/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlowestKey.java)
