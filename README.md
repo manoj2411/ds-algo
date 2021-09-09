@@ -864,3 +864,5 @@ valid_path.rb
 * Sum of Distances in Tree ([details](https://leetcode.com/problems/sum-of-distances-in-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfDistancesInTree.java)
 
 * Slowest Key ([details](https://leetcode.com/problems/slowest-key/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlowestKey.java)
+
+* Shifting Letters ([details](https://leetcode.com/problems/shifting-letters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShiftingLetters.java)
