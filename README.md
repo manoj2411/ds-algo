@@ -866,3 +866,5 @@ valid_path.rb
 * Slowest Key ([details](https://leetcode.com/problems/slowest-key/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlowestKey.java)
 
 * Shifting Letters ([details](https://leetcode.com/problems/shifting-letters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShiftingLetters.java)
+
+* Maximum Number of Balloons ([details](https://leetcode.com/problems/maximum-number-of-balloons/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumNumberOfBalloons.java)
