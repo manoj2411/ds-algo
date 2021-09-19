@@ -870,3 +870,8 @@ valid_path.rb
 * Maximum Number of Balloons ([details](https://leetcode.com/problems/maximum-number-of-balloons/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumNumberOfBalloons.java)
 
 * Reverse Only Letters ([details](https://leetcode.com/problems/reverse-only-letters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReverseOnlyLetters.java)
+
+* Longest Turbulent Subarray ([details](https://leetcode.com/problems/longest-turbulent-subarray/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestTurbulentSubarray.java)
+
+* Distinct Subsequences ([details](https://leetcode.com/problems/distinct-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DistinctSubsequences.java)
+
