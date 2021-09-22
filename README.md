@@ -875,3 +875,4 @@ valid_path.rb
 
 * Distinct Subsequences ([details](https://leetcode.com/problems/distinct-subsequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DistinctSubsequences.java)
 
+* Max Consecutive Ones ([details](https://leetcode.com/problems/max-consecutive-ones/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxConsecutiveOnes.java)
