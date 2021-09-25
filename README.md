@@ -878,3 +878,7 @@ valid_path.rb
 * Max Consecutive Ones ([details](https://leetcode.com/problems/max-consecutive-ones/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxConsecutiveOnes.java)
 
 * Maximum Length of a Concatenated String with Unique Characters ([details](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxLenOfConcatenatedStrWithUniqueChars.java)
+
+* Shortest Path in a Grid with Obstacles Elimination ([details](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathInGridWithObstaclesElimination.java)
+
+
