@@ -18,6 +18,9 @@ class MinimumWindowSubstring {
 		s = "cabwefgewcwaefgcf";
 		t = "cae";
 		System.out.println(new Solution().minWindow(s, t)); // cwae
+        s = "abcaabcdcccafb";
+        t = "abd";
+        System.out.println(new Solution().minWindow(s, t)); // abcd
 
 	}
 }
@@ -25,56 +28,45 @@ class MinimumWindowSubstring {
 
 class Solution {
     public String minWindow(String s, String t) {
+       int slen = s.length();
 
-        if (s.length() < t.length())
-            return "";
-
-        Map<Character, Integer> maps = new HashMap<>();
-        Map<Character, Integer> mapt = new HashMap<>();
-
+        int[] tchars = new int[128];
         for(char ch : t.toCharArray())
-            mapt.put(ch, 1 + mapt.getOrDefault(ch, 0));
+            tchars[ch]++;
 
-        String result = "";
+        int[] schars = new int[128];
+
         int start = 0;
         int end = 0;
-        int slen = s.length();
+        int best = s.length() + 1;
+        String res = "";
 
-        while (end < slen) {
+        while(end < slen) {
 
-
-            //expand end until find all chars in t
-            while (end < slen && !containsAll(maps, mapt)) {
-                char ch = s.charAt(end);
-                maps.put(ch, 1 + maps.getOrDefault(ch, 0));
-                end++;
+            while(!isValid(schars, tchars) && end < slen) {
+                schars[s.charAt(end++)]++;
             }
 
-            // reduce gap between start & end until they are equal
-            while (containsAll(maps, mapt)) {
-
-                if (result.length() == 0 || result.length() > (end - start)) {
-                    String substr = s.substring(start, end);
-                    result = substr;
+            while(isValid(schars, tchars)) {
+                if (best > end - start) {
+                    best = end - start;
+                    res = s.substring(start, end);
                 }
 
-
-                char ch = s.charAt(start++);
-                maps.put(ch, maps.get(ch) - 1);
+                schars[s.charAt(start++)]--;
             }
-
         }
 
-        return result;
+        return best <= s.length() ? res : "";
     }
 
-    boolean containsAll(Map<Character, Integer> maps, Map<Character, Integer> mapt) {
+    private boolean isValid(int[] schars, int[] tchars) {
 
-        for(char ch : mapt.keySet()) {
-            if (maps.getOrDefault(ch, 0) < mapt.get(ch))
+        for(int i = 0; i < 128; i++) {
+            if(schars[i] < tchars[i])
                 return false;
         }
-
         return true;
     }
+
 }
