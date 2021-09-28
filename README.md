@@ -882,3 +882,5 @@ valid_path.rb
 * Shortest Path in a Grid with Obstacles Elimination ([details](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathInGridWithObstaclesElimination.java)
 
 * Unique Email Addresses ([details](https://leetcode.com/problems/unique-email-addresses/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniqueEmailAddresses.java)
+
+* Sort Array By Parity II ([details](https://leetcode.com/problems/sort-array-by-parity-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortArrayByParityII.java)
