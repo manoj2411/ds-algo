@@ -884,3 +884,5 @@ valid_path.rb
 * Unique Email Addresses ([details](https://leetcode.com/problems/unique-email-addresses/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniqueEmailAddresses.java)
 
 * Sort Array By Parity II ([details](https://leetcode.com/problems/sort-array-by-parity-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortArrayByParityII.java)
+
+* Next Greater Element I ([details](https://leetcode.com/problems/next-greater-element-i/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextGreaterElementI.java)
