@@ -888,3 +888,5 @@ valid_path.rb
 * Next Greater Element I ([details](https://leetcode.com/problems/next-greater-element-i/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextGreaterElementI.java)
 
 * Next Greater Element II ([details](https://leetcode.com/problems/next-greater-element-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextGreaterElementII.java)
+
+* Split Linked List in Parts ([details](https://leetcode.com/problems/split-linked-list-in-parts/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitLinkedListInParts.java)
