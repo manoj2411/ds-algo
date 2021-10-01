@@ -890,3 +890,5 @@ valid_path.rb
 * Next Greater Element II ([details](https://leetcode.com/problems/next-greater-element-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextGreaterElementII.java)
 
 * Split Linked List in Parts ([details](https://leetcode.com/problems/split-linked-list-in-parts/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitLinkedListInParts.java)
+
+* Partition to K Equal Sum Subsets ([details](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionToKequalSumSubsets.java)
