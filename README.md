@@ -892,3 +892,5 @@ valid_path.rb
 * Split Linked List in Parts ([details](https://leetcode.com/problems/split-linked-list-in-parts/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitLinkedListInParts.java)
 
 * Partition to K Equal Sum Subsets ([details](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionToKequalSumSubsets.java)
+
+* Longest Common Subsequence ([details](https://leetcode.com/problems/longest-common-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestCommonSubsequence.java)
