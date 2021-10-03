@@ -894,3 +894,5 @@ valid_path.rb
 * Partition to K Equal Sum Subsets ([details](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionToKequalSumSubsets.java)
 
 * Longest Common Subsequence ([details](https://leetcode.com/problems/longest-common-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestCommonSubsequence.java)
+
+* Jump Game ([details](https://leetcode.com/problems/jump-game/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGame.java)
