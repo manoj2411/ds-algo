@@ -269,7 +269,7 @@ valid_path.rb
 
 * Count square submatrices with all ones ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/count_squares.rb))
 
-* Island Perimeter, [ref](https://leetcode.com/problems/island-perimeter/)
+* Island Perimeter ([details](https://leetcode.com/problems/island-perimeter/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/island_perimeter.rb)
 
 * Set every cell in matrix to 0 if that row or column contains a 0 ([details](https://www.geeksforgeeks.org/a-boolean-matrix-question/), [details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
 
