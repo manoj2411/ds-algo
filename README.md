@@ -896,3 +896,7 @@ valid_path.rb
 * Longest Common Subsequence ([details](https://leetcode.com/problems/longest-common-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestCommonSubsequence.java)
 
 * Jump Game ([details](https://leetcode.com/problems/jump-game/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGame.java)
+
+* Find All Duplicates in an Array ([details](https://leetcode.com/problems/find-all-duplicates-in-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindAllDuplicatesInArray.java)
+
+
