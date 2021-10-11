@@ -899,4 +899,5 @@ valid_path.rb
 
 * Find All Duplicates in an Array ([details](https://leetcode.com/problems/find-all-duplicates-in-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindAllDuplicatesInArray.java)
 
+* Bitwise AND of Numbers Range ([details](https://leetcode.com/problems/bitwise-and-of-numbers-range/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BitwiseANDofNumbersRange.java)
 
