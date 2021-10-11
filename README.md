@@ -901,3 +901,5 @@ valid_path.rb
 
 * Bitwise AND of Numbers Range ([details](https://leetcode.com/problems/bitwise-and-of-numbers-range/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BitwiseANDofNumbersRange.java)
 
+* Maximum Swap ([details](https://leetcode.com/problems/maximum-swap/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumSwap.java)
+
