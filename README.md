@@ -904,3 +904,5 @@ valid_path.rb
 * Maximum Swap ([details](https://leetcode.com/problems/maximum-swap/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumSwap.java)
 
 * Minimum Add to Make Parentheses Valid ([details](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumAddToMakeParenthesesValid.java)
+
+* Guess Number Higher or Lower ([details](https://leetcode.com/problems/guess-number-higher-or-lower/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GuessNumberHigherOrLower.java)
