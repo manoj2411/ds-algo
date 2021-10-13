@@ -908,3 +908,5 @@ valid_path.rb
 * Guess Number Higher or Lower ([details](https://leetcode.com/problems/guess-number-higher-or-lower/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GuessNumberHigherOrLower.java)
 
 * Random Pick Index ([details](https://leetcode.com/problems/random-pick-index/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickIndex.java)
+
+* Construct Binary Search Tree from Preorder Traversal ([details](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConstructBSTfromPreorderTraversal.java)
