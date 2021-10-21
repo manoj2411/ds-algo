@@ -910,3 +910,5 @@ valid_path.rb
 * Random Pick Index ([details](https://leetcode.com/problems/random-pick-index/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickIndex.java)
 
 * Construct Binary Search Tree from Preorder Traversal ([details](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConstructBSTfromPreorderTraversal.java)
+
+* Subarray Sum Equals K ([details](https://leetcode.com/problems/subarray-sum-equals-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SubarraySumEqualsK.java)
