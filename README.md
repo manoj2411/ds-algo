@@ -912,3 +912,5 @@ valid_path.rb
 * Construct Binary Search Tree from Preorder Traversal ([details](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConstructBSTfromPreorderTraversal.java)
 
 * Subarray Sum Equals K ([details](https://leetcode.com/problems/subarray-sum-equals-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SubarraySumEqualsK.java)
+
+* Find Minimum in Rotated Sorted Array II ([details](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMinimumInRotatedSortedArrayII.java)
