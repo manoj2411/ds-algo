@@ -916,3 +916,5 @@ valid_path.rb
 * Find Minimum in Rotated Sorted Array II ([details](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMinimumInRotatedSortedArrayII.java)
 
 * Best Time to Buy and Sell Stock ([details](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BestTimeToBuyAndSellStock.java)
+
+* Count Complete Tree Nodes ([details](https://leetcode.com/problems/count-complete-tree-nodes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountCompleteTreeNodes.java)
