@@ -255,7 +255,7 @@ valid_path.rb
 
 #### Stack
 
-* **Min Stack** : Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/min_stack.rb))
+* **Min Stack** : Design a stack that supports push, pop, top, and retrieving the minimum element in constant time ([details](https://leetcode.com/problems/min-stack/)). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/min_stack.rb))
 
 * **Infix to Postfix** [ref](https://practice.geeksforgeeks.org/problems/infix-to-postfix/0). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/infix_to_postfix.rb))
 * **Evaluation of Postfix Expression** ex: `'1 2 3 + * 8 -'` => `-3`, [ref](https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/postfix_experssion_evaluation.rb))
