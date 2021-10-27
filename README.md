@@ -920,3 +920,5 @@ valid_path.rb
 * Count Complete Tree Nodes ([details](https://leetcode.com/problems/count-complete-tree-nodes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountCompleteTreeNodes.java)
 
 * Best Time to Buy and Sell Stock II ([details](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BestTimeToBuyAndSellStockII.java)
+
+* Sort Colors ([details](https://leetcode.com/problems/sort-colors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortColors.java)
