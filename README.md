@@ -927,3 +927,5 @@ valid_path.rb
 
 * 371 Sum of Two Integers ([details](https://leetcode.com/problems/sum-of-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfTwoIntegers.java)
 
+* 528 Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
+
