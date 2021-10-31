@@ -923,4 +923,4 @@ valid_path.rb
 
 * Sort Colors ([details](https://leetcode.com/problems/sort-colors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortColors.java)
 
-* 721. Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
+* 721 Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
