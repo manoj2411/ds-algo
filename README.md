@@ -923,9 +923,10 @@ valid_path.rb
 
 * Sort Colors ([details](https://leetcode.com/problems/sort-colors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortColors.java)
 
-* 721 Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
+* _721._ Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
 
-* 371 Sum of Two Integers ([details](https://leetcode.com/problems/sum-of-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfTwoIntegers.java)
+* _371._ Sum of Two Integers ([details](https://leetcode.com/problems/sum-of-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfTwoIntegers.java)
 
-* 528 Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
+* _528._ Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
 
+* _636._ Exclusive Time of Functions ([details](https://leetcode.com/problems/exclusive-time-of-functions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ExclusiveTimeOfFunctions.java)

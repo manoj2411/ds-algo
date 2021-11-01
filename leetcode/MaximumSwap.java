@@ -12,6 +12,9 @@ class MaximumSwap {
 }
 
 class Solution {
+    /*
+        can you add some optimization?
+    */
     public int maximumSwap(int num) {
         StringBuilder numStr = new StringBuilder(String.valueOf(num));
 
