@@ -930,3 +930,6 @@ valid_path.rb
 * _528._ Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
 
 * _636._ Exclusive Time of Functions ([details](https://leetcode.com/problems/exclusive-time-of-functions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ExclusiveTimeOfFunctions.java)
+
+* _129._ Sum Root to Leaf Numbers ([details](https://leetcode.com/problems/sum-root-to-leaf-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumRootToLeafNumbers.java)
+
