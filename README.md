@@ -923,13 +923,14 @@ valid_path.rb
 
 * Sort Colors ([details](https://leetcode.com/problems/sort-colors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortColors.java)
 
-* _721._ Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
+* Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
 
-* _371._ Sum of Two Integers ([details](https://leetcode.com/problems/sum-of-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfTwoIntegers.java)
+* Sum of Two Integers ([details](https://leetcode.com/problems/sum-of-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfTwoIntegers.java)
 
-* _528._ Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
+* Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
 
-* _636._ Exclusive Time of Functions ([details](https://leetcode.com/problems/exclusive-time-of-functions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ExclusiveTimeOfFunctions.java)
+* Exclusive Time of Functions ([details](https://leetcode.com/problems/exclusive-time-of-functions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ExclusiveTimeOfFunctions.java)
 
-* _129._ Sum Root to Leaf Numbers ([details](https://leetcode.com/problems/sum-root-to-leaf-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumRootToLeafNumbers.java)
+* Sum Root to Leaf Numbers ([details](https://leetcode.com/problems/sum-root-to-leaf-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumRootToLeafNumbers.java)
 
+* Sum of Left Leaves ([details](https://leetcode.com/problems/sum-of-left-leaves/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfLeftLeaves.java)
