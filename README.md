@@ -934,3 +934,5 @@ valid_path.rb
 * Sum Root to Leaf Numbers ([details](https://leetcode.com/problems/sum-root-to-leaf-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumRootToLeafNumbers.java)
 
 * Sum of Left Leaves ([details](https://leetcode.com/problems/sum-of-left-leaves/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfLeftLeaves.java)
+
+* Minimum Value to Get Positive Step by Step Sum ([details](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinValueToGetPositiveStepByStepSum.java)
