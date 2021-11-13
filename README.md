@@ -938,3 +938,5 @@ valid_path.rb
 * Minimum Value to Get Positive Step by Step Sum ([details](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinValueToGetPositiveStepByStepSum.java)
 
 * Daily Temperatures ([details](https://leetcode.com/problems/daily-temperatures/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DailyTemperatures.java)
+
+* Remove Linked List Elements ([details](https://leetcode.com/problems/remove-linked-list-elements/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveLinkedListElements.java)
