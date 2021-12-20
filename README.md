@@ -942,3 +942,5 @@ valid_path.rb
 * Remove Linked List Elements ([details](https://leetcode.com/problems/remove-linked-list-elements/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveLinkedListElements.java)
 
 * Find All Numbers Disappeared in an Array ([details](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindAllNumbersDisappearedInArray.java)
+
+* Minimum Absolute Difference ([details](https://leetcode.com/problems/minimum-absolute-difference/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumAbsoluteDifference.java)
