@@ -946,3 +946,5 @@ valid_path.rb
 * Minimum Absolute Difference ([details](https://leetcode.com/problems/minimum-absolute-difference/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumAbsoluteDifference.java)
 
 * Counting Bits ([details](https://leetcode.com/problems/counting-bits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountingBits.java)
+
+* Is Subsequence ([details](https://leetcode.com/problems/is-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsSubsequence.java)
