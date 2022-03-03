@@ -40,3 +40,27 @@ class Solution {
         return res;
     }
 }
+
+class SuboptimalSolution {
+
+    public int numberOfArithmeticSlices(int[] nums) {
+        int result = 0;
+
+        for(int i = 0; i < nums.length - 2; i++)
+            result += numberOfArithmeticSlicesStartingWith(nums, i);
+
+        return result;
+    }
+
+    private int numberOfArithmeticSlicesStartingWith(int[] nums, int start) {
+        int count = 0;
+
+        int diff = nums[start] - nums[start + 1];
+
+        for(int i = start + 2; i < nums.length; i++)
+            if (nums[i - 1] - nums[i] == diff) count++;
+            else break;
+
+        return count;
+    }
+}
