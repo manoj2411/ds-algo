@@ -948,3 +948,5 @@ valid_path.rb
 * Counting Bits ([details](https://leetcode.com/problems/counting-bits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountingBits.java)
 
 * Is Subsequence ([details](https://leetcode.com/problems/is-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsSubsequence.java)
+
+* Remove K Digits ([details](https://leetcode.com/problems/remove-k-digits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveKDigits.java)
