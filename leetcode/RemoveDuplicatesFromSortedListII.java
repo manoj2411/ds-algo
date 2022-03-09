@@ -31,24 +31,39 @@ class RemoveDuplicatesFromSortedListII {
 
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
+        if (head == null || head.next == null)
+        	return head;
+
         ListNode dummy = new ListNode();
-        ListNode curr = dummy;
+        ListNode last = dummy;
+        ListNode curr = head;
 
-        while(head != null) {
-            int val = head.val;
-
-            if(head.next != null && head.next.val == val) {
-                while(head != null && head.val == val)
-                    head = head.next;
-            } else {
-                curr.next = head;
-                head = head.next;
+        while(curr != null) {
+            if (!isDuplicate(curr)) {
+                last.next = curr;
                 curr = curr.next;
-                curr.next = null;
+                last = last.next;
+                last.next = null;
+            } else {
+                curr = findNext(curr);
             }
         }
 
         return dummy.next;
+    }
+
+    private boolean isDuplicate(ListNode node) {
+        return node.next != null && node.next.val == node.val;
+    }
+
+    private ListNode findNext(ListNode node) {
+        ListNode curr = node.next;
+
+        while(curr != null && curr.val == node.val) {
+            curr = curr.next;
+        }
+
+        return curr;
     }
 }
 
