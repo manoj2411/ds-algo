@@ -950,3 +950,5 @@ valid_path.rb
 * Is Subsequence ([details](https://leetcode.com/problems/is-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsSubsequence.java)
 
 * Remove K Digits ([details](https://leetcode.com/problems/remove-k-digits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveKDigits.java)
+
+* Rotate List ([details](https://leetcode.com/problems/rotate-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RotateList.java)
