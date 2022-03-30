@@ -65,5 +65,21 @@ class Solution {
 
         return target >= matrix[right][0] ? right : left;
     }
+}
 
+class AlternateSolution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int lastCol = matrix[0].length - 1;
+
+        int row = 0;
+
+        for(int i = 0; i < matrix.length; i++) {
+            if (matrix[i][lastCol] >= target) {
+                row = i;
+                break;
+            }
+        }
+
+        return Arrays.binarySearch(matrix[row], target) >= 0;
+    }
 }
