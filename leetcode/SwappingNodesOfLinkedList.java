@@ -28,6 +28,16 @@ class SwappingNodesOfLinkedList {
 }
 
 class Solution {
+
+	/*
+		One pass solution:
+
+		Idea is to keep 2 pointers left and right.
+		 First move k positions and tag the curr node as left.
+		 Then move curr until last node + another pointer (right) will move along
+		 starting from head. When curr reach to end, right will be pointing to
+		 the kth node from last.
+	*/
     public ListNode swapNodes(ListNode head, int k) {
         ListNode curr = head;
 
@@ -59,4 +69,41 @@ class ListNode {
     int val;
     ListNode next;
     ListNode(int val) { this.val = val; }
+}
+
+class AlternateSolution {
+	/*
+		A 3 pass solution.
+	*/
+    public ListNode swapNodes(ListNode head, int k) {
+        int length = findLength(head);
+
+        ListNode node1 = getKthNode(head, k);
+        ListNode node2 = getKthNode(head, (length - k) + 1);
+
+        int temp = node1.val;
+        node1.val = node2.val;
+        node2.val = temp;
+
+        return head;
+    }
+
+    private ListNode getKthNode(ListNode head, int k) {
+        ListNode curr = head;
+
+        for(int i = 1; i < k; i++) {
+            curr = curr.next;
+        }
+
+        return curr;
+    }
+
+    private int findLength(ListNode head) {
+        int c = 0;
+        while (head != null) {
+            c++;
+            head = head.next;
+        }
+        return c;
+    }
 }
