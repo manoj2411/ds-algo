@@ -1,4 +1,4 @@
-# reverse in palce, without using extra space
+# reverse in place, without using extra space
 #
 
 DELIMETER = ' '

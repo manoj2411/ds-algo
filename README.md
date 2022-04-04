@@ -255,7 +255,7 @@ valid_path.rb
 
 #### Stack
 
-* **Min Stack** : Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/min_stack.rb))
+* **Min Stack** : Design a stack that supports push, pop, top, and retrieving the minimum element in constant time ([details](https://leetcode.com/problems/min-stack/)). ([Solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/min_stack.rb))
 
 * **Infix to Postfix** [ref](https://practice.geeksforgeeks.org/problems/infix-to-postfix/0). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/infix_to_postfix.rb))
 * **Evaluation of Postfix Expression** ex: `'1 2 3 + * 8 -'` => `-3`, [ref](https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0). ([solution](https://github.com/manoj2411/ds-algo/blob/master/Stack/postfix_experssion_evaluation.rb))
@@ -269,7 +269,7 @@ valid_path.rb
 
 * Count square submatrices with all ones ([Solution](https://github.com/manoj2411/ds-algo/blob/master/2D/count_squares.rb))
 
-* Island Perimeter, [ref](https://leetcode.com/problems/island-perimeter/)
+* Island Perimeter ([details](https://leetcode.com/problems/island-perimeter/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/island_perimeter.rb)
 
 * Set every cell in matrix to 0 if that row or column contains a 0 ([details](https://www.geeksforgeeks.org/a-boolean-matrix-question/), [details](https://leetcode.com/problems/set-matrix-zeroes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/2D/SetMatrixZeroes.java)
 
@@ -878,3 +878,77 @@ valid_path.rb
 * Max Consecutive Ones ([details](https://leetcode.com/problems/max-consecutive-ones/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxConsecutiveOnes.java)
 
 * Maximum Length of a Concatenated String with Unique Characters ([details](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxLenOfConcatenatedStrWithUniqueChars.java)
+
+* Shortest Path in a Grid with Obstacles Elimination ([details](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathInGridWithObstaclesElimination.java)
+
+* Unique Email Addresses ([details](https://leetcode.com/problems/unique-email-addresses/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/UniqueEmailAddresses.java)
+
+* Sort Array By Parity II ([details](https://leetcode.com/problems/sort-array-by-parity-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortArrayByParityII.java)
+
+* Next Greater Element I ([details](https://leetcode.com/problems/next-greater-element-i/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextGreaterElementI.java)
+
+* Next Greater Element II ([details](https://leetcode.com/problems/next-greater-element-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NextGreaterElementII.java)
+
+* Split Linked List in Parts ([details](https://leetcode.com/problems/split-linked-list-in-parts/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SplitLinkedListInParts.java)
+
+* Partition to K Equal Sum Subsets ([details](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PartitionToKequalSumSubsets.java)
+
+* Longest Common Subsequence ([details](https://leetcode.com/problems/longest-common-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestCommonSubsequence.java)
+
+* Jump Game ([details](https://leetcode.com/problems/jump-game/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/JumpGame.java)
+
+* Find All Duplicates in an Array ([details](https://leetcode.com/problems/find-all-duplicates-in-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindAllDuplicatesInArray.java)
+
+* Bitwise AND of Numbers Range ([details](https://leetcode.com/problems/bitwise-and-of-numbers-range/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BitwiseANDofNumbersRange.java)
+
+* Maximum Swap ([details](https://leetcode.com/problems/maximum-swap/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumSwap.java)
+
+* Minimum Add to Make Parentheses Valid ([details](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumAddToMakeParenthesesValid.java)
+
+* Guess Number Higher or Lower ([details](https://leetcode.com/problems/guess-number-higher-or-lower/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/GuessNumberHigherOrLower.java)
+
+* Random Pick Index ([details](https://leetcode.com/problems/random-pick-index/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickIndex.java)
+
+* Construct Binary Search Tree from Preorder Traversal ([details](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ConstructBSTfromPreorderTraversal.java)
+
+* Subarray Sum Equals K ([details](https://leetcode.com/problems/subarray-sum-equals-k/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SubarraySumEqualsK.java)
+
+* Find Minimum in Rotated Sorted Array II ([details](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindMinimumInRotatedSortedArrayII.java)
+
+* Best Time to Buy and Sell Stock ([details](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BestTimeToBuyAndSellStock.java)
+
+* Count Complete Tree Nodes ([details](https://leetcode.com/problems/count-complete-tree-nodes/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountCompleteTreeNodes.java)
+
+* Best Time to Buy and Sell Stock II ([details](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BestTimeToBuyAndSellStockII.java)
+
+* Sort Colors ([details](https://leetcode.com/problems/sort-colors/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortColors.java)
+
+* Accounts Merge ([details](https://leetcode.com/problems/accounts-merge/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AccountsMerge.java)
+
+* Sum of Two Integers ([details](https://leetcode.com/problems/sum-of-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfTwoIntegers.java)
+
+* Random Pick with Weight ([details](https://leetcode.com/problems/random-pick-with-weight/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RandomPickWithWeight.java)
+
+* Exclusive Time of Functions ([details](https://leetcode.com/problems/exclusive-time-of-functions/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ExclusiveTimeOfFunctions.java)
+
+* Sum Root to Leaf Numbers ([details](https://leetcode.com/problems/sum-root-to-leaf-numbers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumRootToLeafNumbers.java)
+
+* Sum of Left Leaves ([details](https://leetcode.com/problems/sum-of-left-leaves/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfLeftLeaves.java)
+
+* Minimum Value to Get Positive Step by Step Sum ([details](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinValueToGetPositiveStepByStepSum.java)
+
+* Daily Temperatures ([details](https://leetcode.com/problems/daily-temperatures/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DailyTemperatures.java)
+
+* Remove Linked List Elements ([details](https://leetcode.com/problems/remove-linked-list-elements/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveLinkedListElements.java)
+
+* Find All Numbers Disappeared in an Array ([details](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindAllNumbersDisappearedInArray.java)
+
+* Minimum Absolute Difference ([details](https://leetcode.com/problems/minimum-absolute-difference/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumAbsoluteDifference.java)
+
+* Counting Bits ([details](https://leetcode.com/problems/counting-bits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountingBits.java)
+
+* Is Subsequence ([details](https://leetcode.com/problems/is-subsequence/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IsSubsequence.java)
+
+* Remove K Digits ([details](https://leetcode.com/problems/remove-k-digits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveKDigits.java)
+
+* Rotate List ([details](https://leetcode.com/problems/rotate-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RotateList.java)

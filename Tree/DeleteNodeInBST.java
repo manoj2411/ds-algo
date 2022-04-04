@@ -1,7 +1,11 @@
 class DeleteNodeInBST {
 
+    public static void main(String[] args) {
+
+    }
+
     public TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null)
+        if (root == null) {
             return root;
         } else if (key < root.val) {
             root.left = deleteNode(root.left, key);
@@ -26,11 +30,19 @@ class DeleteNodeInBST {
     }
 
     void fixRight(TreeNode node, TreeNode leftSubtree) {
-        if (node.right == null) {
-            node.right = leftSubtree;
-            return;
-        }
-        fixRight(node.right, leftSubtree);
+        while (node.right != null) node = node.right;
+        node.right = leftSubtree;
     }
 
+}
+
+/**
+ * Definition for a binary tree node.
+ */
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
 }
