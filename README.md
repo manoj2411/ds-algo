@@ -952,3 +952,5 @@ valid_path.rb
 * Remove K Digits ([details](https://leetcode.com/problems/remove-k-digits/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveKDigits.java)
 
 * Rotate List ([details](https://leetcode.com/problems/rotate-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RotateList.java)
+
+* Container With Most Water ([details](https://leetcode.com/problems/container-with-most-water/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ContainerWithMostWater.java)
