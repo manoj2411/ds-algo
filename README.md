@@ -957,3 +957,5 @@ valid_path.rb
 * Container With Most Water ([details](https://leetcode.com/problems/container-with-most-water/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ContainerWithMostWater.java)
 
 * Kth Largest Element in a Stream ([details](https://leetcode.com/problems/kth-largest-element-in-a-stream/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthLargestElementInStream.java)
+
+* 3Sum With Multiplicity ([details](https://leetcode.com/problems/3sum-with-multiplicity/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ThreeSumWithMultiplicity.java)
