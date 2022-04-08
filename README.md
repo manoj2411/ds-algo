@@ -955,3 +955,5 @@ valid_path.rb
 * Rotate List ([details](https://leetcode.com/problems/rotate-list/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RotateList.java)
 
 * Container With Most Water ([details](https://leetcode.com/problems/container-with-most-water/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ContainerWithMostWater.java)
+
+* Kth Largest Element in a Stream ([details](https://leetcode.com/problems/kth-largest-element-in-a-stream/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthLargestElementInStream.java)
