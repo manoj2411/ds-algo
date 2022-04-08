@@ -9,7 +9,9 @@ class NextPermutation {
             {3,2,1},
             {1},
             {1,5,6,5,4},
-            {1,5,6,4,2}
+            {1,5,6,4,2},
+            {3,0,3,3,1,1},
+            {3,2,3,3,1,1}
         };
         for(int[] nums : input) {
             System.out.println("nums: " + Arrays.toString(nums));
@@ -29,7 +31,7 @@ class Solution {
             return;
         }
 
-        int g = findGreaterThan(nums, nums[index]);
+        int g = findGreaterThanKfromRight(nums, nums[index]);
         int tmp = nums[g];
         nums[g] = nums[index];
         nums[index] = tmp;
@@ -46,7 +48,7 @@ class Solution {
 
     }
 
-    private int findGreaterThan(int[] nums, int k) {
+    private int findGreaterThanKfromRight(int[] nums, int k) {
         for(int i = nums.length - 1; i > 0; i--) {
             if(nums[i] > k) return i;
         }
