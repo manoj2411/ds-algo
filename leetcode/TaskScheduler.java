@@ -11,9 +11,10 @@ class TaskScheduler {
 }
 
 class Solution {
-
+	// Idea is to pick task with most frequency && passed the cooldown period.
+	//  Then keep removing all completed tasks until all tasks are executed.
     public int leastInterval(char[] tasks, int n) {
-
+    	// create map to count
         Map<Character, TaskItem> map = createTasksMap(tasks);
 
         int time;
@@ -24,6 +25,7 @@ class Solution {
 
             for(char task : map.keySet()) {
                 if (map.get(task).cooldown < time) {
+                	// pick the task with most count and having passed the cooldown period
                     if (picked == null || picked.count < map.get(task).count) {
                         picked = map.get(task);
                         pickedChar = task;
@@ -32,10 +34,13 @@ class Solution {
             }
 
             if (picked != null) {
+            	// decrement the count of picked task
                 picked.count--;
+                // remove task from map when no task remaining to complete
                 if (picked.count == 0) {
                     map.remove(pickedChar);
                 } else {
+                	// set cooldown for the picked taskItem
                     picked.cooldown = time + n;
                 }
             }
@@ -61,7 +66,7 @@ class Solution {
 
     }
 
-
+    // To keep counter of remaining tasks and cooldown number.
     private class TaskItem {
         int count;
         int cooldown;
