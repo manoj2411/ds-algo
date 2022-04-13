@@ -961,3 +961,5 @@ valid_path.rb
 * 3Sum With Multiplicity ([details](https://leetcode.com/problems/3sum-with-multiplicity/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ThreeSumWithMultiplicity.java)
 
 * Baseball Game ([details](https://leetcode.com/problems/baseball-game/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BaseballGame.java)
+
+* Task Scheduler ([details](https://leetcode.com/problems/task-scheduler/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TaskScheduler.java)
