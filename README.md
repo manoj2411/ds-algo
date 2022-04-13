@@ -592,7 +592,7 @@ valid_path.rb
 
 * Validate Stack Sequences ([details](https://leetcode.com/problems/validate-stack-sequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidateStackSequences.java)
 
-* Divide Two Integers ([details](https://leetcode.com/problems/divide-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/divide_two_integers.rb)
+* Divide Two Integers ([details](https://leetcode.com/problems/divide-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/divide_two_integers.rb) , [solution in java](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DivideTwoIntegers.java)
 
 * Maximum Frequency Stack ([details](https://leetcode.com/problems/maximum-frequency-stack/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumFrequencyStack.java)
 
