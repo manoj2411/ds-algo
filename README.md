@@ -963,3 +963,5 @@ valid_path.rb
 * Baseball Game ([details](https://leetcode.com/problems/baseball-game/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BaseballGame.java)
 
 * Task Scheduler ([details](https://leetcode.com/problems/task-scheduler/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TaskScheduler.java)
+
+* Kth Smallest Element in a BST ([details](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSmallestElementInBST.java)
