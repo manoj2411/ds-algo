@@ -24,7 +24,7 @@ class UndergroundSystem {
     public void checkOut(int id, String stationName, int t) {
         Checkin checkin = checkins.remove(id);
 
-        String key = checkin.station + ":" + stationName;
+        String key = getKey(checkin.station, stationName);
         Stat avg = stats.getOrDefault(key, new Stat(checkin.station, stationName));
         avg.totalTime += t - checkin.time;
         avg.count++;
@@ -32,10 +32,14 @@ class UndergroundSystem {
     }
 
     public double getAverageTime(String startStation, String endStation) {
-        String key = startStation + ":" + endStation;
+        String key = getKey(startStation, endStation);
         Stat avg = stats.get(key);
 
         return (double)avg.totalTime / (double)avg.count;
+    }
+
+    private String getKey(String startStation, String endStation) {
+        return startStation + ":" + endStation;
     }
 }
 
