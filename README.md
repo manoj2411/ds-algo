@@ -967,3 +967,5 @@ valid_path.rb
 * Kth Smallest Element in a BST ([details](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSmallestElementInBST.java)
 
 * Sum of Subarray Ranges ([details](https://leetcode.com/problems/sum-of-subarray-ranges/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfSubarrayRanges.java)
+
+* Path With Minimum Effort ([details](https://leetcode.com/problems/path-with-minimum-effort/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathWithMinimumEffort.java)
