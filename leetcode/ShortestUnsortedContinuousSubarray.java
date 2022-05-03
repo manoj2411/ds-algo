@@ -99,3 +99,51 @@ class OptSolution {
         return end == -1 ? 0 : end - start;
     }
 }
+
+class SimplifiedOptimalSolution {
+
+    /* Complexity
+
+        time    : O(N)
+        space   : O(1)
+
+
+        idea is to find left and right such that
+        (0..left) is sorted and (right..len-1) is sorted
+
+        to find left, traverse from last to first index, keep a min till now
+         curr is supposed to be <= min in a sorted array, if this is not the case
+         then store the index as left, last left will be our first element out of order.
+        Similarly find right, traverse from 0 to last index, keep a max till now
+         curr is suppose to be >= max in a sorted array, if this not the case then
+         store the index as right, last right will be our last element out of sync
+
+    */
+    public int findUnsortedSubarray(int[] nums) {
+
+        int left = -1;
+        int min = nums[nums.length - 1];
+        for(int i = nums.length - 1; i >= 0; i--) {
+            if (nums[i] > min ) {
+                left = i;
+            } else {
+                min = nums[i];
+            }
+        }
+
+        if (left == -1) {
+            return 0;
+        }
+
+        int right = nums.length;
+        int max = nums[0];
+        for(int i = 0; i < nums.length; i++) {
+            if (nums[i] < max) {
+                right = i;
+            } else {
+                max = nums[i];
+            }
+        }
+        return (right - left) + 1;
+    }
+}
