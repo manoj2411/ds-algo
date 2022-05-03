@@ -10,20 +10,21 @@ class AddBinary {
 
 class Solution {
     public String addBinary(String a, String b) {
-        int len1 = a.length();
-        int len2 = b.length();
+        int alen = a.length();
+        int blen = b.length();
 
-        if (len1 > len2)
-            b = zeros(len1 - len2) + b;
-        else if (len2 > len1)
-            a = zeros(len2 - len1) + a;
+        if (alen > blen) {
+            b = zeros(alen - blen) + b;
+        } else {
+            a = zeros(blen - alen) + a;
+        }
 
         StringBuilder result = new StringBuilder();
         int carry = 0;
 
-        for(int i = Math.max(len1, len2) - 1; i >= 0; i--) {
-            int d1 = a.charAt(i) - '0';
-            int d2 = b.charAt(i) - '0';
+        for(int i = Math.max(alen, blen) - 1; i >= 0; i--) {
+            int d1 = Character.getNumericValue(a.charAt(i));
+            int d2 = Character.getNumericValue(b.charAt(i));
 
             int sum = d1 + d2 + carry;
 
@@ -31,7 +32,9 @@ class Solution {
             carry = sum / 2;
         }
 
-        if (carry == 1) result.append(carry);
+        if (carry == 1){
+            result.append(carry);
+        }
 
         return result.reverse().toString();
     }
@@ -39,8 +42,9 @@ class Solution {
     String zeros(int num) {
         StringBuilder sb = new StringBuilder();
 
-        for(int i = 0; i < num; i++)
+        for(int i = 0; i < num; i++) {
             sb.append(0);
+        }
 
         return sb.toString();
     }

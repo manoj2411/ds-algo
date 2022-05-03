@@ -592,7 +592,7 @@ valid_path.rb
 
 * Validate Stack Sequences ([details](https://leetcode.com/problems/validate-stack-sequences/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ValidateStackSequences.java)
 
-* Divide Two Integers ([details](https://leetcode.com/problems/divide-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/divide_two_integers.rb)
+* Divide Two Integers ([details](https://leetcode.com/problems/divide-two-integers/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/divide_two_integers.rb) , [solution in java](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DivideTwoIntegers.java)
 
 * Maximum Frequency Stack ([details](https://leetcode.com/problems/maximum-frequency-stack/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumFrequencyStack.java)
 
@@ -959,3 +959,13 @@ valid_path.rb
 * Kth Largest Element in a Stream ([details](https://leetcode.com/problems/kth-largest-element-in-a-stream/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthLargestElementInStream.java)
 
 * 3Sum With Multiplicity ([details](https://leetcode.com/problems/3sum-with-multiplicity/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ThreeSumWithMultiplicity.java)
+
+* Baseball Game ([details](https://leetcode.com/problems/baseball-game/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BaseballGame.java)
+
+* Task Scheduler ([details](https://leetcode.com/problems/task-scheduler/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TaskScheduler.java)
+
+* Kth Smallest Element in a BST ([details](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSmallestElementInBST.java)
+
+* Sum of Subarray Ranges ([details](https://leetcode.com/problems/sum-of-subarray-ranges/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfSubarrayRanges.java)
+
+* Path With Minimum Effort ([details](https://leetcode.com/problems/path-with-minimum-effort/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathWithMinimumEffort.java)

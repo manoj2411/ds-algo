@@ -33,22 +33,20 @@ class ConvertBSTtoGreaterTree {
 
 class Solution {
     public TreeNode convertBST(TreeNode root) {
-        int[] prev = {0};
-        helper(root, prev);
+        int[] sum = {0};
+        reverseInorder(root, sum);
         return root;
     }
 
-    void helper(TreeNode root, int[] prev) {
-        if(root == null) return;
+    void reverseInorder(TreeNode root, int[] sum) {
+        if(root != null) {
+            reverseInorder(root.right, sum);
 
+            sum[0] += root.val;
+            root.val = sum[0];
 
-        helper(root.right, prev);
-
-        // System.out.println("prev: " + prev[0]);
-
-        root.val += prev[0];
-        prev[0] = root.val;
-        helper(root.left, prev);
+            reverseInorder(root.left, sum);
+        }
     }
 }
 
