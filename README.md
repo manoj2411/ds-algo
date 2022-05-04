@@ -969,3 +969,5 @@ valid_path.rb
 * Sum of Subarray Ranges ([details](https://leetcode.com/problems/sum-of-subarray-ranges/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SumOfSubarrayRanges.java)
 
 * Path With Minimum Effort ([details](https://leetcode.com/problems/path-with-minimum-effort/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathWithMinimumEffort.java)
+
+* Max Number of K-Sum Pairs ([details](https://leetcode.com/problems/max-number-of-k-sum-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxNumberOfKsumPairs.java)
