@@ -971,3 +971,5 @@ valid_path.rb
 * Path With Minimum Effort ([details](https://leetcode.com/problems/path-with-minimum-effort/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/PathWithMinimumEffort.java)
 
 * Max Number of K-Sum Pairs ([details](https://leetcode.com/problems/max-number-of-k-sum-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxNumberOfKsumPairs.java)
+
+* Remove All Adjacent Duplicates in String II ([details](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveAllAdjacentDuplicatesInStringII.java)
