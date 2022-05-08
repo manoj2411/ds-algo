@@ -973,3 +973,5 @@ valid_path.rb
 * Max Number of K-Sum Pairs ([details](https://leetcode.com/problems/max-number-of-k-sum-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxNumberOfKsumPairs.java)
 
 * Remove All Adjacent Duplicates in String II ([details](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveAllAdjacentDuplicatesInStringII.java)
+
+* Flatten Nested List Iterator ([details](https://leetcode.com/problems/flatten-nested-list-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlattenNestedListIterator.java)
