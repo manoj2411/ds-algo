@@ -46,3 +46,42 @@ class Solution {
         return res;
     }
 }
+
+class AlternateSolution {
+    Map<Character, String> map;
+
+    AlternateSolution() {
+        map = new HashMap<>();
+        map.put('2', "abc");
+        map.put('3', "def");
+        map.put('4', "ghi");
+        map.put('5', "jkl" );
+        map.put('6', "mno");
+        map.put('7', "pqrs");
+        map.put('8', "tuv");
+        map.put('9', "wxyz");
+    }
+
+    public List<String> letterCombinations(String digits) {
+        List<String> result = new ArrayList<>();
+
+        if (digits.length() > 0) {
+            dfs(digits, 0, new char[digits.length()], result);
+        }
+
+        return result;
+    }
+
+    private void dfs(String digits, int index, char[] chars, List<String> result) {
+        if (index == digits.length()) {
+            result.add(new String(chars));
+            return;
+        }
+
+        for(char ch : map.get(digits.charAt(index)).toCharArray()) {
+            chars[index] = ch;
+            dfs(digits, index + 1, chars, result);
+        }
+
+    }
+}
