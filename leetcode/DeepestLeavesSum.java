@@ -39,6 +39,31 @@ class Solution {
         return sum;
     }
 }
+
+class AlternateSolution {
+    int maxLevel = -1;
+    int sum = 0;
+    public int deepestLeavesSum(TreeNode root) {
+        inorder(root, 0);
+        return sum;
+    }
+
+    private void inorder(TreeNode node, int level) {
+        if (node == null) return;
+
+        if (maxLevel < level) {
+            maxLevel = level;
+            sum = node.val;
+        } else if (maxLevel == level) {
+            sum += node.val;
+        }
+
+        inorder(node.left, level + 1);
+        inorder(node.right, level + 1);
+    }
+}
+
+
 /**
  * Definition for a binary tree node.
 */
@@ -49,4 +74,5 @@ class TreeNode {
     TreeNode() {}
     TreeNode(int val) { this.val = val; }
 }
+
 
