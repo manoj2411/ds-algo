@@ -977,3 +977,5 @@ valid_path.rb
 * Flatten Nested List Iterator ([details](https://leetcode.com/problems/flatten-nested-list-iterator/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FlattenNestedListIterator.java)
 
 * Merge Sorted Array ([details](https://leetcode.com/problems/merge-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MergeSortedArray.java)
+
+* Two Sum II - Input Array Is Sorted ([details](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TwoSumIIWithArrSorted.java)
