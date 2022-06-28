@@ -979,3 +979,5 @@ valid_path.rb
 * Merge Sorted Array ([details](https://leetcode.com/problems/merge-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MergeSortedArray.java)
 
 * Two Sum II - Input Array Is Sorted ([details](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TwoSumIIWithArrSorted.java)
+
+* Minimum Deletions to Make Character Frequencies Unique ([details](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDeletionsToMakeCharFrequenciesUnique.java)
