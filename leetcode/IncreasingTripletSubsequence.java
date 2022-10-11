@@ -17,7 +17,8 @@ class IncreasingTripletSubsequence {
 		for(int[] arr : input) {
 			System.out.println("Nums : " + Arrays.toString(arr));
 			System.out.println("Has increasing triplet? : " +
-				new Solution().increasingTriplet(arr));
+				new Solution().increasingTriplet(arr) +
+                ", " + new OptimisedSolution().increasingTriplet(arr));
 			System.out.println();
 		}
 	}
@@ -48,6 +49,33 @@ class Solution {
         for(int i = 1; i < len - 1; i++) {
             if(nums[i] > minLeft[i] && maxRight[i] > nums[i])
                 return true;
+        }
+
+        return false;
+    }
+}
+
+/*
+    time:   O(n)
+    space:  O(1)
+*/
+class OptimisedSolution {
+
+    public boolean increasingTriplet(int[] nums) {
+
+        Integer m1 = nums[nums.length - 1];
+        Integer m2 = null;
+
+        for(int i = nums.length - 2; i >= 0; i--) {
+            var num = nums[i];
+
+            if (m1 <= num) {
+                m1 = num;
+            } else if (m2 == null || m2 <= num) {
+                m2 = num;
+            } else {
+                return true;
+            }
         }
 
         return false;
