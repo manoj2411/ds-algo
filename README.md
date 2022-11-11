@@ -983,3 +983,5 @@ valid_path.rb
 * Minimum Deletions to Make Character Frequencies Unique ([details](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDeletionsToMakeCharFrequenciesUnique.java)
 
 * Largest Perimeter Triangle ([details](https://leetcode.com/problems/largest-perimeter-triangle/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LargestPerimeterTriangle.java)
+
+* Minimum Genetic Mutation ([details](https://leetcode.com/problems/minimum-genetic-mutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumGeneticMutation.java)
