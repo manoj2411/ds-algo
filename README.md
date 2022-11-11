@@ -985,3 +985,6 @@ valid_path.rb
 * Largest Perimeter Triangle ([details](https://leetcode.com/problems/largest-perimeter-triangle/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LargestPerimeterTriangle.java)
 
 * Minimum Genetic Mutation ([details](https://leetcode.com/problems/minimum-genetic-mutation/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumGeneticMutation.java)
+
+* Remove Duplicates from Sorted Array ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDupsFromSortedArray.java)
+
