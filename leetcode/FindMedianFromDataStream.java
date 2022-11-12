@@ -16,45 +16,45 @@ class FindMedianFromDataStream {
 
 class MedianFinder {
 
-    PriorityQueue<Integer> leftMaxHeap;
-    PriorityQueue<Integer> rightMinHeap;
+    private PriorityQueue<Integer> left; // max heap
+    private PriorityQueue<Integer> right; // min heap
 
     /** initialize your data structure here. */
     public MedianFinder() {
-        leftMaxHeap = new PriorityQueue<>((num1, num2) -> Integer.compare(num2, num1));
-        rightMinHeap = new PriorityQueue<>();
+
+        left = new PriorityQueue<Integer>((a, b) -> -Integer.compare(a,b) );
+        right = new PriorityQueue<Integer>();
 
     }
 
     public void addNum(int num) {
-
-        if (!leftMaxHeap.isEmpty() && leftMaxHeap.peek() >= num) {
-            leftMaxHeap.add(num);
-        } else if (!rightMinHeap.isEmpty() && rightMinHeap.peek() <= num) {
-            rightMinHeap.add(num);
+        if (left.size() > 0 && num < left.peek() ) {
+            left.add(num);
         } else {
-            leftMaxHeap.add(num);
+            right.add(num);
         }
+
         rebalance();
     }
 
     public double findMedian() {
-        if (leftMaxHeap.size() > rightMinHeap.size()) {
-            return (double)leftMaxHeap.peek();
-        } else if (rightMinHeap.size() > leftMaxHeap.size()) {
-            return (double)rightMinHeap.peek();
+        if (left.size() > right.size()) {
+            return left.peek();
+        } else if (right.size() > left.size()) {
+            return right.peek();
         } else {
-            return ((double) leftMaxHeap.peek() + rightMinHeap.peek()) / 2;
+            return (left.peek() + right.peek()) / 2.0;
         }
     }
 
     private void rebalance() {
+        int diff = Math.abs(left.size() - right.size());
 
-        while( Math.abs(leftMaxHeap.size() - rightMinHeap.size()) > 1) {
-            if (leftMaxHeap.size() > rightMinHeap.size()) {
-                rightMinHeap.add(leftMaxHeap.poll());
+        if (diff > 1) {
+            if (left.size() > right.size()) {
+                right.add(left.poll());
             } else {
-                leftMaxHeap.add(rightMinHeap.poll());
+                left.add(right.poll());
             }
         }
     }
