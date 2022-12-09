@@ -18,26 +18,20 @@ class MaxDiffBtwnNodeAndAncestor {
 class Solution {
 
     public int maxAncestorDiff(TreeNode root) {
-        int[] result = {0};
-        helper(root, result, root.val, root.val);
-        return result[0];
+        return maxDiff(root, root.val, root.val);
+
     }
 
-    private void helper(TreeNode node, int[] result, int min, int max) {
-        if(node == null) return;
+    private int maxDiff(TreeNode node, int min, int max) {
+        if (node == null) return 0;
 
-        int val = node.val;
+        int diff = Math.max(Math.abs(min - node.val), Math.abs(max - node.val));
 
-        int minDiff = Math.abs(val - min);
-        int maxDiff = Math.abs(max - val);
-
-        result[0] = Math.max(result[0], Math.max(minDiff, maxDiff));
-
-        int nextMin = Math.min(min, val);
-        int nextMax = Math.max(max, val);
-
-        helper(node.left, result, nextMin, nextMax);
-        helper(node.right, result, nextMin, nextMax);
+        int newMin = Math.min(min, node.val);
+        int newMax = Math.max(max, node.val);
+        int leftMax = maxDiff(node.left, newMin, newMax);
+        int rightMax = maxDiff(node.right, newMin, newMax);
+        return Math.max(diff, Math.max(leftMax, rightMax));
     }
 }
 /**
