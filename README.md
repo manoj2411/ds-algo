@@ -989,3 +989,5 @@ valid_path.rb
 * Remove Duplicates from Sorted Array ([details](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveDupsFromSortedArray.java)
 
 * Maximum Bags With Full Capacity of Rocks([details](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxBagsWithFullCapacityOfRocks.java)
+
+* Remove Stones to Minimize the Total ([details](https://leetcode.com/problems/remove-stones-to-minimize-the-total)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveStonesToMinimizeTotal.java)
