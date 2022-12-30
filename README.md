@@ -993,3 +993,5 @@ valid_path.rb
 * Remove Stones to Minimize the Total ([details](https://leetcode.com/problems/remove-stones-to-minimize-the-total)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveStonesToMinimizeTotal.java)
 
 * All Paths From Source to Target ([details](https://leetcode.com/problems/all-paths-from-source-to-target/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AllPathsFromSourceToTarget.java)
+
+* Single-Threaded CPU ([details](https://leetcode.com/problems/single-threaded-cpu/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SingleThreadedCPU.java)
