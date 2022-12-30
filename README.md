@@ -991,3 +991,5 @@ valid_path.rb
 * Maximum Bags With Full Capacity of Rocks([details](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxBagsWithFullCapacityOfRocks.java)
 
 * Remove Stones to Minimize the Total ([details](https://leetcode.com/problems/remove-stones-to-minimize-the-total)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveStonesToMinimizeTotal.java)
+
+* All Paths From Source to Target ([details](https://leetcode.com/problems/all-paths-from-source-to-target/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AllPathsFromSourceToTarget.java)
