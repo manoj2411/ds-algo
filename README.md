@@ -995,3 +995,5 @@ valid_path.rb
 * All Paths From Source to Target ([details](https://leetcode.com/problems/all-paths-from-source-to-target/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/AllPathsFromSourceToTarget.java)
 
 * Single-Threaded CPU ([details](https://leetcode.com/problems/single-threaded-cpu/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SingleThreadedCPU.java)
+
+* Detect Capital ([details](https://leetcode.com/problems/detect-capital/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DetectCapital.java)
