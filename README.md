@@ -997,3 +997,5 @@ valid_path.rb
 * Single-Threaded CPU ([details](https://leetcode.com/problems/single-threaded-cpu/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SingleThreadedCPU.java)
 
 * Detect Capital ([details](https://leetcode.com/problems/detect-capital/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DetectCapital.java)
+
+* Delete Columns to Make Sorted ([details](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeleteColumnsToMakeSorted.java)
