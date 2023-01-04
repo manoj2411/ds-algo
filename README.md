@@ -999,3 +999,5 @@ valid_path.rb
 * Detect Capital ([details](https://leetcode.com/problems/detect-capital/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DetectCapital.java)
 
 * Delete Columns to Make Sorted ([details](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeleteColumnsToMakeSorted.java)
+
+* Minimum Rounds to Complete All Tasks ([details](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumRoundsToCompleteAllTasks.java)
