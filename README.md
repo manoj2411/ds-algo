@@ -1001,3 +1001,5 @@ valid_path.rb
 * Delete Columns to Make Sorted ([details](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/DeleteColumnsToMakeSorted.java)
 
 * Minimum Rounds to Complete All Tasks ([details](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumRoundsToCompleteAllTasks.java)
+
+* Maximum Ice Cream Bars ([details](https://leetcode.com/problems/maximum-ice-cream-bars/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumIceCreamBars.java)
