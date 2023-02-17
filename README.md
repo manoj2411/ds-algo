@@ -1008,4 +1008,6 @@ valid_path.rb
 
 * LFU Cache ([details](https://leetcode.com/problems/lfu-cache/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LFUCache.java)
 
-*  ([details](https://leetcode.com/problems/shortest-path-with-alternating-colors/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathWithAlternatingColors.java)
+* Shortest Path with Alternating Colors ([details](https://leetcode.com/problems/shortest-path-with-alternating-colors/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ShortestPathWithAlternatingColors.java)
+
+* Minimum Distance Between BST Nodes ([details](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDistanceBetweenBSTNodes.java)
