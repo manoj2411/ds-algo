@@ -1013,3 +1013,5 @@ valid_path.rb
 * Minimum Distance Between BST Nodes ([details](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinDistanceBetweenBSTNodes.java)
 
 * IPO ([details](https://leetcode.com/problems/ipo/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Ipo.java)
+
+* Minimize Deviation in Array ([details](https://leetcode.com/problems/minimize-deviation-in-array/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimizeDeviationInArray.java)
