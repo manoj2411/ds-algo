@@ -1015,3 +1015,6 @@ valid_path.rb
 * IPO ([details](https://leetcode.com/problems/ipo/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Ipo.java)
 
 * Minimize Deviation in Array ([details](https://leetcode.com/problems/minimize-deviation-in-array/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimizeDeviationInArray.java)
+
+* Find Duplicate Subtrees ([details](https://leetcode.com/problems/find-duplicate-subtrees/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindDuplicateSubtrees.java)
+
