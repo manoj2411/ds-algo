@@ -1018,3 +1018,4 @@ valid_path.rb
 
 * Find Duplicate Subtrees ([details](https://leetcode.com/problems/find-duplicate-subtrees/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindDuplicateSubtrees.java)
 
+* String Compression ([details](https://leetcode.com/problems/string-compression/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/StringCompression.java)
