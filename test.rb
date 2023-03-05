@@ -1,5 +1,51 @@
 
 
+def solution(s)
+  # Implement your solution here
+  require 'date'
+
+  rows = parse_input(s)
+  cities = {}
+  rows.each_with_index do |row, index|
+    photo_name, city, timestamp = row
+    cities[city] = [] unless cities.key?(city)
+    cities[city] << [photo_name, city, DateTime.parse(timestamp), index]
+  end
+
+  # in each group sort by time
+  cities.keys.each do |city|
+    cities[city].sort_by! {|row| row[2]}
+  end
+
+  result = Array.new(rows.length)
+
+  # assign number & pad it with the size of string
+  cities.keys.each do |city|
+    padding = cities[city].length.to_s.length
+    counter = 0
+    cities[city].each do |name, city, timestamp, index|
+        counter += 1
+        extension = name.split(".")[1]
+        new_name = city + counter.to_s.rjust(padding, "0") + ".#{extension}"
+        result[index] = new_name
+    end
+  end
+
+  result.join("\n")
+end
+
+# return list of lines where each line is [photo, city, datetime]
+def parse_input(input)
+    input.split("\n").map{|line| line.split(",").map(&:strip)}
+end
+
+
+input = "photo.jpg, Warsaw, 2013-09-05 14:08:15\njohn.png, London, 2015-06-20 15:13:22\nmyFriends.png, Warsaw, 2013-09-05 14:07:13\nEiffel.jpg, Paris, 2015-07-23 08:03:02\npisatower.jpg, Paris, 2015-07-22 23:59:59\nBOB.jpg, London, 2015-08-05 00:02:03\nnotredame.png, Paris, 2015-09-01 12:00:00\nme.jpg, Warsaw, 2013-09-06 15:40:22\na.png, Warsaw, 2016-02-13 13:33:50\nb.jpg, Warsaw, 2016-01-02 15:12:22\nc.jpg, Warsaw, 2016-01-02 14:34:30\nd.jpg, Warsaw, 2016-01-02 15:15:01\ne.png, Warsaw, 2016-01-02 09:49:09\nf.png, Warsaw, 2016-01-02 10:55:32\ng.jpg, Warsaw, 2016-02-29 22:13:11"
+
+# puts solution(input)
+
+
+
 # @param {String} s
 # @param {Integer} k
 # @return {Integer}

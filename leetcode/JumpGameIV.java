@@ -24,47 +24,43 @@ class JumpGameIV {
 class Solution {
     public int minJumps(int[] arr) {
         int length = arr.length;
-        boolean[] visited = new boolean[length];
-        Map<Integer, List<Integer>> indices = getIndicesMapping(arr);
-
-        Queue<Integer> q = new LinkedList<>();
-        Queue<Integer> dist = new LinkedList<>();
-
-        q.add(0);
-        dist.add(0);
-        visited[0] = true;
-
-        while(q.size() > 0) {
-            int i = q.poll();
-            int d = dist.poll();
-
-            if(i == length - 1)
-                return d;
-
-            if(i - 1 > 0 && visited[i - 1] == false) {
-                q.add(i-1);
-                dist.add(d + 1);
-                visited[i-1] = true;
-            }
-
-            if(i+1 < length && visited[i+1] == false) {
-                q.add(i+1);
-                dist.add(d+1);
-                visited[i+1] = true;
-            }
-
-            for(int j : indices.get(arr[i])) {
-                if(visited[j] == false) {
-                    q.add(j);
-                    dist.add(d+1);
-                    visited[j] = true;
-                }
-
-            }
-            indices.put(arr[i], new LinkedList<Integer>());
+        if (length <= 2) {
+            return length - 1;
         }
 
-        return arr.length - 1;
+        Map<Integer, List<Integer>> indices = getIndicesMapping(arr);
+        Queue<Integer> que = new LinkedList<>();
+        boolean[] visited = new boolean[length]; // [0]
+        que.add(0);
+        visited[0] = true;
+        int jumps = 1;
+
+        while(!que.isEmpty()) {
+            int size = que.size(); // 1
+
+            for(int s = 0; s < size; s++) {
+                int currIndex = que.poll(); // 0
+                int curr = arr[currIndex];  // 7
+                List<Integer> prospects = new LinkedList<>(indices.get(curr)); // all other indices
+
+                if (currIndex + 1 < length) prospects.add(currIndex + 1);
+                if (currIndex - 1 >= 0) prospects.add(currIndex - 1);
+
+                for(int next : prospects) {
+                    if (visited[next]) continue;
+                    if (next == length - 1) return jumps;
+                    que.add(next);
+                    visited[next] = true;
+                }
+
+                indices.put(curr, List.of()); // This is imp to not to process same indices for a number again orElseGet TLE
+
+            }
+            jumps++;
+
+        }
+
+        return -1;
     }
 
     Map<Integer, List<Integer>> getIndicesMapping(int[] arr) {
