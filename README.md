@@ -1023,3 +1023,5 @@ valid_path.rb
 * Check Completeness of a Binary Tree ([details](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CheckCompletenessOfBinaryTree.java)
 
 * Count Unreachable Pairs of Nodes in an Undirected Graph ([details](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountUnreachablePairsOfNodesInUndirectedGraph.java)
+
+* Reducing Dishes ([details](https://leetcode.com/problems/reducing-dishes/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReducingDishes.java)
