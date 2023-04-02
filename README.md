@@ -1025,3 +1025,5 @@ valid_path.rb
 * Count Unreachable Pairs of Nodes in an Undirected Graph ([details](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountUnreachablePairsOfNodesInUndirectedGraph.java)
 
 * Reducing Dishes ([details](https://leetcode.com/problems/reducing-dishes/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReducingDishes.java)
+
+* Successful Pairs of Spells and Potions ([details](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SuccessfulPairsOfSpellsAndPotions.java)
