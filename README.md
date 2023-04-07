@@ -1029,3 +1029,5 @@ valid_path.rb
 * Successful Pairs of Spells and Potions ([details](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SuccessfulPairsOfSpellsAndPotions.java)
 
 * Optimal Partition of String ([details](https://leetcode.com/problems/optimal-partition-of-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/OptimalPartitionOfString.java)
+
+* Number of Enclaves ([details](https://leetcode.com/problems/number-of-enclaves/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfEnclaves.java)
