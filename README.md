@@ -1031,3 +1031,5 @@ valid_path.rb
 * Optimal Partition of String ([details](https://leetcode.com/problems/optimal-partition-of-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/OptimalPartitionOfString.java)
 
 * Number of Enclaves ([details](https://leetcode.com/problems/number-of-enclaves/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfEnclaves.java)
+
+* Number of Closed Islands ([details](https://leetcode.com/problems/number-of-closed-islands/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfClosedIslands.java)
