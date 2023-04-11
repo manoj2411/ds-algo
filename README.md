@@ -1033,3 +1033,5 @@ valid_path.rb
 * Number of Enclaves ([details](https://leetcode.com/problems/number-of-enclaves/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfEnclaves.java)
 
 * Number of Closed Islands ([details](https://leetcode.com/problems/number-of-closed-islands/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfClosedIslands.java)
+
+* Removing Stars From a String ([details](https://leetcode.com/problems/removing-stars-from-a-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemovingStarsFromString.java)
