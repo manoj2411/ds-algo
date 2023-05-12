@@ -1037,3 +1037,5 @@ valid_path.rb
 * Removing Stars From a String ([details](https://leetcode.com/problems/removing-stars-from-a-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemovingStarsFromString.java)
 
 * Maximum Number of Vowels in a Substring of Given Length ([details](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxNumberOfVowelsInaSubstringOfGivenLength.java)
+
+* Solving Questions With Brainpower ([details](https://leetcode.com/problems/solving-questions-with-brainpower/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SolvingQuestionsWithBrainpower.java)
