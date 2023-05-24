@@ -1039,3 +1039,5 @@ valid_path.rb
 * Maximum Number of Vowels in a Substring of Given Length ([details](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaxNumberOfVowelsInaSubstringOfGivenLength.java)
 
 * Solving Questions With Brainpower ([details](https://leetcode.com/problems/solving-questions-with-brainpower/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SolvingQuestionsWithBrainpower.java)
+
+* Maximum Subsequence Score ([details](https://leetcode.com/problems/maximum-subsequence-score/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumSubsequenceScore.java)

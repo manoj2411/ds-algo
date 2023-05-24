@@ -1,4 +1,57 @@
 
+# class Message(String deivceId, String message, boolean isInProgress) {}
+
+# class MessageStore {
+
+#         Map<String, Queue<Message>> store;
+
+#         LinkedHashSet<String> devices;
+
+#         MessageStore() {
+#                 store = new HashMap<>();
+#                 devices = new LinkedHashSet<>();
+#         }
+
+#         public void add(String deviceId, String messsage) {
+#                 if (!store.containsKey(deviceId)) {
+#                         store.put(deviceId, new LinkedList<>());
+#                 }
+#                 store.get(deviceId).add(new Message(deviceId, message, false));
+
+#                 if (!devices.contains(deviceId)) {
+#                         devices.add(deviceId);
+#                 }
+
+#         }
+
+#         public Optional<Message> get() {
+#                 if (devices.isEmpty()) {
+#                         return Optional.empty();
+#                 }
+
+#                 String deviceId = devices.remove(); // TODO: find and fix the correct method
+#                 if (store.get(deviceId).peek().isProcessed() == false) {
+#                         store.get(deviceId).peek().setInProgress();
+
+#                         devices.add(deviceId);
+#                         return store.get(deviceId).peek();
+#                 }
+
+#                 return get();
+
+#         }
+
+#         public void processed(Message message) {
+#                 store.get(message.deivceId).poll();
+#                 if (store.get(message.deivceId).isEmpty()) {
+#                         devices.remove(message.deivceId);
+#                         store.remove(message.deivceId);
+#                 }
+#         }
+# }
+
+
+
 
 def solution(s)
   # Implement your solution here
