@@ -16,8 +16,6 @@ class TimeNeededToInformAllEmployees {
 
 class Solution {
 
-    private int maxTime = -1;
-
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         List<List<Integer>> hierarchy = new ArrayList<>();
         for(int e = 0; e < n; e++) hierarchy.add(new ArrayList<>());
@@ -27,18 +25,18 @@ class Solution {
             hierarchy.get(managerOfEmp).add(emp);
         }
 
-        dfs(hierarchy, headID, informTime, 0);
-        return maxTime;
+        return dfs(hierarchy, headID, informTime);
     }
 
-    private void dfs(List<List<Integer>> hierarchy, int currEmp, int[] informTime, int currTime) {
+    private int dfs(List<List<Integer>> hierarchy, int currEmp, int[] informTime) {
         if (hierarchy.get(currEmp).isEmpty()) {
-            maxTime = Math.max(maxTime, currTime);
-            return;
+            return 0;
         }
 
+        int maxTime = 0;
         for(int nextLevelEmp : hierarchy.get(currEmp)) {
-            dfs(hierarchy, nextLevelEmp, informTime, currTime + informTime[currEmp]);
+            maxTime = Math.max(maxTime, dfs(hierarchy, nextLevelEmp, informTime) + informTime[currEmp]);
         }
+        return maxTime;
     }
 }
