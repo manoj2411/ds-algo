@@ -1,3 +1,217 @@
+# /*
+#  * Click `Run` to execute the snippet below!
+#  */
+
+# import java.io.*;
+# import java.util.*;
+
+# /*
+#  * To execute Java, please define "static void main" on a class
+#  * named Solution.
+#  *
+#  * If you need more classes, simply define them inline.
+#  */
+
+# class Solution {
+#   public static void main(String[] args) {
+
+#     // compute_penalty("Y Y N Y", 0) should return 3
+# // compute_penalty("N Y N Y", 2) should return 2
+# // compute_penalty("Y Y N Y", 4) should return 1
+
+#     // System.out.println(PenaltyCalculator.computePenalty("Y Y N Y", 0)); // 3
+#     // System.out.println(PenaltyCalculator.computePenalty("N Y N Y", 2)); // 2
+#     // System.out.println(PenaltyCalculator.computePenalty("Y Y N Y", 4)); // 1
+
+#     // System.out.println(PenaltyCalculator.computePenalty("", 0));  // 0
+#     // System.out.println(PenaltyCalculator.computePenalty("Y", 0)); // 1
+#     // System.out.println(PenaltyCalculator.computePenalty("Y", 1)); // 0
+#     // System.out.println(PenaltyCalculator.computePenalty("N", 0)); // 0
+#     // System.out.println(PenaltyCalculator.computePenalty("N", 1)); // 1
+
+
+#     System.out.println(PenaltyCalculator.findBestClosingTime("Y Y N N")); // 2
+
+#     System.out.println(PenaltyCalculator.findBestClosingTime(""));  // 0
+#     System.out.println(PenaltyCalculator.findBestClosingTime("Y")); // 1
+#     System.out.println(PenaltyCalculator.findBestClosingTime("N")); // 0
+
+
+#     testComputePenalty();
+
+#   }
+#       public static <T> void assertEquals(T expected, T actual) {
+#     if (expected == null && actual == null || actual != null && actual.equals(expected)) {
+#       System.out.println("PASSED");
+#     } else {
+#       throw new AssertionError("Expected:\n  " + expected + "\nActual:\n  " + actual + "\n");
+#     }
+#   }
+
+#   // You can't autobox int[] to Integer[]
+#   // So we just provide the int[] implementation because that's all we need, really
+#   public static void assertArrayEquals(int[] expected, int[] actual) {
+#     if (!Arrays.equals(actual, expected)) {
+#       throw new AssertionError("Expected:\n  " + Arrays.toString(expected) + "\nActual:\n  " + Arrays.toString(actual) + "\n");
+#     } else {
+#       System.out.println("PASSED");
+#     }
+#   }
+
+#   public static void testComputePenalty() {
+#     //
+#     System.out.println("compute_penalty");
+#     assertEquals(3, PenaltyCalculator.computePenalty("Y Y Y N N N N", 0));
+#     assertEquals(4, PenaltyCalculator.computePenalty("Y Y Y N N N N", 7));
+#     assertEquals(0, PenaltyCalculator.computePenalty("Y Y Y N N N N", 3));
+#     assertEquals(0, PenaltyCalculator.computePenalty("", 0));
+#     assertEquals(1, PenaltyCalculator.computePenalty("Y N Y N N N N", 3));
+#   }
+# }
+
+# class PenaltyCalculator {
+
+#   public static int computePenalty(final String logs, final int closingTime) {
+#     final String[] logEntries = logs.split(" ");
+
+#   //  "N Y N Y"
+#   //   ^
+#     int penalty = 0; // 0
+
+#     for(int hour = 0; hour < logEntries.length; hour++) { // 0
+#       if (hour < closingTime) { // we are open
+#           if (logEntries[hour].equals("N")) {
+#             penalty++;
+#           }
+#       } else {// we are close
+#           if (logEntries[hour].equals("Y")) {
+#             penalty++;
+#           }
+#       }
+#     }
+#     return penalty;
+#   }
+
+#   public static int findBestClosingTime(String logs) { // "Y"
+#     int bestClosingTime = 0; // 1
+#     int minPenalty = logs.length() + 1; // 0
+
+#     for(int closingTime = 0; closingTime <= logs.length(); closingTime++) { // 1
+#       int currPenalty = computePenalty(logs, closingTime); // 0
+#         if (minPenalty > currPenalty) {
+#           bestClosingTime = closingTime;
+#           minPenalty = currPenalty;
+#         }
+#     }
+
+#     return bestClosingTime;
+#   }
+
+# }
+
+// Your previous Plain Text content is preserved below:
+
+// For the purposes of this interview, imagine that we own a store. This
+// store doesn't always have customers shopping: there might be some long
+// stretches of time where no customers enter the store. We've asked our
+// employees to write simple notes to keep track of when customers are
+// shopping and when they aren't by simply writing a single letter every
+// hour: 'Y' if there were customers during that hour, 'N' if the store
+// was empty during that hour.
+
+// For example, our employee might have written "Y Y N Y", which means
+// the store was open for four hours that day, and it had customers
+// shopping during every hour but its third one.
+
+//   hour: | 1 | 2 | 3 | 4 |
+//   log:  | Y | Y | N | Y |
+//                   ^
+//                   |
+//             No customers during hour 3
+
+// We suspect that we're keeping the store open too long, so we'd like to
+// understand when we *should have* closed the store. For simplicity's
+// sake, we'll talk about when to close the store by talking about how
+// many hours it was open: if our closing time is `2`, that means the
+// store would have been open for two hours and then closed.
+
+//   hour:         | 1 | 2 | 3 | 4 |
+//   log:          | Y | Y | N | Y |
+//   closing_time: 0   1   2   3   4
+//                 ^               ^
+//                 |               |
+//          before hour #1    after hour #4
+
+// (A closing time of 0 means we simply wouldn't have opened the store at
+// all that day.)
+
+// First, let's define a "penalty": what we want to know is "how bad
+// would it be if we had closed the store at a given hour?" For a given
+// log and a given closing time, we compute our penalty like this:
+
+//   +1 penalty for every hour that we're *open* with no customers
+//   +1 penalty for every hour that we're *closed* when customers would have shopped
+
+// For example:
+
+//   hour:    | 1 | 2 | 3 | 4 |   penalty = 3:
+//   log:     | Y | Y | N | Y |     (three hours with customers after closing)
+//   penalty: | * | * |   | * |
+//            ^
+//            |
+//          closing_time = 0
+
+//   hour:    | 1 | 2 | 3 | 4 |   penalty = 2:
+//   log:     | N | Y | N | Y |      (one hour without customers while open +
+//   penalty: | * |   |   | * |       one hour with customers after closing)
+//                    ^
+//                    |
+//                  closing_time = 2
+
+//   hour:    | 1 | 2 | 3 | 4 |   penalty = 1
+//   log:     | Y | Y | N | Y |      (one hour without customers while open)
+//   penalty: |   |   | * |   |
+//                            ^
+//                            |
+//                          closing_time = 4
+
+// Note that if we have a log from `n` open hours, the `closing_time`
+// variable can range from 0, meaning "never even opened", to n, meaning
+// "open the entire time".
+
+// 1)
+// Write a function `compute_penalty` that computes the total penalty, given
+//   a store log (as a space separated string) AND
+//   a closing time (as an integer)
+
+// In addition to writing this function, you should use tests to
+// demonstrate that it's correct. Do some simple testing, and then quickly
+// describe a few other tests you would write given more time.
+
+// ## Examples
+
+// compute_penalty("Y Y N Y", 0) should return 3
+// compute_penalty("N Y N Y", 2) should return 2
+// compute_penalty("Y Y N Y", 4) should return 1
+
+
+// 2)
+// Write another function named `find_best_closing_time` that returns
+// the best closing time in terms of `compute_penalty` given just a
+// store log. You should use your answer from part 1 to solve this problem.
+
+
+// Again, you should use tests to demonstrate that it's correct. Do
+// some simple testing, and then quickly describe a few other tests
+// you would write given more time.
+
+// ## Example
+// find_best_closing_time("Y Y N N") should return 2
+
+
+
+
+
 
 # class Message(String deivceId, String message, boolean isInProgress) {}
 
