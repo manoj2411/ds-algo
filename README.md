@@ -1043,3 +1043,5 @@ valid_path.rb
 * Maximum Subsequence Score ([details](https://leetcode.com/problems/maximum-subsequence-score/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumSubsequenceScore.java)
 
 * Time Needed to Inform All Employees ([details](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TimeNeededToInformAllEmployees.java)
+
+* Minimum Flips to Make a OR b Equal to c ([details](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumFlipsToMake_a_OR_b_EqualTo_c.java)
