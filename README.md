@@ -1045,3 +1045,5 @@ valid_path.rb
 * Time Needed to Inform All Employees ([details](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/TimeNeededToInformAllEmployees.java)
 
 * Minimum Flips to Make a OR b Equal to c ([details](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumFlipsToMake_a_OR_b_EqualTo_c.java)
+
+* Count Negative Numbers in a Sorted Matrix ([details](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountNegativeNumbersInaSortedMatrix.java)
