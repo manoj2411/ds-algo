@@ -1047,3 +1047,5 @@ valid_path.rb
 * Minimum Flips to Make a OR b Equal to c ([details](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumFlipsToMake_a_OR_b_EqualTo_c.java)
 
 * Count Negative Numbers in a Sorted Matrix ([details](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountNegativeNumbersInaSortedMatrix.java)
+
+* Equal Row and Column Pairs ([details](https://leetcode.com/problems/equal-row-and-column-pairs/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/EqualRowandColumnPairs.java)
