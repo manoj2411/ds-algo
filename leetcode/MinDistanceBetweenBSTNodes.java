@@ -30,7 +30,7 @@ class Solution {
         inorder(root.left);
 
         int curr = root.val;
-        minDistance = Math.min(minDistance, Math.abs(curr - prev));
+        minDistance = Math.min(minDistance, curr - prev);
         prev = curr;
 
         inorder(root.right);
