@@ -1049,3 +1049,5 @@ valid_path.rb
 * Count Negative Numbers in a Sorted Matrix ([details](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/CountNegativeNumbersInaSortedMatrix.java)
 
 * Equal Row and Column Pairs ([details](https://leetcode.com/problems/equal-row-and-column-pairs/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/EqualRowandColumnPairs.java)
+
+* Maximum Level Sum of a Binary Tree ([details](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLevelSumOfaBinaryTree.java)
