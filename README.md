@@ -1053,3 +1053,6 @@ valid_path.rb
 * Maximum Level Sum of a Binary Tree ([details](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLevelSumOfaBinaryTree.java)
 
 * Fair Distribution of Cookies ([details](https://leetcode.com/problems/fair-distribution-of-cookies/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FairDistributionOfCookies.java)
+
+* Number of Increasing Paths in a Grid ([details](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfIncreasingPathsInaGrid.java)
+
