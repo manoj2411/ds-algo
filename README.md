@@ -1051,3 +1051,5 @@ valid_path.rb
 * Equal Row and Column Pairs ([details](https://leetcode.com/problems/equal-row-and-column-pairs/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/EqualRowandColumnPairs.java)
 
 * Maximum Level Sum of a Binary Tree ([details](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLevelSumOfaBinaryTree.java)
+
+* Fair Distribution of Cookies ([details](https://leetcode.com/problems/fair-distribution-of-cookies/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FairDistributionOfCookies.java)
