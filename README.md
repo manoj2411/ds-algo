@@ -1056,3 +1056,5 @@ valid_path.rb
 
 * Number of Increasing Paths in a Grid ([details](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfIncreasingPathsInaGrid.java)
 
+* Longest Subarray of 1's After Deleting One Element ([details](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestSubarrayOf1sAfterDeletingOneElement.java)
+
