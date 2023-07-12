@@ -1059,3 +1059,6 @@ valid_path.rb
 * Longest Subarray of 1's After Deleting One Element ([details](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestSubarrayOf1sAfterDeletingOneElement.java)
 
 * Minimum Size Subarray Sum ([details](https://leetcode.com/problems/minimum-size-subarray-sum/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimumSizeSubarraySum.java)
+
+* Find Eventual Safe States ([details](https://leetcode.com/problems/find-eventual-safe-states/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindEventualSafeStates.java)
+
