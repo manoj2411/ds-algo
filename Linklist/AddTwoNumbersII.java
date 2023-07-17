@@ -19,7 +19,8 @@ class AddTwoNumbersII {
 
         Solution sol = new Solution();
         ListNode result = sol.addTwoNumbers(l1, l2);
-        printList("result", result);
+        printList("result 1", result);
+        printList("result 2", new AlternateSolution().addTwoNumbers(l1, l2));
     }
 
     static void printList(String name, ListNode head) {
@@ -42,6 +43,49 @@ class AddTwoNumbersII {
      ListNode(int val) { this.val = val; }
      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  }
+
+
+class AlternateSolution { // sort of simplified!
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        Stack<ListNode> s1 = addToStack(l1);
+        Stack<ListNode> s2 = addToStack(l2);
+
+        ListNode result = new ListNode();
+        int carry = 0;
+        while(!s1.isEmpty() || !s2.isEmpty()) {
+            if (!s1.isEmpty()) {
+                carry += s1.pop().val;
+            }
+
+            if (!s2.isEmpty()) {
+                carry += s2.pop().val;
+            }
+
+            result.val = carry % 10;
+            ListNode newNode = new ListNode(0, result);
+            result = newNode;
+            carry /= 10;
+        }
+
+        if (carry > 0) {
+            result.val = carry;
+            return result;
+        } else {
+            return result.next;
+        }
+    }
+
+    private Stack<ListNode> addToStack(ListNode node) {
+        Stack<ListNode> stack = new Stack<>();
+
+        while(node != null) {
+            stack.add(node);
+            node = node.next;
+        }
+        return stack;
+    }
+}
 
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
