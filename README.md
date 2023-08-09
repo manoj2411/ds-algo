@@ -1063,3 +1063,5 @@ valid_path.rb
 * Find Eventual Safe States ([details](https://leetcode.com/problems/find-eventual-safe-states/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindEventualSafeStates.java)
 
 * Longest Arithmetic Subsequence of Given Difference ([details](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/LongestArithmeticSubsequenceOfGivenDifference.java)
+
+* Minimize the Maximum Difference of Pairs ([details](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimizeTheMaximumDifferenceOfPairs.java)
