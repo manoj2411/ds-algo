@@ -21,6 +21,8 @@ class ZeroOneMatrix {
 class Solution {
     private static final int[][] DIR = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 
+    private record Cell(int row, int col) {}
+
     public int[][] updateMatrix(int[][] mat) {
 
         int M = mat.length;
@@ -32,7 +34,7 @@ class Solution {
         for(int i = 0; i < M; i++) {
             for(int j = 0; j < N; j++) {
                 if (mat[i][j] == 0) {
-                    que.add(new Cell(i, j, 0));
+                    que.add(new Cell(i, j));
                     dist[i][j] = 0;
                 } else {
                     // -1 means not visited
@@ -46,12 +48,12 @@ class Solution {
             Cell cell = que.poll();
 
             for(int[] dir : DIR) {
-                int r = cell.r + dir[0];
-                int c = cell.c + dir[1];
+                int row = cell.row + dir[0];
+                int col = cell.col + dir[1];
 
-                if ( r >= 0 && r < M && c >= 0 && c < N && dist[r][c] == -1) {
-                    dist[r][c] = cell.distance + 1;
-                    que.add(new Cell(r, c, cell.distance + 1));
+                if ( row >= 0 && row < M && col >= 0 && col < N && dist[row][col] == -1) {
+                    dist[row][col] = dist[cell.row][cell.col] + 1;
+                    que.add(new Cell(row, col));
                 }
             }
         }
@@ -60,13 +62,3 @@ class Solution {
     }
 }
 
-class Cell {
-    int r;
-    int c;
-    int distance;
-    Cell(int r, int c, int distance) {
-        this.r = r;
-        this.c = c;
-        this.distance = distance;
-    }
-}
