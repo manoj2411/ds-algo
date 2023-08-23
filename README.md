@@ -1067,3 +1067,5 @@ valid_path.rb
 * Minimize the Maximum Difference of Pairs ([details](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MinimizeTheMaximumDifferenceOfPairs.java)
 
 * Sliding Window Maximum ([details](https://leetcode.com/problems/sliding-window-maximum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlidingWindowMaximum.java)
+
+* Reorganize String ([details](https://leetcode.com/problems/reorganize-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorganizeString.java)
