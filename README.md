@@ -1069,3 +1069,5 @@ valid_path.rb
 * Sliding Window Maximum ([details](https://leetcode.com/problems/sliding-window-maximum/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SlidingWindowMaximum.java)
 
 * Reorganize String ([details](https://leetcode.com/problems/reorganize-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorganizeString.java)
+
+* Interleaving String ([details](https://leetcode.com/problems/interleaving-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/InterleavingString.java)
