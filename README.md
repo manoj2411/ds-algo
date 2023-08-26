@@ -1071,3 +1071,5 @@ valid_path.rb
 * Reorganize String ([details](https://leetcode.com/problems/reorganize-string/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReorganizeString.java)
 
 * Interleaving String ([details](https://leetcode.com/problems/interleaving-string/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/InterleavingString.java)
+
+* Maximum Length of Pair Chain ([details](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLengthOfPairChain.java)
