@@ -19,18 +19,9 @@ class Solution {
         int[] result = new int[n + 1];
 
         for(int i = 1; i <= n; i++) {
-            result[i] = countOneInBinOf(i, result);
+            result[i] = result[i >> 1] + (i % 2);
         }
 
         return result;
     }
-
-    private int countOneInBinOf(int num, int[] cache) {
-        int count = num % 2 == 1 ? 1 : 0;
-
-        num = num >> 1;
-
-        return cache[num] + count;
-    }
-
 }
