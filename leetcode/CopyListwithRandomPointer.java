@@ -55,6 +55,49 @@ class Solution {
         return dummy.next;
     }
 }
+
+class SpaceOptimisedSolution {
+    // solution using constant space!
+    //
+    public Node copyRandomList(Node head) {
+
+        // step 1 - add clone in between nodes.
+
+        Node curr = head;
+
+        while(curr != null) {
+            Node clone = new Node(curr.val);
+            clone.next = curr.next;
+            curr.next = clone;
+            curr = clone.next;
+        }
+
+        // step 2 - random pointers for cloned nodes!
+        curr = head;
+        while(curr != null) {
+            Node clone = curr.next;
+            if (curr.random != null) {
+                clone.random = curr.random.next;
+            }
+            curr = curr.next.next;
+        }
+
+        // step 3 - untangle clonned nodes and reset next pointer
+        curr = head;
+        Node dummy = new Node(0);
+        Node clonned = dummy;
+        while(curr != null) {
+            clonned.next = curr.next;
+            curr.next = curr.next.next;
+            curr = curr.next;
+            clonned = clonned.next;
+        }
+
+        return dummy.next;
+
+    }
+}
+
 /*
      Definition for a Node.
 */
