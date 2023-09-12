@@ -41,3 +41,30 @@ class Solution {
         }
     }
 }
+
+class SolutionIterative {
+    public int minDeletions(String s) {
+        int[] charCount = new int[26];
+
+        for(char ch : s.toCharArray()) {
+            charCount[ch-'a']++;
+        }
+
+        Arrays.sort(charCount);
+        Set<Integer> set = new HashSet<>();
+        int deletion = 0;
+
+        for(int i = 0; i < 26; i++) {
+            int count = charCount[i];
+
+            while(count > 0 && set.contains(count)) {
+                count--;
+                deletion++;
+            }
+
+            set.add(count);
+        }
+
+        return deletion;
+    }
+}
