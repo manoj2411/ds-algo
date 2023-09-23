@@ -1075,3 +1075,5 @@ valid_path.rb
 * Maximum Length of Pair Chain ([details](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MaximumLengthOfPairChain.java)
 
 * Candy ([details](https://leetcode.com/problems/candy/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Candy.java)
+
+* Reconstruct Itinerary ([details](https://leetcode.com/problems/reconstruct-itinerary/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReconstructItinerary.java)
