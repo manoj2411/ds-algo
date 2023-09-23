@@ -9,8 +9,10 @@ class LongestStringChain {
 			{"a","b","ba","bca","bda","bdca"}, 		// 4
 			{"xbc","pcxbcf","xb","cxbc","pcxbc"}	// 5
 		};
-		for(String[] words : input)
+		for(String[] words : input) {
 			System.out.println(new Solution().longestStrChain(words));
+            System.out.println(new AlternateSolution().longestStrChain(words));
+        }
 	}
 }
 
@@ -47,5 +49,53 @@ class Solution {
             res.add(sb.toString());
         }
         return res;
+    }
+}
+
+
+class AlternateSolution {
+
+    record WordInfo(String word, int predessors) {};
+
+    public int longestStrChain(String[] words) {
+        Map<Integer, List<String>> wordsByLength = new HashMap<>();
+
+        for(String word : words) {
+            wordsByLength.putIfAbsent(word.length(), new ArrayList<>());
+            wordsByLength.get(word.length()).add(word);
+        }
+
+        List<WordInfo> prevList = List.of();
+        int max = 0;
+        for(int len = 1; len <= 16; len++) {
+            List<WordInfo> nextList = new ArrayList<>();
+
+            for(String word : wordsByLength.getOrDefault(len, List.of())) {
+                int predessors = 0;
+                for(WordInfo wi : prevList) {
+                    if (isPredecessor(word, wi.word)) {
+                        predessors = Math.max(predessors, wi.predessors);
+                    }
+                }
+                nextList.add(new WordInfo(word, predessors + 1));
+                max = Math.max(max, predessors + 1);
+            }
+            prevList = nextList;
+        }
+        return max;
+    }
+
+    private boolean isPredecessor(String curr, String prev) {
+        boolean skipped = false;
+        for(int i = 0, j = 0; i < curr.length() && j < prev.length(); i++) {
+            if (curr.charAt(i) == prev.charAt(j)) {
+                j++;
+            } else if (skipped) {
+                return false;
+            } else {
+                skipped = true;
+            }
+        }
+        return true;
     }
 }
