@@ -1077,3 +1077,5 @@ valid_path.rb
 * Candy ([details](https://leetcode.com/problems/candy/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/Candy.java)
 
 * Reconstruct Itinerary ([details](https://leetcode.com/problems/reconstruct-itinerary/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/ReconstructItinerary.java)
+
+* Find the Difference ([details](https://leetcode.com/problems/find-the-difference/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindTheDifference.java)
