@@ -52,3 +52,32 @@ class Solution {
 
     }
 }
+
+class AlternateSolution {
+    public String removeDuplicateLetters(String s) {
+        Stack<Character> stack = new Stack<>();
+
+        int[] counter = new int[26];
+        for(char ch : s.toCharArray()) { counter[ch-'a']++;}
+
+        boolean[] inStack = new boolean[26];
+
+        for(char ch : s.toCharArray()) {
+
+            while(stack.size() > 0 && stack.peek() > ch && counter[stack.peek() - 'a'] > 0 && !inStack[ch-'a']) {
+                inStack[stack.pop()-'a'] = false;
+            }
+
+            if(!inStack[ch-'a']) {
+                stack.push(ch);
+                inStack[ch-'a'] = true;
+            }
+            counter[ch-'a']--;
+        }
+
+        StringBuilder result = new StringBuilder();
+        for(char ch : stack) result.append(ch);
+        return result.toString();
+    }
+
+}
