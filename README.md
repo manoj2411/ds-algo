@@ -1081,3 +1081,5 @@ valid_path.rb
 * Find the Difference ([details](https://leetcode.com/problems/find-the-difference/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindTheDifference.java)
 
 * Sort Array By Parity ([details](https://leetcode.com/problems/sort-array-by-parity/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortArrayByParity.java)
+
+* Monotonic Array ([details](https://leetcode.com/problems/monotonic-array/description)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MonotonicArray.java)
