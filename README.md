@@ -1083,3 +1083,5 @@ valid_path.rb
 * Sort Array By Parity ([details](https://leetcode.com/problems/sort-array-by-parity/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SortArrayByParity.java)
 
 * Monotonic Array ([details](https://leetcode.com/problems/monotonic-array/description)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/MonotonicArray.java)
+
+* Remove Colored Pieces if Both Neighbors are the Same Color ([details](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveColoredPiecesIfBothNeighborsAreSameColor.java)
