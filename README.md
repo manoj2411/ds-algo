@@ -1087,3 +1087,6 @@ valid_path.rb
 * Remove Colored Pieces if Both Neighbors are the Same Color ([details](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/RemoveColoredPiecesIfBothNeighborsAreSameColor.java)
 
 * Number of Good Pairs ([details](https://leetcode.com/problems/number-of-good-pairs/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/NumberOfGoodPairs.java)
+
+* Integer Break ([details](https://leetcode.com/problems/integer-break/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerBreak.java)
+
