@@ -1091,3 +1091,5 @@ valid_path.rb
 * Integer Break ([details](https://leetcode.com/problems/integer-break/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/IntegerBreak.java)
 
 * K-th Symbol in Grammar ([details](https://leetcode.com/problems/k-th-symbol-in-grammar/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/KthSymbolInGrammar.java)
+
+* Build an Array With Stack Operations ([details](https://leetcode.com/problems/build-an-array-with-stack-operations/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BuildAnArrayWithStackOperations.java)
