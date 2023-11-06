@@ -1095,3 +1095,5 @@ valid_path.rb
 * Build an Array With Stack Operations ([details](https://leetcode.com/problems/build-an-array-with-stack-operations/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/BuildAnArrayWithStackOperations.java)
 
 * Seat Reservation Manager ([details](https://leetcode.com/problems/seat-reservation-manager/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SeatReservationManager.java)
+
+* Find the Winner of an Array Game ([details](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindTheWinnerOfArrayGame.java)
