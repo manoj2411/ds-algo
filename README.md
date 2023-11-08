@@ -1097,3 +1097,5 @@ valid_path.rb
 * Seat Reservation Manager ([details](https://leetcode.com/problems/seat-reservation-manager/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/SeatReservationManager.java)
 
 * Find the Winner of an Array Game ([details](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/FindTheWinnerOfArrayGame.java)
+
+* Eliminate Maximum Number of Monsters ([details](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)). [solution](https://github.com/manoj2411/ds-algo/blob/master/leetcode/EliminateMaximumNumberOfMonsters.java)
